@@ -1,0 +1,25 @@
+---
+label: produkt
+hide_body: false
+fields:
+- type: text
+  name: title
+  label: title
+- type: text
+  name: name
+  label: name
+- type: list
+  name: categories
+  label: categories
+- type: file
+  name: image
+  label: image
+- type: text
+  name: alt
+  label: alt
+- type: text
+  name: description
+  label: description
+- type: text
+  name: slug
+  label: slug
