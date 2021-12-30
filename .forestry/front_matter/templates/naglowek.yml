@@ -1,0 +1,87 @@
+---
+label: Partial-naglowek
+hide_body: true
+fields:
+- name: header_repeater
+  type: field_group_list
+  fields:
+  - name: txt_block
+    type: text
+    config:
+      required: false
+    label: Blok tekstu
+  - name: bold_txt
+    type: select
+    default: gruby
+    config:
+      required: false
+      options:
+      - normalny
+      - pogrubiony
+      - grub
+      - bardzo gruby
+      source:
+        type: simple
+        section: 
+        file: 
+        path: 
+    label: Pogrubienie
+  - name: color_txt
+    type: select
+    default: czarny
+    config:
+      required: false
+      options:
+      - czarny
+      - biały
+      source:
+        type: simple
+        section: 
+        file: 
+        path: 
+    label: Kolor
+  - name: break_line
+    type: boolean
+    label: Łam linię
+  - name: block_tag_type
+    type: select
+    default: h2
+    config:
+      required: false
+      options:
+      - h1
+      - h2
+      - h3
+      - div
+      - paragraf
+      source:
+        type: simple
+        section: 
+        file: 
+        path: 
+    label: Typ tagu
+  - name: txt_block_size
+    type: select
+    default: []
+    config:
+      required: false
+      options:
+      - XXL
+      - XL
+      - L
+      - MD
+      - R
+      - S
+      source:
+        type: simple
+        section: 
+        file: 
+        path: 
+    label: Wielkość tekstu
+    description: 'XXL: 61px;<br>XL: 45px;<br>L: 35px;<br>MD: 21px;<br>R: 18px;<br>S:
+      15px;'
+  config:
+    min: 
+    max: 
+    labelField: 
+  label: Nagłówek/tytuł/podtytuł
