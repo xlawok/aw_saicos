@@ -30,7 +30,7 @@ fields:
     required: false
     options: []
     source:
-      type: documents
+      type: pages
       section: kategorie
       file: data/category.yml
       path: 
