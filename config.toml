@@ -1,3 +1,25 @@
 baseURL = "http://example.org/"
 languageCode = "en-us"
 title = "My New Hugo Site"
+[outputs]
+section = ["JSON", "HTML"]
+posts = ["HTML"]
+[permalinks]
+"/" = "/:slug/"
+categories = "/kategoria/:slug/"
+posts = "/:slug/"
+producers = "/producent/:slug/"
+products = "/:slug/"
+[related]
+includeNewer = true
+threshold = 80
+toLower = false
+[[related.indices]]
+name = "categories"
+weight = 100
+[sitemap]
+changefreq = "monthly"
+filename = "sitemap.xml"
+priority = 0.5
+[taxonomies]
+category = "categories"
