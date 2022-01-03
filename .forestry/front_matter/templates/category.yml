@@ -1,6 +1,7 @@
 ---
 label: Kategorie
 hide_body: true
+display_field: tytul
 fields:
 - name: tytul
   type: text
@@ -35,5 +36,3 @@ fields:
     schema:
       format: html-blocks
   label: Opis pod listowaniem
-pages:
-- data/category.yml
