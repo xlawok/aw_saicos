@@ -8,7 +8,7 @@ fields:
   fields:
   - type: field_group
     name: category-title
-    label: oleje-do-drewna
+    label: Kategoria
     fields:
     - type: text
       name: tytul
