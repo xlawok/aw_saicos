@@ -7,7 +7,6 @@ sections:
 - type: document
   path: data/categories.yml
   label: Kategorie
-  match: "**/*"
 - type: directory
   path: content
   label: Pages
