@@ -1,3 +1,4 @@
+---
 categories:
   oleje-do-drewna:
     tytul: na zewnątrz/oleje do drewna
@@ -11,3 +12,9 @@ categories:
     slug: na-zewnatrz/oleje-do-drewna
     opis: "<p>Oleje do drewna opis nad listowaniem</p>"
     opis_pod_listowaniem: "<p>Oleje do drewna opis pod listowaniem</p>"
+  category-title:
+    tytul: Oleje
+    kategoria: Oleje
+    slug: ''
+    opis: ''
+    opis_pod_listowaniem: ''
