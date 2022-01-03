@@ -7,27 +7,8 @@ fields:
   label: categories
   fields:
   - type: field_group
-    name: oleje-do-drewna
+    name: category-title
     label: oleje-do-drewna
-    fields:
-    - type: text
-      name: tytul
-      label: tytul
-    - type: text
-      name: kategoria
-      label: kategoria
-    - type: text
-      name: slug
-      label: slug
-    - type: text
-      name: opis
-      label: opis
-    - type: text
-      name: opis_pod_listowaniem
-      label: opis_pod_listowaniem
-  - type: field_group
-    name: oleje-do-drewna-2
-    label: oleje-do-drewna-2
     fields:
     - type: text
       name: tytul
