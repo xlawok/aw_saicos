@@ -32,3 +32,15 @@ fields:
       file: data/categories.yml
       path: categories
   label: Kategorie
+- name: categories
+  type: list
+  config:
+    use_select: true
+    min: 
+    max: 
+    source:
+      type: documents
+      section: kategorie-64adb4ee-8399-4bad-8fea-d725f77a8f3d
+      file: data/categories.yml
+      path: categories
+  label: Kategorie
