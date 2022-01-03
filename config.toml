@@ -1,6 +1,11 @@
-baseURL = "http://example.org/"
-languageCode = "en-us"
-title = "My New Hugo Site"
+baseURL = "localhost:1313"
+canonifyURLs = true
+enableRobotsTXT = true
+landscapePhotoWidths = [2500, 1500, 1000]
+languageCode = "pl"
+portraitPhotoWidths = [1500, 1000, 750]
+theme = "aw_saicos"
+title = "saicos.pl"
 [outputs]
 section = ["JSON", "HTML"]
 posts = ["HTML"]
@@ -8,7 +13,6 @@ posts = ["HTML"]
 "/" = "/:slug/"
 categories = "/kategoria/:slug/"
 posts = "/:slug/"
-producers = "/producent/:slug/"
 products = "/:slug/"
 [related]
 includeNewer = true

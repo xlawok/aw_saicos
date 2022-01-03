@@ -1,0 +1,8 @@
+{{ $result := newScratch }}
+{{ $result.Set "pages" slice }}
+{{ range where site.RegularPages "Section" "products" }}
+
+{{$url := (.Params.url | absURL)}}
+{{ $result.Add "pages" (dict "url" $url "description" .Params.description "name" .Params.name "categories" .Params.categories   "in_promotion" .Params.in_promotion "price" .Params.price "image" .Params.image "id" .Params.id) }}
+{{ end }}
+{{ $result.Get "pages" | jsonify }}

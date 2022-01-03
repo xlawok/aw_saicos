@@ -1,0 +1,21 @@
+
+<ul>
+   
+    
+    {{ range $key, $value := .Site.Taxonomies.categories }}
+        {{ $dirFile := path.Base $key }}
+        <!-- sam plik z rozszrzeniem -->
+        {{ $pathArr := split $dirFile "." }}
+        <!-- nazwa pliku -->
+        {{ $filename := index $pathArr 0}}
+    <li class="kategoria  first " id="kategoria_1"><a href="/kategoria/{{ (index site.Data.categories $filename).slug }}">{{ (index site.Data.categories $filename).tytul }}</a> 
+        <!-- ({{ len $value }}) -->
+    </li>
+    {{ end }}
+    {{with .Site.Taxonomies.categories }}
+    
+{{ end }}
+</ul>
+
+
+
