@@ -3,14 +3,17 @@
    
     
     {{ range $key, $value := .Site.Taxonomies.categories }}
-        {{ $dirFile := path.Base $key }}
-        <!-- sam plik z rozszrzeniem -->
-        {{ $pathArr := split $dirFile "." }}
-        <!-- nazwa pliku -->
-        {{ $filename := index $pathArr 0}}
-    <li class="kategoria  first " id="kategoria_1"><a href="/kategoria/{{ (index site.Data.categories $filename).slug }}">{{ (index site.Data.categories $filename).tytul }}</a> 
-        <!-- ({{ len $value }}) -->
-    </li>
+        {{ $categorieslist := site.Data.categories }}
+            {{ range $categorieslist.categories }}
+            
+            {{if eq $key .slug}}
+            <li class="kategoria  first " id="kategoria_1"><a href="/kategoria/{{.slug}}">{{.kategoria}}</a> 
+        
+            </li>
+            {{end}}
+            {{end}}
+ 
+    
     {{ end }}
     {{with .Site.Taxonomies.categories }}
     

@@ -20,7 +20,7 @@ fields:
 - type: text
   name: slug
   label: slug
-- name: kategorie
+- name: categories
   type: select
   default: []
   config:
