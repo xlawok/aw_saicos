@@ -4,9 +4,14 @@ auto_deploy: false
 admin_path: 
 webhook_url: 
 sections:
-- type: document
-  path: data/category.yml
+- type: directory
+  path: data/categories
   label: Kategorie
+  create: documents
+  match: "/*"
+  new_doc_ext: yml
+  templates:
+  - category
 - type: directory
   path: content
   label: Pages
@@ -17,6 +22,8 @@ sections:
   label: Produkty
   create: all
   match: "**/*"
+  templates:
+  - product
 upload_dir: static/uploads
 public_path: "/uploads"
 front_matter_path: ''

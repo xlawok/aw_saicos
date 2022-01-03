@@ -2,46 +2,38 @@
 label: Kategorie
 hide_body: true
 fields:
-- name: kategorie
-  type: field_group_list
-  fields:
-  - name: tytul
-    type: text
-    config:
-      required: false
-    label: Tytuł
-  - name: kategoria
-    type: text
-    config:
-      required: false
-    label: kategoria
-  - name: slug
-    type: text
-    config:
-      required: false
-    label: Slug
-  - name: opis
-    type: textarea
-    default: ''
-    config:
-      required: false
-      wysiwyg: true
-      schema:
-        format: html-blocks
-    label: Opis
-  - name: opis_pod_listowaniem
-    type: textarea
-    default: ''
-    config:
-      required: false
-      wysiwyg: true
-      schema:
-        format: html-blocks
-    label: Opis pod listowaniem
+- name: tytul
+  type: text
   config:
-    min: 
-    max: 
-    labelField: 
-  label: Kategorie
+    required: false
+  label: Tytuł
+- name: kategoria
+  type: text
+  config:
+    required: false
+  label: kategoria
+- name: slug
+  type: text
+  config:
+    required: false
+  label: Slug
+- name: opis
+  type: textarea
+  default: ''
+  config:
+    required: false
+    wysiwyg: true
+    schema:
+      format: html-blocks
+  label: Opis
+- name: opis_pod_listowaniem
+  type: textarea
+  default: ''
+  config:
+    required: false
+    wysiwyg: true
+    schema:
+      format: html-blocks
+  label: Opis pod listowaniem
 pages:
 - data/category.yml
