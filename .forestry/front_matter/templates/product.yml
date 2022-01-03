@@ -23,3 +23,15 @@ fields:
 - type: text
   name: slug
   label: slug
+- name: kategorie
+  type: select
+  default: []
+  config:
+    required: false
+    options: []
+    source:
+      type: documents
+      section: kategorie-6ee5f54c-c3a9-4f67-9f8f-84d08103eac5
+      file: data/category.yml
+      path: 
+  label: Kategorie
