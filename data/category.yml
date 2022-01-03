@@ -1,0 +1,12 @@
+---
+kategorie:
+- tytul: na zewnątrz
+  kategoria: na zewnątrz
+  slug: na-zewnatrz
+  opis: "<p>Opis nad listowaniem produktów</p>"
+  opis_pod_listowaniem: "<p>Opis pod listowaniem produktów</p>"
+- tytul: na zewnątrz/oleje do drewna
+  kategoria: na zewnątrz/oleje do drewna
+  slug: na-zewnatrz/oleje-do-drewna
+  opis: "<p>Oleje do drewna opis nad listowaniem</p>"
+  opis_pod_listowaniem: "<p>Oleje do drewna opis pod listowaniem</p>"
