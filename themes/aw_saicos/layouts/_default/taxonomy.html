@@ -1,24 +1,72 @@
 
 <ul>
+{{/* 
+    POBRANIE LISTY KATEGORII Z YML
+    */}}
     {{ $categorieslist := site.Data.categories }}
     
-    {{ range $key, $value := .Site.Taxonomies.categories }}
-    <li class="kategoria  first " id="kategoria_1"><a href="/kategoria/{{$key}}">{{$key}}</a> 
-        baba
-        </li>
-        
-            {{ range $categorieslist.categories }}
-            
-            {{if eq $key .slug}}
-            <li class="kategoria  first " id="kategoria_1"><a href="/kategoria/{{.slug}}">{{.kategoria}}</a> 
-        ada
-        </li>
-            {{end}}
-            {{end}}
- 
+    {{/*         bieżąca kategoria        */}}
+    {{ $.Scratch.Set "current_category" .Title  }}
     
-    {{ end }}
+    {{/*         loopp LISTY KATEGORII Z YML        */}}
+    {{ range $key, $value:=  $categorieslist.categories }}
+        
+            {{$tytul:=.tytul}}
+            {{$slug:=.slug}}
+            {{$podkategorie:=""}}
+            {{$podkategorie:=.podkategorie}}
+            {{/*
+                SPRAWDZENIE, CZY KATEGORIA WYSTĘPUJE W PRODUKTACH
+            */}}
+            {{ with index $.Site.Taxonomies.categories $key }}
+                
+                {{/*
+                    loop tylko dla kategorii głównych
+                */}}
+                {{ if not (in $key "/") }}
+                    <li>
+                        <a href="/kategoria/{{$slug}}">{{$tytul}}</a> 
+                        {{with $podkategorie }}
+                        <ul>
+                            {{range . }}
+                                {{$current_subcategory:=.}}
+                                {{ with index $categorieslist.categories . }}
+                                
+                                {{$tytul:=.tytul}}
+                                {{$slug:=.slug}}
+                                {{$podkategorie:=""}}
+                                {{$podkategorie:=.podkategorie}}
+                                {{/*
+                                    SPRAWDZENIE, CZY podKATEGORIA WYSTĘPUJE W PRODUKTACH
+                                */}}
+                                    {{ with index $.Site.Taxonomies.categories $current_subcategory }}
+                                        <li><a href="/kategoria/{{$slug}}">{{$tytul}}</a> 
+                                            </li>
+                                    {{end}}
+                                {{end}}
+                            {{end }}
+                        </ul>
+                        {{end}}
+                    </li>
+                {{ end }}
+            {{end}}
+            {{/*
+                podzial sciezki na array
+                {{ $.Scratch.Set "category" (split .kategoria "/")  }}
+                {{ range $index,  $element := $.Scratch.Get "category" }}
 
+                    {{$index}}
+                    {{if gt $index 0}}
+                    -<a href="/kategoria/{{.slug}}">{{.tytul}}</a> <br/>
+                    {{else}}
+                    -<a href="/kategoria/{{.slug}}">{{.tytul}}</a> <br/>
+                    {{end}}  
+                    
+                {{end}}
+            */}}
+               
+    {{end}}
+           
 </ul>
 
 
@@ -29,9 +77,9 @@
         
         {{ range $categorieslist.categories }}
             
-        {{if eq .slug $ctitle}}
-            {{.opis_pod_listowaniem | safeHTML }}
-        {{end}}
+            {{if eq .slug $ctitle}}
+                {{.opis_pod_listowaniem | safeHTML }}
+            {{end}}
         {{end}}
         
     </h1>

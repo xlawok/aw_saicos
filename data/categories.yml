@@ -1,20 +1,37 @@
 ---
 categories:
   na-zewnatrz:
-    tytul: na zewnątrz
     kategoria: na zewnątrz
+    tytul: na zewnątrz
     slug: na-zewnatrz
     opis: "<p>na zewnątrz opis nad listowaniem</p>"
     opis_pod_listowaniem: "<p>na zewnątrz opis pod listowaniem</p>"
+    podkategorie: 
+    - na-zewnatrz/oleje-do-drewna
   na-zewnatrz/oleje-do-drewna:
-    tytul: na zewnątrz/oleje do drewna
-    kategoria: oleje do drewna
+    kategoria: na zewnątrz/oleje do drewna
+    tytul: oleje do drewna
     slug: na-zewnatrz/oleje-do-drewna
     opis: "<p>Oleje do drewna opis nad listowaniem</p>"
     opis_pod_listowaniem: "<p>Oleje do drewna opis pod listowaniem</p>"
+  do-wnetrz:
+    kategoria: do wnętrz
+    tytul: do wnętrz
+    slug: do-wnetrz
+    opis: "<p>Do wnętrz opis nad listowaniem</p>"
+    opis_pod_listowaniem: "<p>Do wnętrz opis pod listowaniem</p>"
+    podkategorie: 
+    - do-wnetrz/oleje-do-drewna-2
+    - do-wnetrz/lakiery-do-drewna
   do-wnetrz/oleje-do-drewna-2:
-    tytul: do wnętrz/oleje do drewna
-    kategoria: oleje do drewna
+    kategoria: do wnętrz/oleje do drewna
+    tytul: inne oleje do drewna
     slug: do-wnetrz/oleje-do-drewna-2
     opis: "<p>Oleje do drewna opis nad listowaniem</p>"
     opis_pod_listowaniem: "<p>Oleje do drewna 2 opis pod listowaniem</p>"
+  do-wnetrz/lakiery-do-drewna:
+    kategoria: do wnętrz/lakiery do drewna
+    tytul: lakiery do drewna
+    slug: do-wnetrz/lakiery-do-drewna
+    opis: "<p>lakiery do drewna opis nad listowaniem</p>"
+    opis_pod_listowaniem: "<p>lakiery do drewna 2 opis pod listowaniem</p>"

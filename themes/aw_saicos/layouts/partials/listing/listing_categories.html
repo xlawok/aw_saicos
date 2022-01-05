@@ -3,14 +3,14 @@
    
     
     {{ range $key, $value := .Site.Taxonomies.categories }}
-    <li class="kategoria  first " id="kategoria_1"><a href="/kategoria/{{$key}}">{{$key}}</a> 
+    <!-- <li class="kategoria  first " id="kategoria_1"><a href="/kategoria/{{$key}}">{{$key}}</a> 
         baba
-        </li>
+        </li> -->
         {{ $categorieslist := site.Data.categories }}
             {{ range $categorieslist.categories }}
             
             {{if eq $key .slug}}
-            <li class="kategoria  first " id="kategoria_1"><a href="/kategoria/{{.slug}}">{{.kategoria}}</a> 
+            <li class="kategoria  first " id="kategoria_1"><a href="/kategoria/{{.slug}}">{{.tytul}}</a> 
         ada
         </li>
             {{end}}
