@@ -20,3 +20,169 @@ fields:
     max: 
     labelField: 
   label: Banner
+- name: blok_pod_bannerem
+  type: textarea
+  default: ''
+  config:
+    required: false
+    wysiwyg: true
+    schema:
+      format: html
+  label: Blok pod bannerem
+- name: kafelki_kategorii
+  type: field_group_list
+  fields:
+  - name: zdjecie
+    type: file
+    config:
+      maxSize: 1
+    label: Zdjęcie
+  - name: naglowek
+    type: include
+    config: {}
+    template: naglowek
+    label: Nagłówek
+  - name: odnosnik
+    type: select
+    default: []
+    config:
+      required: false
+      options: []
+      source:
+        type: documents
+        section: kategorie-64adb4ee-8399-4bad-8fea-d725f77a8f3d
+        file: data/categories.yml
+        path: categories
+    label: Odnośnik
+  config:
+    min: 2
+    max: 6
+    labelField: 
+  label: Kafelki kategorii
+- name: sekcja_kolumny_tekst_zdjecie
+  type: field_group_list
+  fields:
+  - name: lewa_kolumna
+    type: field_group
+    config: {}
+    fields:
+    - name: naglowek
+      type: include
+      config: {}
+      template: naglowek
+      label: Nagłówek
+    - name: tekst
+      type: textarea
+      default: ''
+      config:
+        required: false
+        wysiwyg: true
+        schema:
+          format: html-blocks
+      label: Tekst
+    label: Lewa kolumna
+  - name: prawa_kolumna
+    type: field_group
+    config: {}
+    fields:
+    - name: film
+      type: boolean
+      label: Film
+    - name: kod_embed_film
+      type: textarea
+      default: ''
+      config:
+        required: false
+        wysiwyg: false
+        schema:
+          format: markdown
+      label: Kod embed film
+      showOnly:
+        field: film
+        value: true
+    - name: zdjecie
+      type: file
+      config:
+        maxSize: 1
+      label: Zdjęcie
+      showOnly:
+        field: film
+    - name: tekst_na_zdj_ciu
+      type: text
+      config:
+        required: false
+        max: 500
+      label: Tekst na zdjęciu
+      showOnly:
+        field: film
+    - name: odnosnik
+      type: select
+      default: []
+      config:
+        required: false
+        options: []
+        source:
+          type: documents
+          section: kategorie-64adb4ee-8399-4bad-8fea-d725f77a8f3d
+          file: data/categories.yml
+          path: categories
+      label: Odnośnik
+      showOnly:
+        field: film
+    label: Prawa kolumna
+  config:
+    min: 
+    max: 
+    labelField: 
+  label: Sekcja kolumny tekst zdjęcie
+- name: sekcja_jakosc
+  type: field_group
+  config: {}
+  fields:
+  - name: naglowek
+    type: include
+    config: {}
+    template: naglowek
+    label: Nagłówek
+  - name: tekst_pod_naglowkiem
+    type: textarea
+    default: ''
+    config:
+      required: false
+      wysiwyg: false
+      schema:
+        format: markdown
+    label: Tekst pod nagłówkiem
+  - name: trzy_kolumny
+    type: field_group_list
+    fields:
+    - name: ikona
+      type: file
+      config:
+        maxSize: 1
+      label: Ikona
+    - name: tytul
+      type: text
+      config:
+        required: false
+      label: Tytuł
+    - name: opis
+      type: textarea
+      default: ''
+      config:
+        required: false
+        wysiwyg: false
+        schema:
+          format: markdown
+      label: Opis
+    config:
+      min: 
+      max: 3
+      labelField: 
+    label: Trzy kolumny
+  label: Sekcja jakość
+- name: header
+  type: include
+  config: {}
+  template: header
+  label: Header
