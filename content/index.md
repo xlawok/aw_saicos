@@ -50,7 +50,7 @@ txt_block_size = "XL"
 [[kafelki_kategorii]]
 nazwa = "pielęgnacja drewna"
 odnosnik = "do-wnetrz"
-zdjecie = "/uploads/zabezpieczenie-drewnianych-schodow-impregnacja.jpg"
+zdjecie = "/uploads/zabezpieczenie-tarasu2.jpg"
 [[kafelki_kategorii.header_repeater]]
 block_tag_type = "h2"
 bold_txt = "pogrubiony"

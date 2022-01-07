@@ -192,3 +192,5 @@ fields:
   config: {}
   template: header
   label: Header
+pages:
+- content/index.md
