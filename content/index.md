@@ -48,9 +48,22 @@ color_txt = "biały"
 txt_block = "do wnętrz"
 txt_block_size = "XL"
 [[kafelki_kategorii]]
-header_repeater = []
-nazwa = ""
-odnosnik = []
-zdjecie = ""
+nazwa = "pielęgnacja drewna"
+odnosnik = "do-wnetrz"
+zdjecie = "/uploads/zabezpieczenie-drewnianych-schodow-impregnacja.jpg"
+[[kafelki_kategorii.header_repeater]]
+block_tag_type = "h2"
+bold_txt = "pogrubiony"
+break_line = true
+color_txt = "biały"
+txt_block = "Produkty do pielęgnacji drewna "
+txt_block_size = "L"
+[[kafelki_kategorii.header_repeater]]
+block_tag_type = "h2"
+bold_txt = "grub"
+break_line = false
+color_txt = "biały"
+txt_block = "do wnętrz"
+txt_block_size = "XL"
 
 +++
