@@ -13,6 +13,7 @@ header_repeater = []
 tekst_pod_naglowkiem = ""
 trzy_kolumny = []
 [[banner]]
+nazwa = "Witamy"
 zdjecie = "/uploads/zabezpieczenie-drewnianych-schodow-impregnacja.jpg"
 [[banner.header_repeater]]
 block_tag_type = "div"
@@ -29,6 +30,7 @@ color_txt = "biały"
 txt_block = " specjalistów od powłok wykończeniowych"
 txt_block_size = "XXL"
 [[kafelki_kategorii]]
+nazwa = "pielęgnacja drewna"
 odnosnik = "do-wnetrz"
 zdjecie = "/uploads/zabezpieczenie-drewnianych-schodow-impregnacja.jpg"
 [[kafelki_kategorii.header_repeater]]
@@ -47,6 +49,7 @@ txt_block = "do wnętrz"
 txt_block_size = "XL"
 [[kafelki_kategorii]]
 header_repeater = []
+nazwa = ""
 odnosnik = []
 zdjecie = ""
 
