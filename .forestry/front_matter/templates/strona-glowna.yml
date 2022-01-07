@@ -5,6 +5,9 @@ fields:
 - name: banner
   type: field_group_list
   fields:
+  - name: nazwa
+    type: text
+    label: Nazwa robocza
   - name: zdjecie
     type: file
     config:
@@ -32,6 +35,9 @@ fields:
 - name: kafelki_kategorii
   type: field_group_list
   fields:
+  - name: nazwa
+    type: text
+    label: Nazwa robocza
   - name: zdjecie
     type: file
     config:
