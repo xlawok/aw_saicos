@@ -192,5 +192,3 @@ fields:
   config: {}
   template: header
   label: Header
-pages:
-- content/strona-glowna-saicos.pl.md
