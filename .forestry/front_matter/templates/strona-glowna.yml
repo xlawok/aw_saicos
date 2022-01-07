@@ -1,4 +1,22 @@
 ---
 label: Strona główna
 hide_body: true
-fields: []
+fields:
+- name: banner
+  type: field_group_list
+  fields:
+  - name: zdjecie
+    type: file
+    config:
+      maxSize: 1
+    label: Zdjęcie
+  - name: naglowek
+    type: include
+    config: {}
+    template: naglowek
+    label: Nagłówek
+  config:
+    min: 
+    max: 
+    labelField: 
+  label: Banner
