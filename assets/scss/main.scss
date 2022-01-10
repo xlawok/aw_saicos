@@ -5,12 +5,13 @@ html{
 }
 body{
     margin: 0;
-    background: #0F1212 0% 0% no-repeat padding-box;
-    color: #fff;
+    
+    color: #171715;;
     width: 100%;
     font-family: "Darker Grotesque", sans-serif;
     overflow-x: hidden;
     box-sizing: border-box;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
     --main-margin-left:  1rem;
     --main-margin-right: 1rem;
     overflow-x: hidden;
@@ -27,6 +28,9 @@ body{
         --main-margin-right: calc((344 / 1920) * 100vw);
     }
 
+}
+*{
+    box-sizing: border-box;
 }
 // h1,h2,h3,h4,.h1,.h2,.h3,.h4,.header-template{
 //     font-family: 'Space Grotesk', sans-serif;
@@ -74,3 +78,4 @@ body{
     }
 }
 @import 'templates/banner';
+@import 'templates/over-banner';
