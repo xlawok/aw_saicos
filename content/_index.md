@@ -1,5 +1,5 @@
 +++
-blok_pod_bannerem = "<h2 class='txt-XL'>Produkty do pielęgnacji drewna od Saicos</h2> Drewno to cenny, szlachetny surowiec, wykorzystywany w różnych celach, na przykład do budowy podłóg, mebli, domków. Wymaga jednak zabezpieczenia specjalnymi środkami, aby utworzone z niego elementy były odpowiednio trwałe i na długo zachowały piękny wygląd. Oferta SAICOS to najwyższej jakości produkty do drewna, które chronią i upiększają ten surowiec w naturalny sposób. Innowacyjny asortyment produktów obejmuje różnorodne produkty do wszystkich rodzajów drewna, użytkowanego wewnątrz i na zewnątrz."
+blok_pod_bannerem = "<h2 class=\"txt-XL\">Produkty do pielęgnacji drewna od Saicos</h2><p> Drewno to cenny, szlachetny surowiec, wykorzystywany w różnych celach, na przykład do budowy podłóg, mebli, domków. </p><p>Wymaga jednak zabezpieczenia specjalnymi środkami, aby utworzone z niego elementy były odpowiednio trwałe i na długo zachowały piękny wygląd. </p><p>Oferta SAICOS to najwyższej jakości produkty do drewna, które chronią i upiększają ten surowiec w naturalny sposób. </p><p>Innowacyjny asortyment produktów obejmuje różnorodne produkty do wszystkich rodzajów drewna, użytkowanego wewnątrz i na zewnątrz.</p>"
 body_class = "home"
 description = "Saicos"
 draft = true
