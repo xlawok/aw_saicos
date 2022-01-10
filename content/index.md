@@ -29,6 +29,16 @@ break_line = false
 color_txt = "biały"
 txt_block = " specjalistów od powłok wykończeniowych"
 txt_block_size = "XXL"
+[[banner]]
+nazwa = "drugi slajd"
+zdjecie = "/uploads/sven-brandsma-gmrin7tvw1w-unsplash.jpg"
+[[banner.header_repeater]]
+block_tag_type = "h2"
+bold_txt = "normalny"
+break_line = true
+color_txt = "biały"
+txt_block = "Tytuł bannera"
+txt_block_size = "XL"
 [[kafelki_kategorii]]
 nazwa = "pielęgnacja drewna"
 odnosnik = "do-wnetrz"
