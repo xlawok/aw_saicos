@@ -1,4 +1,4 @@
-baseURL = "localhost:1313"
+baseURL = "http://localhost:1313"
 canonifyURLs = true
 enableRobotsTXT = true
 landscapePhotoWidths = [2500, 1500, 1000]

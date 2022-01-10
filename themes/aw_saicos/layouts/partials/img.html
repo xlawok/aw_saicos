@@ -42,6 +42,7 @@
 
     <img 
     class='lazyload {{$tag_class}}'
+    loading="lazy"
     data-sizes='{{with $imgsizes}}{{.}}{{else}}100vw{{end}}'
     data-srcset='{{ if ge $imageResource.Width "500" }}
         {{ with $tiny.RelPermalink }}{{.}} 500w{{ end }}

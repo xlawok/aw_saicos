@@ -1,14 +1,62 @@
 
 <section class=' sc-banner-wide '>
     
-    
-    {{ range . }}
-        <div class='banner-wide-content sec-padding'>
-            {{- partial "img.html" (dict "image" .zdjecie "imgsizes" "100vw" "ifsrcset" "nosrcset" "tag_class" "banner-img")  -}}
-            <div class='banner-left-col'>
+    <ul>
+    {{ range $index, $value:= . }}
+        <li class='banner-wide-content sec-padding {{if eq $index 0 }} active{{end}}'>
+            {{- partial "img.html" (dict "image" .zdjecie "imgsizes" "100vw"  "tag_class" "banner-img")  -}}
+            <div class='banner-desc'>
                 {{ $header_list := (.header_repeater) }}
                 {{- partial "header-tag.html" (dict "context" . "header_list" $header_list "custom_class" "banner-header")  -}}
              </div> 
-        </div>
+        </li>
     {{end}}
+    </ul>
+    <div class="arrow-wrapper">
+        <button class="prev"></button>
+        <button class="next"></button>
+    </div>
 </section>
+  <script>
+document.addEventListener("DOMContentLoaded", function() {
+    var arrow_wrapper=document.querySelector('.arrow-wrapper');
+   
+	if(typeof(arrow_wrapper) != 'undefined' && arrow_wrapper != null){
+		var prev=document.querySelector('.arrow-wrapper .prev');
+		var next=document.querySelector('.arrow-wrapper .next');
+		var banner_slides = document.querySelectorAll('.sc-banner-wide li.banner-wide-content');
+		var banner_img_length = banner_slides.length;
+		{{/*  console.log(banner_img_length);  */}}
+		next.addEventListener("click",function(e) {
+			e.preventDefault();
+            let active_img=document.querySelector('.sc-banner-wide .banner-wide-content.active');
+            let active_img_pos=Array.from(active_img.parentNode.children).indexOf(active_img);
+		
+			{{/*  console.log(active_img);  */}}
+			if(active_img_pos==banner_img_length-1){
+				banner_slides[active_img_pos].classList.remove('active');
+				banner_slides[0].classList.add('active');
+			}
+			else{
+				banner_slides[active_img_pos].classList.remove('active');
+				banner_slides[active_img_pos+1].classList.add('active');
+			}
+		});
+		prev.addEventListener("click",function(e) {
+			e.preventDefault();
+			let active_img=document.querySelector('.sc-banner-wide .banner-wide-content.active');
+            let active_img_pos=Array.from(active_img.parentNode.children).indexOf(active_img);
+			
+			if(active_img_pos==0){
+				banner_slides[active_img_pos].classList.remove('active');
+				banner_slides[1].classList.add('active');
+			}
+			else{
+				banner_slides[active_img_pos].classList.remove('active');
+				banner_slides[active_img_pos-1].classList.add('active');
+			}
+		});
+	}
+
+});
+  </script>
