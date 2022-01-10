@@ -30,7 +30,7 @@ fields:
     required: false
     wysiwyg: true
     schema:
-      format: html
+      format: html-blocks
   label: Blok pod bannerem
 - name: kafelki_kategorii
   type: field_group_list
