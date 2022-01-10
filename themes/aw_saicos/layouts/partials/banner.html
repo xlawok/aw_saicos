@@ -1,0 +1,14 @@
+
+<section class=' sc-banner-wide '>
+    
+    
+    {{ range . }}
+        <div class='banner-wide-content sec-padding'>
+            {{- partial "img.html" (dict "image" .zdjecie "imgsizes" "100vw" "ifsrcset" "nosrcset" "tag_class" "banner-img")  -}}
+            <div class='banner-left-col'>
+                {{ $header_list := (.header_repeater) }}
+                {{- partial "header-tag.html" (dict "context" . "header_list" $header_list "custom_class" "banner-header")  -}}
+             </div> 
+        </div>
+    {{end}}
+</section>

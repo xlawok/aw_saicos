@@ -1,0 +1,36 @@
+<html lang="{{ .Site.LanguageCode }}">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="p:domain_verify" content="f3a5ba5230529067900740a76fe095af"/>
+    <base href="{{ .Permalink }}">
+    <link rel="canonical" href="{{ .Permalink }}" itemprop="url" /> 
+    <meta name="url" content="{{ .Permalink }}" />
+    <meta name="twitter:url" content="{{ .Permalink }}" /> 
+    <meta property="og:url" content="{{ .Permalink }}" />
+    <meta name="og:description" content="{{ with .Description }}{{ . }}{{ else }}{{ with .Site.Params.description }}{{ . }}{{ end }}{{ end }}">
+    <meta name="og:title" content="{{ with $.Params.title }}{{ . }}{{ end }}">
+        {{ with $.Params.ikona_artykulu }}
+         <meta property="og:image" content="https://agencjawroclawska.pl{{ . }}" />
+        {{end}}
+        {{if eq .Params.robots ""}}
+        <meta name="robots" content="index follow" />
+        {{else}}
+        <meta name="robots" content="{{ .Params.robots }}" />
+        {{end}}
+    <link rel="icon" 
+    type="image/png" 
+    href="{{.Site.Params.favico}}" />
+    {{ if .IsHome }}
+    <title>{{ .Title }} </title>
+    {{else}}
+    <title>
+        {{if false}}
+        {{ .Site.Title }}  | 
+        {{end}}
+        {{ .Title }}</title>
+    {{ end }}
+    
+    <meta name="description" content="{{ with .Description }}{{ . }}{{ else }}{{ with .Site.Params.description }}{{ . }}{{ end }}{{ end }}">
+    
+
+</head>
