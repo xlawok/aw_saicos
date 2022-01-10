@@ -18,7 +18,7 @@ fields:
       options:
       - normalny
       - pogrubiony
-      - grub
+      - gruby
       - bardzo gruby
       source:
         type: simple

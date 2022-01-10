@@ -25,12 +25,12 @@
     {{ end }}
 
     {{ $header_bold :="f-w400" }}
-    {{ if eq .bold_txt "cienki" }}
-        {{ $header_bold ="f-w300" }}
-    {{ else if eq .bold_txt "normalny" }}
+    {{ if eq .bold_txt "normalny" }}
         {{ $header_bold ="f-w400" }}
+    {{ else if eq .bold_txt "pogrubiony" }}
+        {{ $header_bold ="f-w500" }}
     {{ else if eq .bold_txt "gruby" }}
-        {{ $header_bold ="f-w700" }}
+        {{ $header_bold ="f-w800" }}
     {{ else if eq .bold_txt "bardzo gruby" }}
         {{ $header_bold ="f-w900" }}
     {{ end }}
@@ -55,7 +55,7 @@
             {{ $first_header_tag =$header_tag }}
         <!-- PIERWSZE OTWARCIE BLOKU -->
                 {{( printf "<%s class='header-template %s'>" $header_tag $custom_class) | safeHTML}}
-                {{( printf "<span class='%s %s %s %s %s %s '>"  $header_bold $break_line $header_color $header_size ) | safeHTML}}
+                {{( printf "<span class='%s %s %s %s  '>"  $header_bold $break_line $header_color $header_size ) | safeHTML}}
                     {{.txt_block}}
                 </span>
         {{end}}
@@ -66,7 +66,7 @@
                 {{ $header_tag ="span" }}
                 {{$custom_class = ""}}
             {{ end }}
-            {{( printf "<%s class='header-template %s %s %s %s %s %s %s'>" $header_tag $header_bold  $break_line $header_color $header_size $custom_class) | safeHTML}}
+            {{( printf "<%s class='header-template %s %s %s %s %s'>" $header_tag $header_bold  $break_line $header_color $header_size $custom_class) | safeHTML}}
                 {{.txt_block}}
             {{( printf "</%s>" $header_tag ) | safeHTML}}
         {{end}}

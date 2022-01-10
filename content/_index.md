@@ -24,7 +24,7 @@ txt_block = "Witamy w domu"
 txt_block_size = "XXL"
 [[banner.header_repeater]]
 block_tag_type = "div"
-bold_txt = "grub"
+bold_txt = "gruby"
 break_line = false
 color_txt = "biały"
 txt_block = " specjalistów od powłok wykończeniowych"
