@@ -1,0 +1,12 @@
+
+<section class=' sc-quality'>
+    
+    
+        
+    {{ $header_repeater:=.header_repeater }}
+    {{- partial "header-tag.html" (dict "context" . "header_list" $header_repeater "custom_class" "txt-quality-header")  -}}
+    <div class="txt-under-header">
+        {{.tekst_pod_naglowkiem | safeHTML}}
+    </div>
+</section>
+ 

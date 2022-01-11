@@ -65,9 +65,12 @@ fields:
     max: 6
     labelField: 
   label: Kafelki kategorii
-- name: sekcja_kolumny_tekst_zdjecie
+- name: kolumny_txt_zdjecie
   type: field_group_list
   fields:
+  - name: nazwa
+    type: text
+    label: Nazwa robocza
   - name: lewa_kolumna
     type: field_group
     config: {}

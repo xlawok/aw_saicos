@@ -1,0 +1,46 @@
+
+<section class=' sc-txt-img'>
+    
+    {{range $index,$element:=.}}
+        <div class='txt-img-row'>
+            <div class='col-left'>
+                {{with .lewa_kolumna}}
+                   {{ $header_repeater:=.header_repeater }}
+                    {{- partial "header-tag.html" (dict "context" . "header_list" $header_repeater "custom_class" "txt-img-header")  -}}
+                    <div>
+                        {{.tekst | safeHTML}}
+                    </div>
+                {{end}}
+            </div>
+            <div class='col-right'>
+                {{ with .prawa_kolumna}}
+                 {{   $zdjecie:=.zdjecie }}
+                    {{$tekst_na_zdj_ciu:=.tekst_na_zdj_ciu}}
+                    <div class='img-wrapper'>
+                        {{ with site.GetPage .odnosnik }}
+                            <a class='' href='{{.RelPermalink}}'>
+                                {{- partial "img.html" (dict "image" $zdjecie "imgsizes" "(min-width: 992) 40vw, 100vw"  "tag_class" "txt-img-img")  -}}
+                                <div class="img-title">
+                                    
+                                    
+                                    {{$tekst_na_zdj_ciu}}
+                                </div>
+                            </a>
+                        {{else}}
+                            {{- partial "img.html" (dict "image" $zdjecie "imgsizes" "(min-width: 992) 40vw, 100vw"  "tag_class" "txt-img-img")  -}}
+                            <div class="img-title">
+                                
+                                
+                                {{$tekst_na_zdj_ciu}}
+                            </div>
+                        {{end}}
+                        
+                    </div>
+                    
+            {{end}}
+            </div>
+        </div>
+    {{end}}
+    
+</section>
+ 

@@ -9,8 +9,14 @@
         gap: 1rem;
         @media (min-width: 992px){
             grid-template-columns: 1fr 1fr;
-            padding-left: (278/1920)*100vw;
+            padding-left: 2rem;
+            padding-right: 2rem;
+        }
+        
+        @media (min-width: 1600px) {
             padding-right: (278/1920)*100vw;
+            padding-left: (278/1920)*100vw;    
+        
         }
         li{
             aspect-ratio: 674 / 449;

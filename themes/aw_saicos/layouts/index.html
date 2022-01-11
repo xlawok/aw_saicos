@@ -5,7 +5,12 @@
  
     {{- partial "banner.html" .Params.banner -}}
     {{- partial "over-banner.html" .Params.blok_pod_bannerem -}}   
-    {{- partial "category-tiles.html" .Params.kafelki_kategorii -}}   
+    {{- partial "category-tiles.html" .Params.kafelki_kategorii -}} 
+    <div class='bez-gradient top-to-up'>
+        {{- partial "cols-txt-img.html" .Params.kolumny_txt_zdjecie -}} 
+        {{- partial "quality.html" .Params.sekcja_jakosc -}} 
+        
+    </div>
         <!-- Note that the content for index.html, as a sort of list page, will pull from content/_index.md -->
         <!-- {{.Content}} -->
   
