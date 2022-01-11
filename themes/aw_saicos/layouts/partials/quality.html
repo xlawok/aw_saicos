@@ -8,5 +8,20 @@
     <div class="txt-under-header">
         {{.tekst_pod_naglowkiem | safeHTML}}
     </div>
+    <ul class='cols-wrapper'>
+        {{range $index, $element:= .trzy_kolumny}}
+            <li>
+                <span class='icon-wrapper'>
+                    {{- partial "img.html" (dict "image" .ikona "imgsizes" ""  "tag_class" "quality-icons")  -}}
+                </span>
+                <div class="icon-title">
+                    {{.tytul}}
+                </div>
+                <div class="icon-desc">
+                    {{.opis}}
+                </div>
+            </li>
+        {{end}}
+    </ul>
 </section>
  

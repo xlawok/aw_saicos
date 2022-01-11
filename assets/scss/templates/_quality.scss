@@ -14,6 +14,32 @@
         margin: 1rem 1rem 2rem 1rem;
 
     }
+    .cols-wrapper{
+        list-style: none;
+        padding: 0;
+        margin: 0;
+        display: grid;
+        grid-template-columns: 1fr;
+        text-align: center;
+        gap: 2rem;
+        li{
+            display: flex;
+            flex-direction: column;
+            .icon-wrapper{
+                flex-grow: 1;
+                align-content: center;
+            }
+        }
+        .icon-title{
+            font-size: 2.1875rem;
+            font-weight: 900;
+        }
+        .icon-desc{
+            font-size: 1.3125rem;
+            font-weight: 500;
+        }
+
+    }
     @media (min-width: 992px) {
         margin-right: (140/1920)*100vw;
         margin-left: (140/1920)*100vw;    
@@ -21,6 +47,13 @@
             margin-right: (365/1920)*100vw;
             margin-left: (365/1920)*100vw;  
         }
-        
+        .cols-wrapper{
+            grid-template-columns: 1fr 1fr 1fr;
+        }
+    }
+    @media (min-width: 1600px) {
+        .cols-wrapper{
+            padding: 2rem 5vw;
+        }
     }
 }
