@@ -52,7 +52,7 @@ txt_block = "Produkty do pielęgnacji drewna "
 txt_block_size = "L"
 [[kafelki_kategorii.header_repeater]]
 block_tag_type = "h2"
-bold_txt = "grub"
+bold_txt = "gruby"
 break_line = false
 color_txt = "biały"
 txt_block = "do wnętrz"
@@ -70,7 +70,7 @@ txt_block = "Produkty do pielęgnacji drewna "
 txt_block_size = "L"
 [[kafelki_kategorii.header_repeater]]
 block_tag_type = "h2"
-bold_txt = "grub"
+bold_txt = "gruby"
 break_line = false
 color_txt = "biały"
 txt_block = "do wnętrz"

@@ -1,0 +1,22 @@
+
+<section class=' sc-category-tiles'>
+    <ul>
+    {{range $index,$element:=.}}
+        <li>
+            {{$zdjecie:=.zdjecie}}
+            {{ $header_list := .header_repeater }}
+            {{ with site.GetPage .odnosnik }}
+                <a class='' href='{{.RelPermalink}}'>
+                    {{- partial "img.html" (dict "image" $zdjecie "imgsizes" "(min-width: 992) 40vw, 100vw"  "tag_class" "category-tiles-img")  -}}
+                    <div class="category-tiles-title">
+                        
+                        {{- partial "header-tag.html" (dict "context" . "header_list" $header_list "custom_class" "category-tiles-header")  -}}
+                        <span class='check-out txt-MD fw-500'>Zobacz <img src="img/arrow_white.svg"></span>
+                    </div>
+                </a>
+            {{end}}
+        </li>
+    {{end}}
+    </ul>
+</section>
+ 
