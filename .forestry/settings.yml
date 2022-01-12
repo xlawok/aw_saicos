@@ -24,7 +24,6 @@ sections:
 - type: document
   path: data/footer.yml
   label: Stopka
-  match: "**/*"
 upload_dir: content/uploads
 public_path: "/uploads"
 front_matter_path: ''
