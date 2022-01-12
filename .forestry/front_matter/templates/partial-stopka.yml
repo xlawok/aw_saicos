@@ -1,4 +1,54 @@
 ---
 label: Partial-stopka
 hide_body: true
-fields: []
+fields:
+- name: produkty_marki
+  type: field_group
+  config: {}
+  fields:
+  - name: naglowek
+    type: include
+    config: {}
+    template: naglowek
+    label: Nagłówek
+  - name: lewa_kolumna
+    type: field_group
+    config: {}
+    fields:
+    - name: tytul_kolumny
+      type: text
+      config:
+        required: false
+      label: Tytuł kolumny
+    - name: pozycje_kolumny
+      type: field_group_list
+      fields:
+      - name: ikona
+        type: file
+        config:
+          maxSize: 1
+        label: Ikona
+      - name: tytul
+        type: text
+        config:
+          required: false
+        label: Tytuł
+      - name: odnosnik
+        type: select
+        default: []
+        config:
+          required: false
+          options: []
+          source:
+            type: simple
+            section: 
+            file: 
+            path: 
+        label: Odnośnik
+      config:
+        min: 
+        max: 
+        labelField: 
+      label: Pozycje kolumny
+    label: Lewa kolumna
+  label: Produkty marki
