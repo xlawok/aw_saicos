@@ -8,6 +8,27 @@ robots = "noindex nofollow"
 sekcja_kolumny_tekst_zdjecie = []
 slug = "/"
 title = "Strona główna | SAICOS.PL"
+[sekcja_jakosc]
+tekst_pod_naglowkiem = "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua."
+[[sekcja_jakosc.header_repeater]]
+block_tag_type = "h2"
+bold_txt = "bardzo gruby"
+break_line = true
+color_txt = "biały"
+txt_block = "Najwyższa jakość podłóg dzięki produktom firmy Saicos"
+txt_block_size = "L"
+[[sekcja_jakosc.trzy_kolumny]]
+ikona = "/uploads/hand_icon.svg"
+opis = "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua."
+tytul = "Pierwszy punkt"
+[[sekcja_jakosc.trzy_kolumny]]
+ikona = "/uploads/gears_icon.svg"
+opis = "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua."
+tytul = "Drugi punkt"
+[[sekcja_jakosc.trzy_kolumny]]
+ikona = "/uploads/puzzles_icon.svg"
+opis = "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua."
+tytul = "Trzeci punkt"
 [[banner]]
 nazwa = "Witamy"
 zdjecie = "/uploads/zabezpieczenie-drewnianych-schodow-impregnacja.jpg"
@@ -84,11 +105,12 @@ txt_block = "Oleje do drewna, woski, lakiery, farby i inne "
 txt_block_size = "L"
 [kolumny_txt_zdjecie.prawa_kolumna]
 film = false
-zdjecie = "/uploads/43156918_m.jpg.jpg"
+kod_embed_film = ""
 odnosnik = "do-wnetrz"
 tekst_na_zdj_ciu = "Zobacz środki do pielęgnacji drewna"
+zdjecie = "/uploads/43156918_m.jpg.jpg"
 [[kolumny_txt_zdjecie]]
-nazwa = "Zobacz środki do pielęgnacji drewna"
+nazwa = "Saicos dziełem chemików"
 [kolumny_txt_zdjecie.lewa_kolumna]
 tekst = "<p>SAICOS jest dziełem chemików i techników, którzy z pasją oddali się zadaniu uzyskania trwałego uszlachetnienia drewna i materiałów drewnopochodnych, ich ochrony i konserwacji, przy jednoczesnym, restrykcyjnym przestrzeganiu wymogów ochrony środowiska i zdrowia oraz zapewnienia Klientom ekonomicznych, nieskomplikowanych i niedrogich rozwiązań.</p><p> Marka SAICOS skupia się na wykonaniu olei i wosków do drewna, jak również innych produktów na bazie składników pozyskanych z przyrody, jak na przykład oleje i woski roślinne, przez co są one przyjazne środowisku, a jednocześnie pozwalą zachować naturalny charakter drewna.</p><p> Serdecznie zapraszamy do zapoznania się z pełna gamą najlepszych produktów do wykończenia, impregnacji i renowacji drewna.</p><p>Niemiecka jakość i siła naturalnych składników to atuty produktów do drewna marki SAICOS, które sprawiają, że żadne inne środki nie mogą im się z nimi równać. </p><p><strong>Profesjonalne produkty do drewna SAICOS to najlepszy wybór</strong>.</p>"
 [[kolumny_txt_zdjecie.lewa_kolumna.header_repeater]]
@@ -103,25 +125,6 @@ film = true
 kod_embed_film = "<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/ueT1y9mMi38\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen loading=\"lazy\"></iframe>"
 odnosnik = "do-wnetrz"
 tekst_na_zdj_ciu = "Zobacz środki do pielęgnacji drewna"
-[sekcja_jakosc]
-tekst_pod_naglowkiem = "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua."
-[[sekcja_jakosc.header_repeater]]
-block_tag_type = "h2"
-bold_txt = "bardzo gruby"
-break_line = true
-color_txt = "biały"
-txt_block = "Najwyższa jakość podłóg dzięki produktom firmy Saicos"
-txt_block_size = "L"
-[[sekcja_jakosc.trzy_kolumny]]
-ikona = "/uploads/hand_icon.svg"
-tytul = "Pierwszy punkt"
-opis = "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua."
-[[sekcja_jakosc.trzy_kolumny]]
-ikona = "/uploads/gears_icon.svg"
-tytul = "Drugi punkt"
-opis = "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua."
-[[sekcja_jakosc.trzy_kolumny]]
-ikona = "/uploads/puzzles_icon.svg"
-tytul = "Trzeci punkt"
-opis = "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua."
+zdjecie = ""
+
 +++
