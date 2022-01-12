@@ -8,6 +8,15 @@ robots = "noindex nofollow"
 sekcja_kolumny_tekst_zdjecie = []
 slug = "/"
 title = "Strona główna | SAICOS.PL"
+[aktualnosci]
+wlacz_wyswietlanie = true
+[[aktualnosci.header_repeater]]
+block_tag_type = "h2"
+bold_txt = "bardzo gruby"
+break_line = false
+color_txt = "czarny"
+txt_block = "Ostatnio na blogu"
+txt_block_size = "XL"
 [sekcja_jakosc]
 tekst_pod_naglowkiem = "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua."
 [[sekcja_jakosc.header_repeater]]
