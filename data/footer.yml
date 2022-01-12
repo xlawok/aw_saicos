@@ -12,7 +12,16 @@ produkty_marki:
     pozycje_kolumny:
     - ikona: "/uploads/podlogi_drewniane_icon.svg"
       tytul: PODŁOGI I SCHODY DREWNIANE
-      odnosnik: na-zewnatrz/oleje-do-drewna
+      odnosnik: do-wnetrz
+    - ikona: "/uploads/podlogi_drewniane_icon.svg"
+      tytul: PODŁOGI I SCHODY DREWNIANE
+      odnosnik: do-wnetrz
   prawa_kolumna:
-    tytul_kolumny: ''
-    pozycje_kolumny: []
+    tytul_kolumny: 'PRZEZNACZENIE: NA ZEWNĄTRZ'
+    pozycje_kolumny:
+    - ikona: "/uploads/podlogi_drewniane_icon.svg"
+      tytul: PODŁOGI I SCHODY DREWNIANE
+      odnosnik: do-wnetrz
+    - ikona: "/uploads/podlogi_drewniane_icon.svg"
+      tytul: PODŁOGI I SCHODY DREWNIANE
+      odnosnik: do-wnetrz

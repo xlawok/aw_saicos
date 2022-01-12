@@ -1,0 +1,58 @@
+{{ $footer := site.Data.footer }}
+{{with $footer}}
+<footer class='sec-padding'>
+    <div class="first-row">
+        {{ $header_list := (.produkty_marki.header_repeater) }}
+  
+        {{- partial "header-tag.html" (dict "context" . "header_list" $header_list "custom_class" "first-row-header")  -}}
+        <div class="col-wrapper">
+            {{with .produkty_marki.lewa_kolumna}}
+                <div class='footer-left'>
+                    <p class='col-header'>{{.tytul_kolumny}}</p>
+                    <ul>
+                        {{range .pozycje_kolumny}}
+                        <li>
+                            {{$ikona:=.ikona}}
+                            {{$tytul:=.tytul}}
+                            {{ with site.GetPage .odnosnik }}
+                                <a href="{{.RelPermalink}}">
+                                    <span class='icon-wrapper'>
+                                        {{- partial "img.html" (dict "image" $ikona "imgsizes" ""  "tag_class" "quality-icons")  -}}
+                                    </span>
+                                    <div class="icon-title">
+                                        {{$tytul}}
+                                    </div>
+                                </a>
+                            {{end}}
+                        </li>
+                        {{end}}
+                    </ul>
+                </div>
+            {{end}}
+            {{with .produkty_marki.prawa_kolumna}}
+                <div class='footer-right'>
+                    <p class='col-header'>{{.tytul_kolumny}}</p>
+                    <ul>
+                        {{range .pozycje_kolumny}}
+                        <li>
+                            {{$ikona:=.ikona}}
+                            {{$tytul:=.tytul}}
+                            {{ with site.GetPage .odnosnik }}
+                                <a href="{{.RelPermalink}}">
+                                    <span class='icon-wrapper'>
+                                        {{- partial "img.html" (dict "image" $ikona "imgsizes" ""  "tag_class" "quality-icons")  -}}
+                                    </span>
+                                    <div class="icon-title">
+                                        {{$tytul}}
+                                    </div>
+                                </a>
+                            {{end}}
+                        </li>
+                        {{end}}
+                    </ul>
+                </div>
+            {{end}}
+        </div>
+    </div>
+</footer>
+{{end}}

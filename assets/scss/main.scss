@@ -87,6 +87,98 @@ body{
     content-visibility: auto;
     contain-intrinsic-size: 1px 5000px;
 }
+footer{
+    .first-row{
+        background: rgba(238, 211, 179, 0.19);
+        padding: 2rem 1rem 2rem 1rem;
+        .first-row-header{
+            padding-bottom: 1rem;
+            
+            border-bottom: 2px solid #171715;
+        }
+        .col-header{
+            font-size: 21px;
+            font-weight: 800;
+        }
+        .col-wrapper{
+            display: grid;
+            grid-template-columns: 1fr;
+        }
+        .footer-left,.footer-right{
+            ul{
+                list-style: none;
+                display: flex;
+                flex-direction: column;
+                padding: 0;
+                margin: 0;
+                li{
+                    padding-bottom: .5rem;
+                    a{
+                       display: flex;
+                       flex-direction: row;
+                        font-size: 18px;
+                        font-weight: 500;
+                        text-decoration: none;
+                        color: #171715;
+                        text-transform: uppercase;
+                        img{
+                            width: 100%;
+                            height: 100%;
+                            display: block;
+                        }
+                        .icon-title{
+                            line-height: 3.5;
+                            padding-left: 1rem;
+                            will-change: transform;
+                            transition: transform .3s ease;
+                        }
+                        .icon-wrapper{
+                            width: 3.9375rem;
+                            height: 3.9375rem;
+                            border-radius: 50%;
+                            will-change: background-color ;
+                            transition: background-color .3s ease;
+                        }
+                        &:hover{
+                            .icon-wrapper{
+                                background-color: #FFF644;
+                            }
+                            .icon-title{
+                                transform: translateX(.5rem)
+                            }
+                        }
+                    }
+                }
+            }
+        }
+        @media (min-width: 992px){
+         
+            .col-wrapper{
+          
+                grid-template-columns: 1fr 1fr;
+            }
+        }
+        @media (min-width: 1366px){
+            padding-left: (278/1920)*100vw;
+            padding-right: (278/1920)*100vw;
+          
+          
+        }
+        @media (min-width: 1600px){
+            
+            .first-row-header{
+                
+                padding-left: ((432-278)/1920)* 100vw;
+                
+            }
+            .footer-left{
+                padding-left: ((432-278)/1920)* 100vw;
+            }
+          
+        }
+    }
+    
+}
 @import 'templates/banner';
 @import 'templates/over-banner';
 @import 'templates/category-tiles';
