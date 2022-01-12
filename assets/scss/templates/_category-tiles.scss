@@ -1,4 +1,6 @@
 .sc-category-tiles{
+    position: relative;
+    z-index: 1;
     >ul{
         list-style: none;
         padding: 1rem;

@@ -83,8 +83,13 @@ body{
 .bez-gradient{
     background: transparent linear-gradient(180deg, #EFD6B6 0%, #F2DEC4 34%, #FFFFFF 100%) 0% 0% no-repeat padding-box;
 }
+.cnt-visibility{
+    content-visibility: auto;
+    contain-intrinsic-size: 1px 5000px;
+}
 @import 'templates/banner';
 @import 'templates/over-banner';
 @import 'templates/category-tiles';
 @import 'templates/col-txt-img';
 @import 'templates/quality';
+@import 'templates/last-news';

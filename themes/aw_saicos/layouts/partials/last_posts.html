@@ -1,0 +1,30 @@
+<section class='sc-last-news'>
+    {{ $section := "porady-eksperta" }}
+    {{ $header_list := (.header_repeater) }}
+  
+    {{- partial "header-tag.html" (dict "context" . "header_list" $header_list "custom_class" "last-news-header")  -}}
+    <ul class="news-list cnt-visibility">
+        {{ range first 3 (where site.RegularPages.ByDate "Section" $section ).Reverse }}
+        <li>
+           
+           
+            <a href="{{ .Permalink }}">
+                {{- partial "img.html" (dict "image" .Params.zdjecie "imgsizes" "(max-width: 992px) 100vw, 35vw")  -}} 
+                <div class="list-art-info">
+                
+                    <span class='list-art-date'>{{ .Params.date.Format "02.01.2006" }}</span>
+                </div>
+                <h3 class="list-news-title">{{ .Params.tytul_do_listowania   }}</h3>
+                <div class='art-summary'>{{.Params.summary | safeHTML}}</div>
+                <span class='read-more'>Czytaj <img src="/img/arrow_black.svg"></span>
+            </a>
+        </li>
+        {{ end }}
+    </ul> 
+    
+    {{ with site.GetPage "/porady-eksperta" }}
+    <div class='front-news-more-cnt'>
+        <a class='front-news-more' href="{{ .Permalink }}">Więcej porad <img src="/img/arrow_black.svg"></a>
+    </div>
+    {{ end }}
+</section>

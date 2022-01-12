@@ -9,7 +9,11 @@
     <div class='bez-gradient top-to-up'>
         {{- partial "cols-txt-img.html" .Params.kolumny_txt_zdjecie -}} 
         {{- partial "quality.html" .Params.sekcja_jakosc -}} 
-        
+        {{with .Params.aktualnosci}}
+            {{if .wlacz_wyswietlanie}}
+                {{- partial "last_posts.html" . -}} 
+            {{end}}
+        {{end}}
     </div>
         <!-- Note that the content for index.html, as a sort of list page, will pull from content/_index.md -->
         <!-- {{.Content}} -->

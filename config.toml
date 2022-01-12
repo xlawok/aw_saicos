@@ -12,7 +12,7 @@ posts = ["HTML"]
 [permalinks]
 "/" = "/:slug/"
 categories = "/kategoria/:slug/"
-posts = "/:slug/"
+porady-eksperta = "/:slug/"
 products = "/:slug/"
 [related]
 includeNewer = true
