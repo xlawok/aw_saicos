@@ -4,19 +4,19 @@ hide_body: false
 fields:
 - type: text
   name: title
-  label: title
+  label: Meta title
 - type: text
   name: name
   label: Nazwa - nagłówek
+- type: text
+  name: description
+  label: Opis produktu
 - type: file
   name: image
   label: Zdjęcie produktu
 - type: text
   name: alt
-  label: alt
-- type: text
-  name: description
-  label: Opis produktu
+  label: Opis zdjęcia alt
 - type: text
   name: slug
   label: slug
