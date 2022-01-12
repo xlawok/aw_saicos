@@ -99,8 +99,8 @@ color_txt = "czarny"
 txt_block = ""
 txt_block_size = "L"
 [kolumny_txt_zdjecie.prawa_kolumna]
-film = false
-zdjecie = "/uploads/43156918_m.jpg.jpg"
+film = true
+kod_embed_film = "<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/ueT1y9mMi38\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen loading=\"lazy\"></iframe>"
 odnosnik = "do-wnetrz"
 tekst_na_zdj_ciu = "Zobacz środki do pielęgnacji drewna"
 [sekcja_jakosc]

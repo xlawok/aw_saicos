@@ -14,29 +14,34 @@
             </div>
             <div class='col-right'>
                 {{ with .prawa_kolumna}}
-                 {{   $zdjecie:=.zdjecie }}
-                    {{$tekst_na_zdj_ciu:=.tekst_na_zdj_ciu}}
-                    <div class='img-wrapper'>
-                        {{ with site.GetPage .odnosnik }}
-                            <a class='' href='{{.RelPermalink}}'>
+                    {{if .film}}
+                        <div class='img-wrapper w-iframe'>
+                            {{.kod_embed_film | safeHTML}}
+                        </div>
+                    {{else}}
+                        {{ $zdjecie:=.zdjecie }}
+                        {{$tekst_na_zdj_ciu:=.tekst_na_zdj_ciu}}
+                        <div class='img-wrapper'>
+                            {{ with site.GetPage .odnosnik }}
+                                <a class='' href='{{.RelPermalink}}'>
+                                    {{- partial "img.html" (dict "image" $zdjecie "imgsizes" "(min-width: 992) 40vw, 100vw"  "tag_class" "txt-img-img")  -}}
+                                    <div class="img-title">
+                                        
+                                        
+                                        {{$tekst_na_zdj_ciu}}
+                                    </div>
+                                </a>
+                            {{else}}
                                 {{- partial "img.html" (dict "image" $zdjecie "imgsizes" "(min-width: 992) 40vw, 100vw"  "tag_class" "txt-img-img")  -}}
                                 <div class="img-title">
                                     
                                     
                                     {{$tekst_na_zdj_ciu}}
                                 </div>
-                            </a>
-                        {{else}}
-                            {{- partial "img.html" (dict "image" $zdjecie "imgsizes" "(min-width: 992) 40vw, 100vw"  "tag_class" "txt-img-img")  -}}
-                            <div class="img-title">
-                                
-                                
-                                {{$tekst_na_zdj_ciu}}
-                            </div>
-                        {{end}}
-                        
-                    </div>
-                    
+                            {{end}}
+                            
+                        </div>
+                    {{end}}
             {{end}}
             </div>
         </div>
