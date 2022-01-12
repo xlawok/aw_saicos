@@ -190,6 +190,19 @@ fields:
       labelField: 
     label: Trzy kolumny
   label: Sekcja jakość
+- name: aktualnosci
+  type: field_group
+  config: {}
+  fields:
+  - name: naglowek
+    type: include
+    config: {}
+    template: naglowek
+    label: Nagłówek
+  - name: wlacz_wyswietlanie
+    type: boolean
+    label: Włącz wyświetlanie
+  label: Aktualności
 - name: header
   type: include
   config: {}
