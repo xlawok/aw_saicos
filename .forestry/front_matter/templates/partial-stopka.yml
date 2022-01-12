@@ -40,10 +40,10 @@ fields:
           required: false
           options: []
           source:
-            type: simple
-            section: 
-            file: 
-            path: 
+            type: documents
+            section: kategorie-64adb4ee-8399-4bad-8fea-d725f77a8f3d
+            file: data/categories.yml
+            path: categories
         label: Odnośnik
       config:
         min: 
@@ -51,4 +51,44 @@ fields:
         labelField: 
       label: Pozycje kolumny
     label: Lewa kolumna
+  - name: prawa_kolumna
+    type: field_group
+    config: {}
+    fields:
+    - name: tytul_kolumny
+      type: text
+      config:
+        required: false
+      label: Tytuł kolumny
+    - name: pozycje_kolumny
+      type: field_group_list
+      fields:
+      - name: ikona
+        type: file
+        config:
+          maxSize: 1
+        label: Ikona
+      - name: tytul
+        type: text
+        config:
+          required: false
+        label: Tytuł
+      - name: odnosnik
+        type: select
+        default: []
+        config:
+          required: false
+          options: []
+          source:
+            type: documents
+            section: kategorie-64adb4ee-8399-4bad-8fea-d725f77a8f3d
+            file: data/categories.yml
+            path: categories
+        label: Odnośnik
+      config:
+        min: 
+        max: 
+        labelField: 
+      label: Pozycje kolumny
+    label: Prawa kolumna
   label: Produkty marki
