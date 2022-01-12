@@ -5,6 +5,10 @@ admin_path:
 webhook_url: 
 sections:
 - type: document
+  path: data/footer.yml
+  label: Stopka
+  match: "**/*"
+- type: document
   path: data/categories.yml
   label: Kategorie
 - type: directory
@@ -19,6 +23,8 @@ sections:
   match: "**/*"
   templates:
   - product
+- type: heading
+  label: Ustawienia
 upload_dir: content/uploads
 public_path: "/uploads"
 front_matter_path: ''
