@@ -17,6 +17,13 @@ fields:
       format: html-blocks
   name: description
   label: Opis produktu
+- name: kolor_atrybut
+  type: list
+  config:
+    use_select: false
+    min: 
+    max: 
+  label: Kolor/atrybut
 - type: file
   name: image
   label: Zdjęcie produktu
@@ -38,3 +45,21 @@ fields:
       file: data/categories.yml
       path: categories
   label: Kategorie
+- name: cechy
+  type: field_group_list
+  fields:
+  - name: ikona
+    type: file
+    config:
+      maxSize: 1
+    label: Ikona
+  - name: nazwa_cechy
+    type: text
+    config:
+      required: false
+    label: Nazwa cechy
+  config:
+    min: 
+    max: 
+    labelField: 
+  label: Cechy
