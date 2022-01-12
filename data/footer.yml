@@ -1,0 +1,18 @@
+---
+produkty_marki:
+  header_repeater:
+  - txt_block: Produkty marki Saicos
+    bold_txt: bardzo gruby
+    color_txt: czarny
+    break_line: false
+    block_tag_type: div
+    txt_block_size: L
+  lewa_kolumna:
+    tytul_kolumny: 'PRZEZNACZENIE: DO WNĘTRZ'
+    pozycje_kolumny:
+    - ikona: "/uploads/podlogi_drewniane_icon.svg"
+      tytul: PODŁOGI I SCHODY DREWNIANE
+      odnosnik: na-zewnatrz/oleje-do-drewna
+  prawa_kolumna:
+    tytul_kolumny: ''
+    pozycje_kolumny: []

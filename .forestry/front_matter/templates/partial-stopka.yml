@@ -92,3 +92,5 @@ fields:
       label: Pozycje kolumny
     label: Prawa kolumna
   label: Produkty marki
+pages:
+- data/footer.yml
