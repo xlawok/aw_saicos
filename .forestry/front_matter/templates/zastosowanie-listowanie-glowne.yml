@@ -40,3 +40,8 @@ fields:
         file: data/categories.yml
         path: categories
     label: Odnośnik
+  config:
+    min: 2
+    max: 6
+    labelField: 
+  label: Kafelki kategorii
