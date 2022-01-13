@@ -77,3 +77,13 @@ fields:
   config: {}
   template: header
   label: Header
+- name: grupa
+  type: field_group
+  config: {}
+  fields:
+  - name: cos_w_grupie
+    type: text
+    config:
+      required: false
+    label: coś w grupie
+  label: grupa
