@@ -1,2 +1,31 @@
 +++
+description = "Produkty Saicos zastosowania"
+opis_pod_naglowkiem = "<p>Nasze produkty przeznaczone do użytku we wnętrzach oraz na zewnątrz to szeroka gama wszechstronnych, specjalistycznych środków.</p>"
+robots = "noindex nofollow"
+slug = "/"
+sugerowane_produkty_wybor = ["products/premium-hardwax-Oil.md"]
+title = "Zastosowanie | Saicos"
+[[header_repeater]]
+block_tag_type = "h1"
+bold_txt = "gruby"
+color_txt = "czarny"
+txt_block = "Zastosowanie produktów Saicos"
+txt_block_size = "XXL"
+[[kafelki_kategorii]]
+nazwa = "Na zewnątrz"
+odnosnik = "zastosowanie/_index.md"
+zdjecie = "/uploads/shutterstock_145729802-scaled.jpg"
+[[kafelki_kategorii.header_repeater]]
+block_tag_type = "h2"
+bold_txt = "gruby"
+color_txt = "biały"
+txt_block = "Produkty Saicos"
+txt_block_size = "L"
+[[kafelki_kategorii.header_repeater]]
+block_tag_type = "h2"
+bold_txt = "bardzo gruby"
+color_txt = "biały"
+txt_block = "do wnętrz"
+txt_block_size = "L"
+
 +++
