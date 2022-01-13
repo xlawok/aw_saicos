@@ -1,4 +1,9 @@
 ---
 label: Zastosowanie-listowanie-główne
 hide_body: true
-fields: []
+fields:
+- name: naglowek
+  type: include
+  config: {}
+  template: naglowek
+  label: Nagłówek
