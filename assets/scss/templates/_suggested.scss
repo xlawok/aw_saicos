@@ -1,0 +1,96 @@
+.sc-suggested-products{
+    .suggested-listing-header{
+        text-align: center;
+    }
+    padding: 1rem;
+    >ul{
+        list-style: none;
+        padding: 2rem 0;
+        margin: 0 auto;
+        display: grid;
+        display: flex;
+        gap:.5rem;
+        grid-template-columns: 1fr;
+        justify-content:start;
+        li{
+            border: 1px solid #EFD7B8;
+            width: 100%;
+            padding: 2rem .5rem;
+            a{
+                color: #171717;
+                text-decoration: none;
+                text-align: center;
+                
+               
+                p{
+                    margin: 0;
+                }
+            }
+            img{
+                width: 100%;
+                display: block;
+                aspect-ratio: 1 / 1;
+            }
+            .product-title{
+                font-weight: 900;
+                font-size: 1.5625rem;
+               
+            }
+            .product-subtitle{
+                font-weight: 500;
+                font-size: 1.0625rem;
+               
+            }
+        }
+    }
+    @media (min-width: 768px){
+        >ul{
+            // grid-template-columns: 1fr 1fr;
+            li{
+                width: 50%;
+            }
+        }
+        
+    }
+    @media (min-width: 992px){
+        >ul{
+            padding-left: 2rem;
+            padding-right: 2rem;
+            // grid-template-columns: 1fr 1fr 1fr;
+            li{
+                width: 33%;
+            }
+        }
+        
+    }
+
+    
+   
+    @media (min-width: 1366px){
+        >ul{
+            // grid-template-columns: 1fr 1fr 1fr 1fr;
+            li{
+                width: 25%;
+            }
+            
+        }
+        
+    }
+    @media (min-width: 1600px) {
+        >ul{
+            padding-right: (278/1920)*100vw;
+            padding-left: (278/1920)*100vw;    
+        }
+    
+    }
+    @media (min-width: 1920px){
+        >ul{
+            // grid-template-columns: 1fr 1fr 1fr 1fr;
+            li{
+                max-width: (257/1920)*100vw;
+            }
+            
+        }
+        
+    }
+}
