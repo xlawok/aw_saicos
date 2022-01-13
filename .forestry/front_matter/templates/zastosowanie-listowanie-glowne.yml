@@ -49,11 +49,6 @@ fields:
     max: 2
     labelField: 
   label: Kafelki kategorii
-- name: header
-  type: include
-  config: {}
-  template: header
-  label: Header
 - name: sugerowane_produkty
   type: field_group
   config: {}
@@ -74,3 +69,8 @@ fields:
         section: produkty
     label: Wybierz produkty
   label: Sugerowane produkty
+- name: header
+  type: include
+  config: {}
+  template: header
+  label: Header
