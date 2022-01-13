@@ -1,5 +1,5 @@
 +++
-categories = ["do-wnetrz","na-zewnatrz", "do-wnetrz/oleje-do-drewna-2", "na-zewnatrz/oleje-do-drewna"]
+categories = [ "oleje-do-drewna-2", "oleje-do-drewna"]
 name = "Hard Wax"
 title = "Hard wax | SAICOS"
 
