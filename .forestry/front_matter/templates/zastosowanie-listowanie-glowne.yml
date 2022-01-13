@@ -45,8 +45,8 @@ fields:
         path: categories
     label: Odnośnik
   config:
-    min: 2
-    max: 6
+    min: 
+    max: 2
     labelField: 
   label: Kafelki kategorii
 - name: naglowek_sugerowane_produkty
