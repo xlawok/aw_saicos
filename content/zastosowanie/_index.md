@@ -3,6 +3,7 @@ description = "Produkty Saicos zastosowania"
 opis_pod_naglowkiem = "<p>Nasze produkty przeznaczone do użytku we wnętrzach oraz na zewnątrz to szeroka gama wszechstronnych, specjalistycznych środków.</p>"
 robots = "noindex nofollow"
 slug = "/"
+sugerowane_produkty = []
 title = "Zastosowanie | Saicos"
 [[header_repeater]]
 block_tag_type = "h1"
