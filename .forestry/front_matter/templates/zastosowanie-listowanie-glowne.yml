@@ -58,6 +58,11 @@ fields:
   type: field_group
   config: {}
   fields:
+  - name: naglowek
+    type: include
+    config: {}
+    template: naglowek
+    label: Nagłówek
   - name: wybierz_produkty
     type: list
     config:
