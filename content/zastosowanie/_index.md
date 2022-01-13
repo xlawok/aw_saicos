@@ -6,6 +6,12 @@ slug = "/"
 title = "Zastosowanie | Saicos"
 [sugerowane_produkty]
 wybierz_produkty = ["products/oleje.md", "products/premium-hardwax-Oil.md"]
+[[sugerowane_produkty.header_repeater]]
+block_tag_type = "h2"
+bold_txt = "gruby"
+color_txt = "czarny"
+txt_block = "Sugerowane produkty"
+txt_block_size = "L"
 [[header_repeater]]
 block_tag_type = "h1"
 bold_txt = "gruby"
