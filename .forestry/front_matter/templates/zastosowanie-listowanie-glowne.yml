@@ -12,3 +12,31 @@ fields:
   config: {}
   template: header
   label: Header
+- name: kafelki_kategorii
+  type: field_group_list
+  fields:
+  - name: nazwa
+    type: text
+    label: Nazwa robocza
+  - name: zdjecie
+    type: file
+    config:
+      maxSize: 1
+    label: Zdjęcie
+  - name: naglowek
+    type: include
+    config: {}
+    template: naglowek
+    label: Nagłówek
+  - name: odnosnik
+    type: select
+    default: []
+    config:
+      required: false
+      options: []
+      source:
+        type: documents
+        section: kategorie-64adb4ee-8399-4bad-8fea-d725f77a8f3d
+        file: data/categories.yml
+        path: categories
+    label: Odnośnik
