@@ -4,6 +4,8 @@ opis_pod_naglowkiem = "<p>Nasze produkty przeznaczone do użytku we wnętrzach o
 robots = "noindex nofollow"
 slug = "/"
 title = "Zastosowanie | Saicos"
+[sugerowane_produkty]
+wybierz_produkty = ["products/oleje.md", "products/premium-hardwax-Oil.md"]
 [[header_repeater]]
 block_tag_type = "h1"
 bold_txt = "gruby"
