@@ -25,6 +25,7 @@ zdjecie = "/uploads/shutterstock_145729802-scaled.jpg"
 [[kafelki_kategorii.header_repeater]]
 block_tag_type = "h2"
 bold_txt = "gruby"
+break_line = true
 color_txt = "biały"
 txt_block = "Produkty Saicos"
 txt_block_size = "L"
