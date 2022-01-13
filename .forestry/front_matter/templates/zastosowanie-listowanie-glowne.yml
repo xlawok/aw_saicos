@@ -49,23 +49,31 @@ fields:
     max: 2
     labelField: 
   label: Kafelki kategorii
-- name: naglowek_sugerowane_produkty
-  type: include
-  config: {}
-  template: naglowek
-  label: Nagłówek-sugerowane produkty
-- name: sugerowane_produkty_wybor
-  type: list
+- name: sugerowane_produkty
+  type: field_group_list
+  fields:
+  - name: naglowek_sugerowane_produkty
+    type: include
+    config: {}
+    template: naglowek
+    label: Nagłówek-sugerowane produkty
+  - name: sugerowane_produkty_wybor
+    type: list
+    config:
+      use_select: true
+      min: 
+      max: 
+      source:
+        type: pages
+        section: produkty
+    label: Sugerowane produkty wybór
+  - name: header
+    type: include
+    config: {}
+    template: header
+    label: Header
   config:
-    use_select: true
     min: 
     max: 
-    source:
-      type: pages
-      section: produkty
-  label: Sugerowane produkty wybór
-- name: header
-  type: include
-  config: {}
-  template: header
-  label: Header
+    labelField: 
+  label: Sugerowane produkty
