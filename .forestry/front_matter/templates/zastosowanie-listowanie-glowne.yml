@@ -72,8 +72,3 @@ fields:
     max: 
     labelField: 
   label: Sugerowane produkty
-  - name: header
-    type: include
-    config: {}
-    template: header
-    label: Header
