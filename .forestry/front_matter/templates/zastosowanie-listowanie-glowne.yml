@@ -57,26 +57,6 @@ fields:
     config: {}
     template: naglowek
     label: Nagłówek-sugerowane produkty
-  - name: sugerowane_produkty_wybor
-    type: list
-    config:
-      use_select: true
-      min: 2
-      max: 
-      source:
-        type: pages
-        section: produkty
-    label: Sugerowane produkty wybór
-  - name: wybierz_sugerowane_produkty
-    type: list
-    config:
-      use_select: true
-      min: 
-      max: 
-      source:
-        type: pages
-        section: produkty
-    label: Wybierz sugerowane produkty
   config: {}
   label: Sugerowane produkty
 - name: header
