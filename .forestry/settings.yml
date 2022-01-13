@@ -19,6 +19,13 @@ sections:
   match: "**/*"
   templates:
   - product
+- type: directory
+  path: content/zastosowanie
+  label: Zastosowanie
+  create: all
+  match: "**/*"
+  templates:
+  - zastosowanie-listowanie-glowne
 - type: heading
   label: Ustawienia
 - type: document
