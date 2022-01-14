@@ -1,5 +1,5 @@
 +++
-alt = ""
+alt = "kolor do drewna bel-air"
 body_class = ""
 categories = ["oleje-do-drewna"]
 description = "Bel-Air"
