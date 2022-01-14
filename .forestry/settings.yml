@@ -20,7 +20,7 @@ sections:
   templates:
   - product
 - type: directory
-  path: content/na-zewnatz
+  path: content/na-zewnatrz
   label: Na zewnątrz
   create: all
   match: "**/*"
