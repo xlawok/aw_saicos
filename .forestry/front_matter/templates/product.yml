@@ -3,11 +3,13 @@ label: produkt
 hide_body: false
 fields:
 - type: text
-  name: title
-  label: Meta title
-- type: text
   name: name
   label: Nazwa - nagłówek
+- name: subname
+  type: text
+  config:
+    required: false
+  label: Podpis pod nagłówkiem
 - type: textarea
   default: ''
   config:
@@ -17,13 +19,6 @@ fields:
       format: html-blocks
   name: description
   label: Opis produktu
-- name: kolor_atrybut
-  type: list
-  config:
-    use_select: false
-    min: 
-    max: 
-  label: Kolor/atrybut
 - type: file
   name: image
   label: Zdjęcie produktu
@@ -63,3 +58,8 @@ fields:
     max: 
     labelField: 
   label: Cechy
+- name: header
+  type: include
+  config: {}
+  template: header
+  label: header
