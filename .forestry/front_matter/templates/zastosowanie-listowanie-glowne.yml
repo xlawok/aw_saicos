@@ -75,3 +75,5 @@ fields:
   config: {}
   template: header
   label: Header
+pages:
+- content/na-zewnatrz/_index.md
