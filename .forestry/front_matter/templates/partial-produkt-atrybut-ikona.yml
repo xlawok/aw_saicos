@@ -1,0 +1,27 @@
+---
+label: Partial-produkt-atrybut-ikona
+hide_body: true
+fields:
+- name: nazwa_atrybutu
+  type: text
+  config:
+    required: false
+  label: Nazwa atrybutu
+- name: cechy
+  type: field_group_list
+  fields:
+  - name: ikona
+    type: file
+    config:
+      maxSize: 1
+    label: Ikona
+  - name: nazwa_cechy
+    type: text
+    config:
+      required: false
+    label: Nazwa cechy
+  config:
+    min: 
+    max: 
+    labelField: 
+  label: Cechy
