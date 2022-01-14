@@ -17,7 +17,7 @@ fields:
     wysiwyg: true
     schema:
       format: html-blocks
-  name: description
+  name: product_description
   label: Opis produktu
 - type: file
   name: image
