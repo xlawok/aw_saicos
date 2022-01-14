@@ -13,6 +13,11 @@ slug = "bel-air"
 subname = ""
 title = "Bel Air"
 zastosowanie = ["na zewnątrz", "do wnętrz"]
+[dodatkowy_opis]
+kolory = ["/uploads/bel_air_transparentny-600x281.jpg", "/uploads/bel_air_kryjacy-600x220.jpg"]
+piktogramy = "/uploads/bel_air_piktogramy-600x75.jpg"
+pliki_do_pobrania = ""
+youtube_embed = "<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/KlSBfNGyNII\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe>"
 [[cechy]]
 nazwa_atrybutu = "Dostępne pojemności:"
 opis_atrybutu = "<p>2 l</p>"
