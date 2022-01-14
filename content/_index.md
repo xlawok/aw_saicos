@@ -67,7 +67,7 @@ txt_block = "Tytuł bannera"
 txt_block_size = "XL"
 [[kafelki_kategorii]]
 nazwa = "pielęgnacja drewna"
-odnosnik = "na-zewnatrz/oleje-do-drewna"
+odnosnik = "do-wnetrz/meble.md"
 zdjecie = "/uploads/zabezpieczenie-drewnianych-schodow-impregnacja.jpg"
 [[kafelki_kategorii.header_repeater]]
 block_tag_type = "h2"
@@ -85,7 +85,7 @@ txt_block = "do wnętrz"
 txt_block_size = "XL"
 [[kafelki_kategorii]]
 nazwa = "pielęgnacja drewna"
-odnosnik = "na-zewnatrz/oleje-do-drewna"
+odnosnik = "do-wnetrz/sciany.md"
 zdjecie = "/uploads/zabezpieczenie-tarasu2.jpg"
 [[kafelki_kategorii.header_repeater]]
 block_tag_type = "h2"

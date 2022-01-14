@@ -55,10 +55,10 @@ fields:
       required: false
       options: []
       source:
-        type: documents
-        section: kategorie-64adb4ee-8399-4bad-8fea-d725f77a8f3d
+        type: pages
+        section: ''
         file: data/categories.yml
-        path: categories
+        path: ''
     label: Odnośnik
   config:
     min: 2
