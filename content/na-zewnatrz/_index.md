@@ -24,7 +24,7 @@ txt_block = "Zastosowanie produktów Saicos"
 txt_block_size = "XXL"
 [[kafelki_kategorii]]
 nazwa = "Tarasy"
-odnosnik = "zastosowanie/_index.md"
+odnosnik = "do-wnetrz/_index.md"
 zdjecie = "/uploads/shutterstock_145729802-scaled.jpg"
 [[kafelki_kategorii.header_repeater]]
 block_tag_type = "h2"
