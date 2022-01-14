@@ -20,8 +20,15 @@ sections:
   templates:
   - product
 - type: directory
-  path: content/zastosowanie
-  label: Zastosowanie
+  path: content/na-zewnatz
+  label: Na zewnątrz
+  create: all
+  match: "**/*"
+  templates:
+  - zastosowanie-listowanie-glowne
+- type: directory
+  path: content/do-wnetrz
+  label: Do wnętrz
   create: all
   match: "**/*"
   templates:
