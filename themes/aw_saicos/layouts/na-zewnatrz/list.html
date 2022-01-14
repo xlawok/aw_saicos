@@ -1,0 +1,18 @@
+{{ define "main" }}
+  
+  
+{{ $header_list := (.Params.header_repeater) }}
+  
+    {{- partial "header-tag.html" (dict "context" . "header_list" $header_list "custom_class" "usage-listing-header")  -}}
+    <div class="usage-listing-desc">
+        {{.Params.opis_pod_naglowkiem | safeHTML}}
+    </div>
+    
+    {{- partial "category-tiles.html" .Params.kafelki_kategorii -}} 
+
+        <!-- Note that the content for index.html, as a sort of list page, will pull from content/_index.md -->
+        <!-- {{.Content}} -->
+  
+    {{- partial "sggested-products.html" .Params.sugerowane_produkty -}} 
+    
+{{ end }}

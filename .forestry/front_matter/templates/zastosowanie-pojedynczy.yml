@@ -1,0 +1,43 @@
+---
+label: Zastosowanie-pojedynczy
+hide_body: true
+fields:
+- name: naglowek
+  type: include
+  config: {}
+  template: naglowek
+  label: Nagłówek
+- name: opis_pod_naglowkiem
+  type: textarea
+  default: ''
+  config:
+    required: false
+    wysiwyg: true
+    schema:
+      format: html-blocks
+  label: Opis pod nagłówkiem
+- name: sugerowane_produkty
+  type: field_group
+  config: {}
+  fields:
+  - name: naglowek
+    type: include
+    config: {}
+    template: naglowek
+    label: Nagłówek
+  - name: wybierz_produkty
+    type: list
+    config:
+      use_select: true
+      min: 
+      max: 
+      source:
+        type: pages
+        section: produkty
+    label: Wybierz produkty
+  label: Sugerowane produkty
+- name: header
+  type: include
+  config: {}
+  template: header
+  label: Header

@@ -14,6 +14,8 @@ posts = ["HTML"]
 categories = "/kategoria/:slug/"
 porady-eksperta = "/:slug/"
 products = "/:slug/"
+na-zewnatrz = "/na-zewnatrz/:slug/"
+do-wnetrz = "/do-wnetrz/:slug/"
 [related]
 includeNewer = true
 threshold = 80
