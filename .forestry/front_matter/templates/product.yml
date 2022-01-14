@@ -63,3 +63,5 @@ fields:
   config: {}
   template: header
   label: header
+pages:
+- content/products/bel-air.md
