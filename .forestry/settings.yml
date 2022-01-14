@@ -25,8 +25,8 @@ sections:
   create: all
   match: "**/*"
   templates:
+  - zastosowanie-listowanie-zewnatrz
   - zastosowanie-pojedynczy
-  - zastosowanie-listowanie-glowne
 - type: directory
   path: content/do-wnetrz
   label: Do wnętrz
