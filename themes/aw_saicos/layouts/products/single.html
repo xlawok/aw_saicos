@@ -1,0 +1,85 @@
+{{ define "main" }}
+<div class="single-product">
+    <div class="product-main-part">
+        <div class='img-wrapper' >
+            {{- partial "img.html" (dict "image" .Params.image "imgsizes" "(max-width: 992px) 100vw, 35vw")  -}} 
+        </div>
+        <div class='desc-wrapper' >
+            
+            <h1 class="product-single-header txt-XL f-w900">{{.Params.name}}</h1>
+            
+            <div class="product-single-subheader">
+                {{.Params.subname}}
+            </div>
+            <div class="product-single-desc">
+                {{.Params.product_description | safeHTML}}
+            </div>
+            <div class="attribute-wrapper">
+                {{with .Params.zastosowanie}}
+                    <div class="attribute-group">
+                        <span class='attribute-header'>Zastosowania:</span>
+                        <ul>
+                        {{range .}}
+                            <li>{{.}}</li>
+                        {{end}}
+                        </ul>
+                    </div>
+                {{end}}
+                {{with .Params.cechy}}
+                    {{range .}}
+                        <div class="attribute-group">  
+                            <span class='attribute-header'>{{.nazwa_atrybutu}}</span>
+                            {{if eq .template "partial-produkt-atrybut"}}
+                                <div class="attribute-desc">
+                                    {{.opis_atrybutu | safeHTML}}
+
+                                </div>
+                            {{end}}
+                            {{if eq .template "partial-produkt-atrybut-ikona"}}
+                                <ul class='attribute-w-icons'>
+                                    {{range .cechy}}
+                                        <li>
+                                            {{- partial "img.html" (dict "image" .ikona "imgsizes" "")  -}} 
+                                            {{.nazwa_cechy}}
+                                        </li>
+                                    {{end}}
+                                </ul>
+                            {{end}}
+                        </div>
+                    {{end}}
+
+                {{end}}
+            </div>
+        </div>
+    </div>
+    {{with .Params.dodatkowy_opis}}
+    <div class="product-additional-info">
+        <div class='info-left-part'>
+            {{with .youtube_embed}}
+            <div class='yt-wrapper'>
+                {{. | safeHTML}}
+            </div>
+            {{end}}
+            {{with .piktogramy}}
+            <div class='pikto-wrapper'>
+                {{- partial "img.html" (dict "image" . "imgsizes" "35vw")  -}} 
+            </div>
+            {{end}}
+        </div>
+        <div class='info-right-part'>
+            {{with .kolory}}
+                {{range .}}
+                    {{- partial "img.html" (dict "image" . "imgsizes" "35vw")  -}} 
+                {{end}}
+            {{end}}
+        </div>
+    </div>
+    {{end}}
+    
+    
+        <!-- Note that the content for index.html, as a sort of list page, will pull from content/_index.md -->
+        <!-- {{.Content}} -->
+  
+    
+</div>
+{{ end }}
