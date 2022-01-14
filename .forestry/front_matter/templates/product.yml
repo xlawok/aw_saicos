@@ -58,6 +58,35 @@ fields:
   config:
     min: 
     max: 
+- name: dodatkowy_opis
+  type: field_group
+  config: {}
+  fields:
+  - name: youtube_embed
+    type: textarea
+    default: ''
+    config:
+      required: false
+      wysiwyg: false
+      schema:
+        format: markdown
+    label: Youtube
+    description: Kod embed filmu
+  - name: piktogramy
+    type: file
+    config:
+      maxSize: 64
+    label: Piktogramy
+  - name: kolory
+    type: image_gallery
+    config: {}
+    label: Kolory
+  - name: pliki_do_pobrania
+    type: file
+    config:
+      maxSize: 64
+    label: Pliki do pobrania
+  label: Dodatkowe informacje
 - name: header
   type: include
   config: {}
