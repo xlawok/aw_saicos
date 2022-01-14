@@ -41,7 +41,7 @@ fields:
       options: []
       source:
         type: pages
-        section: zastosowanie
+        section: na-zewnatrz-febb4fda-db19-4994-be43-812fa5605b1f
         file: data/categories.yml
         path: categories
     label: Odnośnik
