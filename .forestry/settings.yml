@@ -25,6 +25,7 @@ sections:
   create: all
   match: "**/*"
   templates:
+  - zastosowanie-pojedynczy
   - zastosowanie-listowanie-glowne
 - type: directory
   path: content/do-wnetrz
@@ -32,6 +33,7 @@ sections:
   create: all
   match: "**/*"
   templates:
+  - zastosowanie-pojedynczy
   - zastosowanie-listowanie-glowne
 - type: heading
   label: Ustawienia
