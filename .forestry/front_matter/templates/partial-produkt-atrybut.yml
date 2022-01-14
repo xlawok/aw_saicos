@@ -1,4 +1,18 @@
 ---
 label: Partial-produkt-atrybut
 hide_body: true
-fields: []
+fields:
+- name: nazwa_atrybutu
+  type: text
+  config:
+    required: false
+  label: Nazwa atrybutu
+- name: opis_atrybutu
+  type: textarea
+  default: ''
+  config:
+    required: false
+    wysiwyg: true
+    schema:
+      format: html-blocks
+  label: Opis atrybutu
