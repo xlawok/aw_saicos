@@ -56,7 +56,7 @@ fields:
       options: []
       source:
         type: pages
-        section: pages
+        section: ''
         file: data/categories.yml
         path: ''
     label: Odnośnik
