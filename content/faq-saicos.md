@@ -5,7 +5,7 @@ draft = true
 keywords = ""
 robots = ""
 slug = "faq"
-template_name = ""
+template_name = "template-faq"
 title = "FAQ | Saicos"
 [[faq]]
 odpowiedz = "W przypadku powłok przezroczystych kolor podłoża ma kolosalne znaczenie, ponieważ jest widoczny przez powłokę."

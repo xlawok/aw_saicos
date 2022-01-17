@@ -1,0 +1,23 @@
+{{ define "main" }}
+    {{if eq .Params.template_name "template-faq"}}
+        <div class="sc-faq">
+            {{ $header_list := (.Params.header_repeater) }}
+  
+            {{- partial "header-tag.html" (dict "context" . "header_list" $header_list "custom_class" "usage-listing-header")  -}}
+            <div class='faq-wrapper' >
+                {{ with .Params.faq}}
+                    <ul class="faq-list">
+                        {{range .}}
+                            <li>
+                                <h2>
+                                    {{.pytanie}}
+                                </h2>
+                                <p>{{.odpowiedz}}</p>
+                            </li>
+                        {{end}}
+                    </ul>
+                {{end}}
+            </div>
+        </div>
+    {{end}}
+{{end}}
