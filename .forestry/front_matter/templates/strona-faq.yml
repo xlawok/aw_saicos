@@ -34,5 +34,12 @@ fields:
   config: {}
   template: header
   label: Header
+- name: template_name
+  type: text
+  config:
+    required: false
+  label: template-name
+  hidden: true
+  default: template-faq
 pages:
 - content/faq-saicos.md
