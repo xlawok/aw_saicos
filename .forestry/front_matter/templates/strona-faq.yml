@@ -34,3 +34,5 @@ fields:
   config: {}
   template: header
   label: Header
+pages:
+- content/faq-saicos.md
