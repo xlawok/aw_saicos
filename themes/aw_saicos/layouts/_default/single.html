@@ -42,4 +42,84 @@
             });
         </script>
     {{end}}
+    {{if eq .Params.template_name "template-contact"}}
+        <div class="sc-kontakt">
+            {{ $header_list := (.Params.header_repeater) }}
+
+            {{- partial "header-tag.html" (dict "context" . "header_list" $header_list "custom_class" "usage-listing-header")  -}}
+            <div class='contact-cols-wrapper'>
+                <div class='contact-left'>
+                    <div class='left-col-header'>
+                        {{.Params.naglowek_lewej_kolumny}}
+                    </div>
+                    {{with .Params.wojewodztwa}}
+                        <ul class="voivod-list">
+                            {{range .}}
+                                <li class="voivod-item">
+                                    <button>{{.nazwa}}</button>
+                                    <div class="voivod-modal">
+                                        <button class="close-modal"><span></span></button>
+                                        <div class="modal-vov-header">{{.nazwa}}</div>
+                                        {{range .partnerzy}}
+                                            <p class='partner-name'>{{.nazwa}}</p>
+                                            {{range .wiersz_adresu}}
+                                                {{if eq .template "partial-pole-tekst"}}
+                                                    <span>{{.pole_tel}}</span>
+                                                {{end}}
+                                                {{if eq .template "partial-pole-phone"}}
+                                                    {{with .pole_tel}}
+                                                      <span>Tel. <a href="tel:{{ trim  . "-" }}">{{.}}</a></span>
+                                                    {{end}}
+                                                {{end}}
+                                                {{if eq .template "partial-pole-mail"}}
+                                                    {{with .pole_email}}
+                                                        <a href="mailto:{{.}}">{{.}}</a>
+                                                    {{end}}
+                                                {{end}}
+                                                {{if eq .template "partial-pole-website"}}
+                                                    {{with .pole_website}}
+                                                        {{$url:= .}}
+                                                        {{if or (hasPrefix . "http://") (hasPrefix .  "https://")}}    
+                                                            
+                                                            <a href="{{. }}">{{.}}</a>
+                                                        {{else}}
+                                                            
+                                                            <a href="{{printf "http://%s" . }}">{{.}}</a>
+                                                            
+                                                        {{end}}
+                                                        
+                                                    {{end}}
+                                                {{end}}
+                                            {{end}}
+                                        {{end}}
+                                    </div>
+                                </li>
+                            {{end}}
+                        </ul>
+                    {{end}}
+                </div>
+                <div class="contact-right">
+
+                </div>
+            
+            </div>
+        </div>
+        <script>
+            document.addEventListener("DOMContentLoaded", function() {
+                var vov_list=document.querySelectorAll('.voivod-item button');
+                if(typeof(vov_list) != 'undefined' && vov_list != null){
+                    for(var i=0; i<vov_list.length;i++){
+                        vov_list[i].addEventListener("click", function(e){
+                            this.nextElementSibling.classList.toggle("active");
+                        });
+                        vov_list[i].parentNode.querySelector('.close-modal').addEventListener("click", function(e){
+                            this.parentNode.classList.remove("active");
+                        });
+                        
+                    }
+                }
+            });
+        </script>
+    {{end}}
 {{end}}
+

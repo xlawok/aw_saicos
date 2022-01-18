@@ -29,7 +29,7 @@ template = "partial-pole-tekst"
 pole_tel = "53-025 Wrocław"
 template = "partial-pole-tekst"
 [[wojewodztwa.partnerzy.wiersz_adresu]]
-pole_tel = "71 – 790 39 99"
+pole_tel = "71 - 790 39 99"
 template = "partial-pole-phone"
 [[wojewodztwa.partnerzy.wiersz_adresu]]
 pole_tel = "608 474 652"
@@ -38,7 +38,7 @@ template = "partial-pole-phone"
 pole_email = "kenio@kenio.com.pl"
 template = "partial-pole-mail"
 [[wojewodztwa.partnerzy.wiersz_adresu]]
-pole_website = " www.kenio.com.pl"
+pole_website = "www.kenio.com.pl"
 template = "partial-pole-website"
 [[wojewodztwa.partnerzy]]
 nazwa = "PARKIETEX"
@@ -49,7 +49,7 @@ template = "partial-pole-tekst"
 pole_tel = "Ruszowice, 67-200 Głogów"
 template = "partial-pole-tekst"
 [[wojewodztwa.partnerzy.wiersz_adresu]]
-pole_tel = "76 – 835 78 37"
+pole_tel = "76 - 835 78 37"
 template = "partial-pole-phone"
 [[wojewodztwa.partnerzy.wiersz_adresu]]
 pole_email = "biuro@parkietex.pl"
