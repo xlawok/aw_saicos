@@ -1,0 +1,9 @@
+---
+label: Partial pole adres
+hide_body: true
+fields:
+- name: pole_tel
+  type: text
+  config:
+    required: false
+  label: Pole adres
