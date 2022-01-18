@@ -1,0 +1,32 @@
+{{ define "main" }}
+    
+    
+    <article class="sec-padding blog-post">
+    
+      
+        <div class='article-content-wrapper'>
+            <div class="list-art-info">
+            
+                <span class='list-art-date'>{{ .Params.date.Format "02.01.2006" }}</span>
+            </div>
+            <h1 class="list-news-title">{{ .Params.tytul_do_listowania   }}</h3>
+               
+            {{- partial "img.html" (dict "image" .Params.zdjecie "imgsizes" "(max-width: 992px) 100vw, 35vw")  -}} 
+           
+            
+                           
+         
+          
+            <div class='article-content'>
+                {{.Content}}
+            </div>
+        
+        </div>
+        
+        
+           
+       
+    </article>
+    {{- partial "last_posts.html" (dict "header" "Ostatnio na blogu") -}} 
+        
+{{ end }}

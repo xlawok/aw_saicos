@@ -1,8 +1,14 @@
 <section class='sc-last-news'>
     {{ $section := "porady-eksperta" }}
     {{ $header_list := (.header_repeater) }}
-  
-    {{- partial "header-tag.html" (dict "context" . "header_list" $header_list "custom_class" "last-news-header")  -}}
+    {{with  $header_list}}
+        {{- partial "header-tag.html" (dict "context" . "header_list" $header_list "custom_class" "last-news-header")  -}}
+    
+    {{else}}
+        {{with .header}}
+        <p class="last-news-header">Ostatnio na blogu</p>
+        {{end}}
+    {{end}}
     <ul class="news-list cnt-visibility">
         {{ range first 3 (where site.RegularPages.ByDate "Section" $section ).Reverse }}
         <li>
