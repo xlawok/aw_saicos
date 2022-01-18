@@ -1,4 +1,52 @@
 ---
 label: Strona - kontakt
 hide_body: true
-fields: []
+fields:
+- name: naglowek
+  type: include
+  config: {}
+  template: naglowek
+  label: Nagłówek
+- name: header
+  type: include
+  config: {}
+  template: header
+  label: Header
+- name: naglowek_lewej_kolumny
+  type: text
+  config:
+    required: false
+  label: Nagłówek lewej kolumny
+  description: Kolumna z partnerami
+  default: Wybierz województwo
+- name: wojewodztwa
+  type: field_group_list
+  fields:
+  - name: wojewodztwo
+    type: field_group
+    config: {}
+    fields:
+    - name: nazwa
+      type: text
+      config:
+        required: false
+      label: Nazwa
+    - name: partnerzy
+      type: field_group_list
+      fields:
+      - name: nazwa
+        type: text
+        config:
+          required: false
+        label: Nazwa
+      config:
+        min: 
+        max: 
+        labelField: 
+      label: Partnerzy
+    label: Województwo
+  config:
+    min: 
+    max: 
+    labelField: 
+  label: Województwa
