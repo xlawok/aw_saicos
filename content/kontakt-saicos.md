@@ -3,6 +3,7 @@ body_class = ""
 description = "Dane kotaktowe"
 draft = true
 keywords = ""
+kod_formularza = "<div id=\"my-form-status\"></div><form id=\"contactform\" action=\"https://formspree.io/f/xgerdkry\"\n  method=\"POST\">      <div class='input-cnt'>   <label for='imie'>Imię i nazwisko*</label><input required name=\"imie\" type=\"text\"\n  id=\"imie\" placeholder=\"Imię i nazwisko\">   </div>   \n<div class='input-cnt'>   <label for='firma'>Firma (opcjonalnie)</label><input  name=\"firma\" type=\"text\"\n  id=\"firma\" placeholder=Firma\">   </div>  \n     <div class='input-cnt'>   <label for='email'> Adres e-mail</label><input required name=\"email\"\n  type=\"email\" id=\"email\" placeholder=\"Adres e-mail\">   </div>\n  \n  <div class='input-cnt'> <label for='message'>\n  Treść wiadmości</label>  <textarea name=\"message\"  id=\"message\" >Wiadomość</textarea>   </div>   <div class='input-cnt rodo-cnt'>   <input id='rodo-accept'\n  type='checkbox' required name='rodo-accept' value='accept'><label for='rodo-accept'>Akceptuję warunki polityki prywatności\n  </label>   </div>     <button  type=\"submit\">Wyślij</button>   </form>"
 mapka_google_kod = ""
 naglowek_lewej_kolumny = "Wybierz województwo"
 naglowek_prawej_kolumny = ""
