@@ -1,6 +1,8 @@
 .sc-kontakt{
     .contact-cols-wrapper{
         padding-bottom: 4rem;
+        padding-left: 1rem;
+        padding-right: 1rem;
         display: flex;
         flex-wrap: wrap;
         flex-direction: row;
@@ -236,11 +238,12 @@
         }
         @media (min-width: 1200px){
             .contact-right{
-                width: 65%;
-    
+                width: 35%;
+                padding-left: 2rem;
             }
             .contact-left{
-                width: 35%;
+                width: 65%;
+                
             }
         }
         @media (min-width: 1366px){
@@ -262,6 +265,13 @@
             .contact-left{
                 width: (874/ 1920)*100vw;
             }
+        }
+    }
+    .contact-map-wrapper{
+        padding: 1rem 0 2rem 0;
+
+        iframe{
+            width: 100%;
         }
     }
 }
