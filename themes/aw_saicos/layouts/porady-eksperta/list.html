@@ -1,0 +1,47 @@
+{{ define "main" }}
+    <section class="sec-padding blog-page">
+        <h1 class='blog-header '>{{ .Params.tytul_do_listowania   }}</h1>
+        <div class='categories-cnt'>
+            
+        </div>
+        <div class="container">
+   
+            <div class="row">
+                
+                {{ $paginator := .Paginate (where .Data.Pages "Type" "porady-eksperta") 12 }}
+                
+                
+                    {{if  ( eq $paginator.PageNumber 1) }}
+                        
+                        <ul class="news-list with_grid">
+                    {{else}}
+                        {{$list_class:="" }}
+                        <ul class="news-list with_flex">
+                    {{end}}
+               
+                {{ range $index, $page:=$paginator.Pages }} 
+                
+                    
+                    <li>
+            
+            
+                        <a href="{{ .Permalink }}">
+                            {{- partial "img.html" (dict "image" .Params.zdjecie "imgsizes" "(max-width: 992px) 100vw, 35vw")  -}} 
+                            <div class="list-art-info">
+                            
+                                <span class='list-art-date'>{{ .Params.date.Format "02.01.2006" }}</span>
+                            </div>
+                            <h3 class="list-news-title">{{ .Params.tytul_do_listowania   }}</h3>
+                            <div class='art-summary'>{{.Params.summary | safeHTML}}</div>
+                            <span class='read-more'>Czytaj <img src="/img/arrow_black.svg"></span>
+                        </a>
+                    </li>
+                {{ end }}
+                </ul>
+                {{ partial "pagination" .}}
+            </div>
+            
+        </div>
+    </section>
+
+{{end}}
