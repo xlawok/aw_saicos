@@ -99,9 +99,44 @@
                     {{end}}
                 </div>
                 <div class="contact-right">
-
+                    <div class='right-col-header'>
+                        {{.Params.naglowek_prawej_kolumny}}
+                    </div>
+                    
+                    {{with .Params.kod_formularza}}
+                    
+                        {{ . | safeHTML }}
+                        <script>
+                            document.addEventListener("DOMContentLoaded", function() {
+                                    var mform = document.getElementById("contactform");
+                                    if(typeof(mform) != 'undefined' && mform != null){
+                                    async function handleSubmit(event) {
+                                    event.preventDefault();
+                                    var status = document.getElementById("my-form-status");
+                                    var data = new FormData(event.target);
+                                    fetch(event.target.action, {
+                                        method: form.method,
+                                        body: data,
+                                        headers: {
+                                            'Accept': 'application/json'
+                                        }
+                                    }).then(response => {
+                                        status.innerHTML = "Dziękujemy skontaktujemy się z Tobą niebawem.";
+                                        mform.reset();
+                                    }).catch(error => {
+                                        status.innerHTML = "Oops! Nie udało się wysłać formularza!";
+                                    });
+                                    }
+                                    mform.addEventListener("submit", handleSubmit);
+                                };
+                            });
+                        </script>
+                    {{end}}
                 </div>
             
+            </div>
+            <div class="contact-map-wrapper">
+                {{.Params.mapka_google_kod |safeHTML}}
             </div>
         </div>
         <script>
