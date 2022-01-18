@@ -56,6 +56,24 @@ fields:
     max: 
     labelField: 
   label: Województwa
+- name: naglowek_prawej_kolumny
+  type: text
+  config:
+    required: false
+  label: Nagłówek prawej kolumny
+- name: wyswietl_formularz
+  type: boolean
+  label: Wyświetl formularz
+  default: true
+- name: mapka_google_kod
+  type: textarea
+  default: ''
+  config:
+    required: false
+    wysiwyg: false
+    schema:
+      format: markdown
+  label: Mapka google kod
 - name: header
   type: include
   config: {}
