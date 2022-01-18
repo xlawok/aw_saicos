@@ -1,4 +1,9 @@
 ---
 label: Partial pole mail
 hide_body: true
-fields: []
+fields:
+- name: pole_email
+  type: text
+  config:
+    required: false
+  label: Pole email
