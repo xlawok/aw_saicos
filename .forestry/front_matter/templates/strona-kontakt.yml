@@ -17,40 +17,35 @@ fields:
 - name: wojewodztwa
   type: field_group_list
   fields:
-  - name: wojewodztwo
-    type: field_group
-    config: {}
+  - name: nazwa
+    type: text
+    config:
+      required: false
+    label: Nazwa
+  - name: partnerzy
+    type: field_group_list
     fields:
     - name: nazwa
       type: text
       config:
         required: false
       label: Nazwa
-    - name: partnerzy
-      type: field_group_list
-      fields:
-      - name: nazwa
-        type: text
-        config:
-          required: false
-        label: Nazwa
-      - name: wiersz_adresu
-        type: blocks
-        label: Wiersz adresu
-        template_types:
-        - partial-pole-tekst
-        - partial-pole-website
-        - partial-pole-phone
-        - partial-pole-mail
-        config:
-          min: 
-          max: 
+    - name: wiersz_adresu
+      type: blocks
+      label: Wiersz adresu
+      template_types:
+      - partial-pole-tekst
+      - partial-pole-website
+      - partial-pole-phone
+      - partial-pole-mail
       config:
         min: 
         max: 
-        labelField: 
-      label: Partnerzy
-    label: Województwo
+    config:
+      min: 
+      max: 
+      labelField: 
+    label: Partnerzy
   config:
     min: 
     max: 
