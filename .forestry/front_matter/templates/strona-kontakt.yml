@@ -60,6 +60,15 @@ fields:
   type: boolean
   label: Wyświetl formularz
   default: true
+- name: kod_formularza
+  type: textarea
+  default: ''
+  config:
+    required: false
+    wysiwyg: false
+    schema:
+      format: markdown
+  label: Kod formularza
 - name: mapka_google_kod
   type: textarea
   default: ''
