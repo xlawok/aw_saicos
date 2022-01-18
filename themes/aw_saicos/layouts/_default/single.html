@@ -4,20 +4,42 @@
             {{ $header_list := (.Params.header_repeater) }}
   
             {{- partial "header-tag.html" (dict "context" . "header_list" $header_list "custom_class" "usage-listing-header")  -}}
-            <div class='faq-wrapper' >
+            <div class='faq-wrapper'>
                 {{ with .Params.faq}}
-                    <ul class="faq-list">
+                    <ul class="faq-list" >
                         {{range .}}
-                            <li>
-                                <h2>
+                            <li  itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
+                                <h2 class="faq-pos-header" itemprop="name">
                                     {{.pytanie}}
                                 </h2>
-                                <p>{{.odpowiedz}}</p>
+                                <div itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
+                                    <div itemprop="text">
+                                    {{.odpowiedz}}
+                                    </div>
+                                </div>
                             </li>
                         {{end}}
                     </ul>
                 {{end}}
             </div>
+            {{with .Params.aktualnosci}}
+                {{if .wlacz_wyswietlanie}}
+                    {{- partial "last_posts.html" . -}} 
+                {{end}}
+            {{end}}
         </div>
+        <script>
+            document.addEventListener("DOMContentLoaded", function() {
+                var faq_list=document.querySelectorAll('.faq-list li .faq-pos-header');
+                if(typeof(faq_list) != 'undefined' && faq_list != null){
+                    for(var i=0; i<faq_list.length;i++){
+                        faq_list[i].addEventListener("click", function(e){
+                            this.classList.toggle("active");
+                        });
+
+                    }
+                }
+            });
+        </script>
     {{end}}
 {{end}}

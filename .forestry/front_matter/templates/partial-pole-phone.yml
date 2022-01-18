@@ -1,0 +1,9 @@
+---
+label: Partial pole telefon
+hide_body: true
+fields:
+- name: pole_tel
+  type: text
+  config:
+    required: false
+  label: Pole telefon

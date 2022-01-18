@@ -1,4 +1,7 @@
 <html lang="{{ .Site.LanguageCode }}">
+    {{if eq .Params.template_name "template-faq"}}
+        <html itemscope itemtype="https://schema.org/FAQPage">
+    {{end}}
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="p:domain_verify" content="f3a5ba5230529067900740a76fe095af"/>

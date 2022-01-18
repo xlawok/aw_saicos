@@ -1,0 +1,9 @@
+---
+label: Partial pole adres strony
+hide_body: true
+fields:
+- name: pole_website
+  type: text
+  config:
+    required: false
+  label: Pole adres strony

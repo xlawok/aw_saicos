@@ -1,0 +1,64 @@
+.sc-faq{
+    .faq-wrapper{
+        .faq-list{
+            list-style: none;
+            padding: 0 1rem;
+            margin: 0;
+            display: flex;
+            flex-direction: column;
+            li{
+                display: flex;
+                flex-direction: column;
+                width: 100%;
+                padding-top: 2rem;
+              >  div{
+                    position: relative;
+                    display: none;
+                    will-change: display;
+                    font-size: 1.3125rem;
+                    font-weight: 500;
+                }
+                .faq-pos-header{
+                    border-bottom: 1px solid #171715;
+                    padding-bottom: .7rem;
+                    padding-right: 1rem;
+                    font-size: 1.5625rem;
+                    font-weight: 900;
+                    cursor: pointer;
+                    position: relative;
+                    &:before {
+                        position: absolute;
+                        content: " ";
+                        display: block;
+                        width: .75rem;
+                        height: .75rem;
+                        border-top: 1px solid #171715;
+                        border-right: 1px solid #171715;
+                        
+                        transform:rotate(135deg);
+                        right: .5rem;
+                        top: .75rem;
+                        transition: transform .3s ease;
+                    }
+                    &.active{
+                        &:before{
+                            transform:rotate(45deg);    
+                        }
+                    }
+                }
+                .faq-pos-header.active ~ div{
+                    display: block;
+                    
+                }
+            }
+            @media (min-width: 1366px){
+                margin-left: auto;
+                margin-right: auto;
+                width: (1000/ 1920)*100vw;
+            }
+            @media (min-width: 1600px){
+                width: (809/ 1920)*100vw;
+            }
+        }
+    }
+}

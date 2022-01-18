@@ -19,6 +19,9 @@ txt_block_size = "XL"
 [[faq]]
 odpowiedz = "W przypadku powłok przezroczystych kolor podłoża ma kolosalne znaczenie, ponieważ jest widoczny przez powłokę."
 pytanie = "Dlaczego ta sama, przezroczysta powłoka wygląda tak różnie na różnych gatunkach drewna?"
+[[faq]]
+odpowiedz = "Podłoga po wykończeniu wyszła zbyt ciemna. W jaki sposób rozjaśnić jej ciemną powierzchnię?"
+pytanie = "W tym wypadku konieczne niestety jest szlifowanie całości i wykonanie nowej powłoki."
 [[header_repeater]]
 block_tag_type = "h1"
 bold_txt = "bardzo gruby"
