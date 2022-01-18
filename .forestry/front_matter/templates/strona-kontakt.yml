@@ -86,3 +86,5 @@ fields:
   label: template-name
   hidden: true
   default: template-contact
+pages:
+- content/kontakt-saicos.md
