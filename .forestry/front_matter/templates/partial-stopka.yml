@@ -144,6 +144,16 @@ fields:
       template: naglowek
       label: Nagłówek
     label: Trzecia kolumna
+  - name: czwarta_kolumna
+    type: field_group
+    config: {}
+    fields:
+    - name: naglowek
+      type: include
+      config: {}
+      template: naglowek
+      label: Nagłówek
+    label: Czwarta kolumna
   label: Stopka
 pages:
 - data/footer.yml
