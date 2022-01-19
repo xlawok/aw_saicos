@@ -92,5 +92,39 @@ fields:
       label: Pozycje kolumny
     label: Prawa kolumna
   label: Produkty marki
+- name: stopka
+  type: field_group
+  config: {}
+  fields:
+  - name: pierwsza_kolumna
+    type: field_group
+    config: {}
+    fields:
+    - name: zdjecie
+      type: file
+      config:
+        maxSize: 64
+      label: Logo
+    - name: dane_adresowe
+      type: textarea
+      default: ''
+      config:
+        required: false
+        wysiwyg: true
+        schema:
+          format: html
+      label: Dane adresowe
+    label: Pierwsza kolumna
+  - name: druga_kolumna
+    type: field_group
+    config: {}
+    fields:
+    - name: naglowek
+      type: include
+      config: {}
+      template: naglowek
+      label: Nagłówek
+    label: Druga kolumna
+  label: Stopka
 pages:
 - data/footer.yml
