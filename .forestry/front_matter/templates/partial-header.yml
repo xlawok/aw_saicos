@@ -1,4 +1,19 @@
 ---
 label: Partial-header
 hide_body: true
-fields: []
+fields:
+- name: zdjecie
+  type: file
+  config:
+    maxSize: 1
+  label: Logo
+- name: adres_email
+  type: text
+  config:
+    required: false
+  label: Adres email
+- name: numer_telefonu
+  type: text
+  config:
+    required: false
+  label: Numer telefonu
