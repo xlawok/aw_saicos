@@ -39,7 +39,7 @@ ikona = "/uploads/puzzles_icon.svg"
 opis = "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua."
 tytul = "Trzeci punkt"
 [sugerowane_produkty]
-wybierz_produkty = ["produkty/bel-air.md"]
+wybierz_produkty = ["produkty/bel-air2.md", "produkty/bel-air.md"]
 wyswietl_sekcje = true
 [[sugerowane_produkty.header_repeater]]
 block_tag_type = "div"
