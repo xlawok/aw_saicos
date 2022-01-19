@@ -125,6 +125,16 @@ fields:
       template: naglowek
       label: Nagłówek
     label: Druga kolumna
+  - name: trzecia_kolumna
+    type: field_group
+    config: {}
+    fields:
+    - name: naglowek
+      type: include
+      config: {}
+      template: naglowek
+      label: Nagłówek
+    label: Trzecia kolumna
   label: Stopka
 pages:
 - data/footer.yml
