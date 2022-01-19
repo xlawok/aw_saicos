@@ -6,16 +6,19 @@ languageCode = "pl"
 portraitPhotoWidths = [1500, 1000, 750]
 theme = "aw_saicos"
 title = "saicos.pl"
+[[menu.main]]
+name = "Porady eksperta"
+weight = 2
 [outputs]
-section = ["JSON", "HTML"]
 posts = ["HTML"]
+section = ["JSON", "HTML"]
 [permalinks]
 "/" = "/:slug/"
 categories = "/kategoria/:slug/"
+do-wnetrz = "/do-wnetrz/:slug/"
+na-zewnatrz = "/na-zewnatrz/:slug/"
 porady-eksperta = "/:slug/"
 produkty = "/:slug/"
-na-zewnatrz = "/na-zewnatrz/:slug/"
-do-wnetrz = "/do-wnetrz/:slug/"
 [related]
 includeNewer = true
 threshold = 80
