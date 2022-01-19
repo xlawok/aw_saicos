@@ -9,7 +9,9 @@
     <div class='bez-gradient top-to-up'>
         {{- partial "cols-txt-img.html" .Params.kolumny_txt_zdjecie -}} 
         {{- partial "quality.html" .Params.sekcja_jakosc -}} 
+        {{if .Params.sugerowane_produkty.wyswietl_sekcje}}
         {{- partial "sggested-products.html" .Params.sugerowane_produkty -}} 
+        {{end}}
         {{with .Params.aktualnosci}}
             {{if .wlacz_wyswietlanie}}
                 {{- partial "last_posts.html" . -}} 
