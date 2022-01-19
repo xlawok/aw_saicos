@@ -33,7 +33,7 @@ fields:
       max: 
       source:
         type: pages
-        section: produkty
+        section: produkty-f522613d-76e7-4f4a-9702-27c777f3fc9b
     label: Wybierz produkty
   label: Sugerowane produkty
 - name: header
