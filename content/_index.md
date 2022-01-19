@@ -38,6 +38,16 @@ tytul = "Drugi punkt"
 ikona = "/uploads/puzzles_icon.svg"
 opis = "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua."
 tytul = "Trzeci punkt"
+[sugerowane_produkty]
+wybierz_produkty = ["produkty/bel-air.md"]
+wyswietl_sekcje = true
+[[sugerowane_produkty.header_repeater]]
+block_tag_type = "div"
+bold_txt = "gruby"
+break_line = false
+color_txt = "czarny"
+txt_block = "Sugerowane produkty"
+txt_block_size = "L"
 [[banner]]
 nazwa = "Witamy"
 zdjecie = "/uploads/zabezpieczenie-drewnianych-schodow-impregnacja.jpg"
@@ -135,12 +145,5 @@ kod_embed_film = "<iframe width=\"560\" height=\"315\" src=\"https://www.youtube
 odnosnik = "na-zewnatrz/oleje-do-drewna"
 tekst_na_zdj_ciu = "Zobacz środki do pielęgnacji drewna"
 zdjecie = ""
-[sugerowane_produkty]
-wybierz_produkty = ["produkty/bel-air.md"]
-[[sugerowane_produkty.header_repeater]]
-block_tag_type = "div"
-bold_txt = "gruby"
-color_txt = "czarny"
-txt_block = "Sugerowane produkty"
-txt_block_size = "L"
+
 +++
