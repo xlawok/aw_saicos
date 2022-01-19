@@ -80,6 +80,9 @@ body{
         font-size: 2.5rem;
     }
 }
+.txt-white{
+    color: #fff;
+}
 .bez-gradient{
     background: transparent linear-gradient(180deg, #EFD6B6 0%, #F2DEC4 34%, #FFFFFF 100%) 0% 0% no-repeat padding-box;
 }
@@ -177,7 +180,72 @@ footer{
           
         }
     }
-    
+    .second-row{
+        background-color: #171715;
+        color: #fff;
+        display: grid;
+        grid-template-columns: 1fr;
+        padding: 3rem 1rem 2rem 1rem;
+        a{
+            color: #fff;
+            text-decoration: none;
+        }
+        ul{
+            list-style: none;
+            padding: 0;
+            margin: 0;
+            li{
+                padding-bottom: 0.25rem;
+                &:not(:last-child){
+                    border-bottom: 1px solid #fff;
+                }
+                
+                max-width: 256px;
+                a{
+                    font-size: 1.0625rem;
+                }
+                span{
+                    color: #FFF644;
+                    
+                }
+            }
+        }
+        >div:first-child{
+            img{
+                max-width: 9.625rem;
+            }
+        }
+        >div{
+            display: flex;
+            flex-direction: column;
+            .footer-header{
+                padding-bottom: 1.5rem;
+            }
+        }
+        >div:last-child{
+            li{
+                border:0;
+                padding-bottom: 1.5rem;
+                span{
+                    font-weight: 500;
+                }
+                p{
+                    margin: 0;
+                }
+            }
+        }
+        @media (min-width: 768px){
+            grid-template-columns: 1fr 1fr;
+        }
+        @media (min-width: 1200px){
+            grid-template-columns: 1fr 1fr 1fr 1fr;
+         
+        }
+        @media (min-width: 1366px){
+            padding-left: 14.47916667vw;
+            padding-right: 14.47916667vw;
+        }
+    }
 }
 @import 'templates/banner';
 @import 'templates/over-banner';

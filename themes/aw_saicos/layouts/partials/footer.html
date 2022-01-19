@@ -54,5 +54,97 @@
             {{end}}
         </div>
     </div>
+    <div class="second-row">
+        {{with .stopka}}
+            <div class="footer-col">
+                
+                {{- partial "img.html" (dict "image" .pierwsza_kolumna.zdjecie "ifsrcset" "nosrcset"  "tag_class" "logo")  -}}
+                {{.pierwsza_kolumna.dane_adresowe |safeHTML}}
+            </div>
+            <div class="footer-col">
+
+                {{- partial "header-tag.html" (dict "context" . "header_list" .druga_kolumna.header_repeater "custom_class" "footer-header")  -}}
+                <ul>
+                {{range .druga_kolumna.menu_stopki}}
+                    {{ with site.GetPage . }}
+                        
+                        <li><span>>></span><a class='' href='{{.RelPermalink}}'>{{.Params.tytul_do_listowania}}</a></li>
+                        {{end}}
+                {{end}}
+                </ul>
+            </div>
+            <div class="footer-col">
+                {{- partial "header-tag.html" (dict "context" . "header_list" .trzecia_kolumna.header_repeater "custom_class" "footer-header")  -}}
+                <ul>
+                    {{ $categorieslist := site.Data.categories }}
+                    {{ range $key, $value:=  $categorieslist.categories }}
+            
+                {{$tytul:=.tytul}}
+                {{$slug:=.slug}}
+                {{$podkategorie:=""}}
+                {{$podkategorie:=.podkategorie}}
+                {{/*
+                    SPRAWDZENIE, CZY KATEGORIA WYSTĘPUJE W PRODUKTACH
+                */}}
+                {{ with index $.Site.Taxonomies.categories $key }}
+                    
+                    {{/*
+                        loop tylko dla kategorii głównych
+                    */}}
+                    {{ if not (in $key "/") }}
+                        <li >
+                            <a href="/kategoria/{{$slug}}">{{$tytul}}</a> 
+                            {{with $podkategorie }}
+                            <ul>
+                                {{range . }}
+                                    {{$current_subcategory:=.}}
+                                    {{ with index $categorieslist.categories . }}
+                                    
+                                    {{$tytul:=.tytul}}
+                                    {{$slug:=.slug}}
+                                    {{$podkategorie:=""}}
+                                    {{$podkategorie:=.podkategorie}}
+                                    {{/*
+                                        SPRAWDZENIE, CZY podKATEGORIA WYSTĘPUJE W PRODUKTACH
+                                    */}}
+                                        {{ with index $.Site.Taxonomies.categories $current_subcategory }}
+                                            <li ><span>>></span><a href="/kategoria/{{$slug}}">{{$tytul}}</a> 
+                                                </li>
+                                        {{end}}
+                                    {{end}}
+                                {{end }}
+                            </ul>
+                            {{end}}
+                        </li>
+                    {{ end }}
+                {{end}}
+            
+                
+        {{end}}
+                </ul>
+            </div>
+            <div class="footer-col">
+                {{- partial "header-tag.html" (dict "context" . "header_list" .czwarta_kolumna.header_repeater "custom_class" "footer-header")  -}}
+                <ul class="news-list ">
+                    {{ range first 3 (where site.RegularPages.ByDate "Section" "porady-eksperta" ).Reverse }}
+                    <li>
+                       
+                       
+                        <a href="{{ .Permalink }}">
+                           
+                            <div class="list-art-info">
+                            
+                                <span class='list-art-date'>{{ .Params.date.Format "02.01.2006" }}</span>
+                            </div>
+                            <p class="list-news-title">{{ .Params.tytul_do_listowania   }}</p>
+                            
+                            
+                        </a>
+                    </li>
+                    {{ end }}
+                </ul> 
+            </div>
+        {{end}}
+    </div>
 </footer>
 {{end}}
