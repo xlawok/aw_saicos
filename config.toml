@@ -29,3 +29,7 @@ filename = "sitemap.xml"
 priority = 0.5
 [taxonomies]
 category = "categories"
+[[menu.main]]
+name = "O nas"
+url = "#"
+weight = 2

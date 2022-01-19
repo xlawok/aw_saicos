@@ -1,0 +1,100 @@
+<header>
+    {{ $header := site.Data.header }}
+{{with $header}}
+    <div class="first-row">
+        
+        
+        {{with .numer_telefonu}}
+          <span class="phone"><img src="img/phone-icon.svg"><a href="tel:{{ trim  . "-" }}">{{.}}</a></span>
+        
+        {{end}}
+    
+        {{with .adres_email}}
+            <span class="mailto"><img src="img/mail-icon.svg"><a href="mailto:{{.}}">{{.}}</a></span>
+        {{end}}
+    
+    </div>
+    <div class="second-row">
+        <a href="/">
+        {{- partial "img.html" (dict "image" .zdjecie "ifsrcset" "nosrcset"  "tag_class" "logo")  -}}
+        </a>
+        <nav class='below-row'>
+            <ul class='main-menu'>
+                {{ $currentPage := . }}
+                {{ range site.Menus.main }}
+                    {{ if .HasChildren }}
+                        <li class="parent {{ if $currentPage.HasMenuCurrent "main" . }}active{{ end }}">
+                            <a href="#">
+                                {{ .Pre }}
+                                <span>{{ .Name }}</span>
+                            </a>
+                            
+                            <ul class="sub-menu">
+                                {{ range .Children }}
+                                    <li class="{{ if $currentPage.IsMenuCurrent "main" . }}active{{ end }}">
+                                        <a href="{{ .URL }}">{{ .Name }}</a>
+                                    </li>
+                                {{ end }}
+                            </ul>
+                        </li>
+                        
+                    {{ else }}
+                        <li>
+                            <a href="{{ .URL }}">
+                                {{ .Pre }}
+                                <span>{{ .Name }}</span></a>
+                                {{if eq .Name "Produkty"}}
+
+                                <ul>
+                                    {{ $categorieslist := site.Data.categories }}
+                                    {{ range $key, $value:=  $categorieslist.categories }}
+                            
+                                {{$tytul:=.tytul}}
+                                {{$slug:=.slug}}
+                                {{$opis_menu:=.opis_menu}}
+                                {{/*
+                                    SPRAWDZENIE, CZY KATEGORIA WYSTĘPUJE W PRODUKTACH
+                                */}}
+                                {{ with index $.Site.Taxonomies.categories $key }}
+                                    
+                                    {{/*
+                                        loop tylko dla kategorii głównych
+                                    */}}
+                                    {{ if not (in $key "/") }}
+                                        <li >
+                                            <a href="/kategoria/{{$slug}}">{{$tytul}}</a> 
+                                            <div class="category-info">
+                                                <div class='category-info-header'>
+                                                    {{$tytul}}
+                                                </div>
+                                                {{$opis_menu}}
+                                            </div>
+                                        </li>
+                                    {{ end }}
+                                {{end}}
+                            
+                                
+                        {{end}}
+                                </ul>
+
+
+
+
+
+
+                                {{end}}
+                            
+                        </li>
+                    {{ end }}
+                {{ end }}
+                <!-- <li>
+                    <a href="#" target="_blank">Hardcoded Link 1</a>
+                </li>
+                <li>
+                    <a href="#" target="_blank">Hardcoded Link 2</a>
+                </li> -->
+            </ul>
+        </nav>
+    </div>
+{{end}}
+</header>

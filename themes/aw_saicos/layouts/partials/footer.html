@@ -57,8 +57,9 @@
     <div class="second-row">
         {{with .stopka}}
             <div class="footer-col">
-                
+                <a href="/">
                 {{- partial "img.html" (dict "image" .pierwsza_kolumna.zdjecie "ifsrcset" "nosrcset"  "tag_class" "logo")  -}}
+            </a>
                 {{.pierwsza_kolumna.dane_adresowe |safeHTML}}
             </div>
             <div class="footer-col">

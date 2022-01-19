@@ -6,15 +6,18 @@ categories:
     slug: oleje-do-drewna
     opis: "<p>Oleje do drewna opis nad listowaniem</p>"
     opis_pod_listowaniem: "<p>Oleje do drewna opis pod listowaniem</p>"
+    opis_menu: "AAA jakby jakiś opis w menu"
   oleje-do-drewna-2:
     kategoria: oleje do drewna
     tytul: inne oleje do drewna
     slug: oleje-do-drewna-2
     opis: "<p>Oleje do drewna opis nad listowaniem</p>"
     opis_pod_listowaniem: "<p>Oleje do drewna 2 opis pod listowaniem</p>"
+    opis_menu: "BBB jakby jakiś opis w menu"
   lakiery-do-drewna:
     kategoria: lakiery do drewna
     tytul: lakiery do drewna
     slug: lakiery-do-drewna
     opis: "<p>lakiery do drewna opis nad listowaniem</p>"
     opis_pod_listowaniem: "<p>lakiery do drewna 2 opis pod listowaniem</p>"
+    opis_menu: "ccc jakby jakiś opis w menu"
