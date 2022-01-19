@@ -45,3 +45,14 @@ fields:
     schema:
       format: html-blocks
   label: Opis w menu
+- name: wybierz_produkty
+  type: list
+  config:
+    use_select: true
+    min: 
+    max: 
+    source:
+      type: pages
+      section: produkty-f522613d-76e7-4f4a-9702-27c777f3fc9b
+  label: Wybierz produkty
+ 
