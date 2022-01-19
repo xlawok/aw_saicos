@@ -11,6 +11,7 @@ robots = ""
 slug = "kontakt"
 template_name = "template-contact"
 title = "Kontakt | Saicos"
+tytul_do_listowania = "Kontakt"
 wyswietl_formularz = true
 [[header_repeater]]
 block_tag_type = "h1"
