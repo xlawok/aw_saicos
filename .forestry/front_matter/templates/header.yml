@@ -44,3 +44,8 @@ fields:
   config:
     required: true
   label: Opis
+- name: tytul_do_listowania
+  type: text
+  config:
+    required: false
+  label: Tytuł do listowania
