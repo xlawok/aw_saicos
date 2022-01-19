@@ -1,9 +1,8 @@
 +++
 alt = "kolor do drewna bel-air"
 body_class = ""
-categories = ["lakiery-do-drewna","oleje-do-drewna"]
+categories = ["lakiery-do-drewna", "oleje-do-drewna"]
 description = "Bel-Air"
-draft = true
 image = "/uploads/72xx-bel-air-25-d-gb.jpg"
 keywords = ""
 name = "Bel Air 2"
