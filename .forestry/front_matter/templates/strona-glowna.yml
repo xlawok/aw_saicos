@@ -209,6 +209,9 @@ fields:
         type: pages
         section: produkty
     label: Wybierz produkty
+  - name: wyswietl_sekcje
+    type: boolean
+    label: Wyświetl sekcję
   label: Sugerowane produkty
 - name: aktualnosci
   type: field_group
