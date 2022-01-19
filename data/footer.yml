@@ -50,3 +50,11 @@ stopka:
       break_line: false
       block_tag_type: div
       txt_block_size: MD
+  czwarta_kolumna:
+    header_repeater:
+    - txt_block: Ostatnio na blogu
+      bold_txt: bardzo gruby
+      color_txt: biały
+      break_line: false
+      block_tag_type: div
+      txt_block_size: MD
