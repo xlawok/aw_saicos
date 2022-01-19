@@ -25,3 +25,23 @@ produkty_marki:
     - ikona: "/uploads/podlogi_drewniane_icon.svg"
       tytul: PODŁOGI I SCHODY DREWNIANE
       odnosnik: do-wnetrz
+stopka:
+  pierwsza_kolumna:
+    zdjecie: "/uploads/saicos-logo.png"
+    dane_adresowe: Saicos.pl <br>Braniborska 70 <br>53-680 Wrocław
+  druga_kolumna:
+    header_repeater:
+    - txt_block: Mapa strony
+      bold_txt: bardzo gruby
+      color_txt: biały
+      break_line: false
+      block_tag_type: div
+      txt_block_size: MD
+  trzecia_kolumna:
+    header_repeater:
+    - txt_block: Kategorie
+      bold_txt: bardzo gruby
+      color_txt: biały
+      break_line: false
+      block_tag_type: div
+      txt_block_size: MD
