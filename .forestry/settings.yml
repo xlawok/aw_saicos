@@ -13,7 +13,7 @@ sections:
   create: all
   match: "*"
 - type: directory
-  path: content/products
+  path: content/produkty
   label: Produkty
   create: all
   match: "**/*"

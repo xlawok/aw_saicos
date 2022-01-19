@@ -4,7 +4,7 @@ opis_pod_naglowkiem = "<p>Powierzchnie tarasów narażone są na szczególnie tr
 slug = "tarasy"
 title = "Zastosowanie produktów Saicos na tarasach | Saicos"
 [sugerowane_produkty]
-wybierz_produkty = ["products/bel-air.md"]
+wybierz_produkty = ["produkty/bel-air.md"]
 [[sugerowane_produkty.header_repeater]]
 block_tag_type = "div"
 bold_txt = "gruby"

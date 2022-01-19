@@ -7,7 +7,7 @@ robots = "noindex nofollow"
 slug = "/na-zewnatrz"
 title = "Zastosowanie | Saicos"
 [sugerowane_produkty]
-wybierz_produkty = ["products/oleje.md", "products/premium-hardwax-Oil.md"]
+wybierz_produkty = ["produkty/oleje.md", "produkty/premium-hardwax-Oil.md"]
 [[sugerowane_produkty.header_repeater]]
 block_tag_type = "h2"
 bold_txt = "gruby"

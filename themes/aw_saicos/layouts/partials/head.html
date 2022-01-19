@@ -30,7 +30,19 @@
         {{if false}}
         {{ .Site.Title }}  | 
         {{end}}
-        {{ .Title }}</title>
+        {{ if eq .Type "categories"}}
+        {{ $categorieslist := site.Data.categories }}
+            {{$ctitle :=.Title}}
+            {{ range $categorieslist.categories }}
+                
+                {{if eq .slug $ctitle}}
+                    {{.tytul}} | Saicos
+                {{end}}
+            {{end}}    
+        {{else}}
+            {{ .Title }}
+        {{end}}
+        </title>
     {{ end }}
     
     <meta name="description" content="{{ with .Description }}{{ . }}{{ else }}{{ with .Site.Params.description }}{{ . }}{{ end }}{{ end }}">

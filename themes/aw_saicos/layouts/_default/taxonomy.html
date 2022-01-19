@@ -1,86 +1,120 @@
 
-<ul>
-{{/* 
-    POBRANIE LISTY KATEGORII Z YML
-    */}}
+{{ define "main" }}
+
     {{ $categorieslist := site.Data.categories }}
-    
-    {{/*         bieżąca kategoria        */}}
-    {{ $.Scratch.Set "current_category" .Title  }}
-    
-    {{/*         loopp LISTY KATEGORII Z YML        */}}
-    {{ range $key, $value:=  $categorieslist.categories }}
-        
-            {{$tytul:=.tytul}}
-            {{$slug:=.slug}}
-            {{$podkategorie:=""}}
-            {{$podkategorie:=.podkategorie}}
-            {{/*
-                SPRAWDZENIE, CZY KATEGORIA WYSTĘPUJE W PRODUKTACH
-            */}}
-            {{ with index $.Site.Taxonomies.categories $key }}
-                
-                {{/*
-                    loop tylko dla kategorii głównych
-                */}}
-                {{ if not (in $key "/") }}
-                    <li>
-                        <a href="/kategoria/{{$slug}}">{{$tytul}}</a> 
-                        {{with $podkategorie }}
-                        <ul>
-                            {{range . }}
-                                {{$current_subcategory:=.}}
-                                {{ with index $categorieslist.categories . }}
-                                
-                                {{$tytul:=.tytul}}
-                                {{$slug:=.slug}}
-                                {{$podkategorie:=""}}
-                                {{$podkategorie:=.podkategorie}}
-                                {{/*
-                                    SPRAWDZENIE, CZY podKATEGORIA WYSTĘPUJE W PRODUKTACH
-                                */}}
-                                    {{ with index $.Site.Taxonomies.categories $current_subcategory }}
-                                        <li><a href="/kategoria/{{$slug}}">{{$tytul}}</a> 
-                                            </li>
-                                    {{end}}
-                                {{end}}
-                            {{end }}
-                        </ul>
-                        {{end}}
-                    </li>
-                {{ end }}
-            {{end}}
-            {{/*
-                podzial sciezki na array
-                {{ $.Scratch.Set "category" (split .kategoria "/")  }}
-                {{ range $index,  $element := $.Scratch.Get "category" }}
-
-                    {{$index}}
-                    {{if gt $index 0}}
-                    -<a href="/kategoria/{{.slug}}">{{.tytul}}</a> <br/>
-                    {{else}}
-                    -<a href="/kategoria/{{.slug}}">{{.tytul}}</a> <br/>
-                    {{end}}  
-                    
-                {{end}}
-            */}}
-               
-    {{end}}
-           
-</ul>
-
-
-
-{{ if eq .Type "categories"}}
-    <h1 id="category_name" class=" category_name"  >
-        {{$ctitle :=.Title}}
-        
-        {{ range $categorieslist.categories }}
+    {{$ctitle :=.Title}}
+        {{ if eq .Type "categories"}}
+            <h1 id="category_name" class=" category_name" data-category="{{ lower .Title }}"  >
             
-            {{if eq .slug $ctitle}}
-                {{.opis_pod_listowaniem | safeHTML }}
-            {{end}}
+                {{ range $categorieslist.categories }}
+                    
+                    {{if eq .slug $ctitle}}
+                        {{.tytul}}
+                    {{end}}
+                {{end}}    
+            </h1>
         {{end}}
+<div class="product-cols-warpper">
+<div class="left-side">
+    <div class="category-wrapper"><span>Kategorie:</span>
+    <ul>
+    {{/* 
+        POBRANIE LISTY KATEGORII Z YML
+        */}}
         
-    </h1>
+        
+        {{/*         bieżąca kategoria        */}}
+        {{ $.Scratch.Set "current_category" .Title  }}
+        
+        {{/*         loopp LISTY KATEGORII Z YML        */}}
+        {{ range $key, $value:=  $categorieslist.categories }}
+            
+                {{$tytul:=.tytul}}
+                {{$slug:=.slug}}
+                {{$podkategorie:=""}}
+                {{$podkategorie:=.podkategorie}}
+                {{/*
+                    SPRAWDZENIE, CZY KATEGORIA WYSTĘPUJE W PRODUKTACH
+                */}}
+                {{ with index $.Site.Taxonomies.categories $key }}
+                    
+                    {{/*
+                        loop tylko dla kategorii głównych
+                    */}}
+                    {{ if not (in $key "/") }}
+                        <li class="{{if eq $slug $ctitle}} cat-active{{end}}">
+                            <a href="/kategoria/{{$slug}}">{{$tytul}}</a> 
+                            {{with $podkategorie }}
+                            <ul>
+                                {{range . }}
+                                    {{$current_subcategory:=.}}
+                                    {{ with index $categorieslist.categories . }}
+                                    
+                                    {{$tytul:=.tytul}}
+                                    {{$slug:=.slug}}
+                                    {{$podkategorie:=""}}
+                                    {{$podkategorie:=.podkategorie}}
+                                    {{/*
+                                        SPRAWDZENIE, CZY podKATEGORIA WYSTĘPUJE W PRODUKTACH
+                                    */}}
+                                        {{ with index $.Site.Taxonomies.categories $current_subcategory }}
+                                            <li class="{{if eq $slug $ctitle}} cat-active{{end}}"><a href="/kategoria/{{$slug}}">{{$tytul}}</a> 
+                                                </li>
+                                        {{end}}
+                                    {{end}}
+                                {{end }}
+                            </ul>
+                            {{end}}
+                        </li>
+                    {{ end }}
+                {{end}}
+                {{/*
+                    podzial sciezki na array
+                    {{ $.Scratch.Set "category" (split .kategoria "/")  }}
+                    {{ range $index,  $element := $.Scratch.Get "category" }}
+
+                        {{$index}}
+                        {{if gt $index 0}}
+                        -<a href="/kategoria/{{.slug}}">{{.tytul}}</a> <br/>
+                        {{else}}
+                        -<a href="/kategoria/{{.slug}}">{{.tytul}}</a> <br/>
+                        {{end}}  
+                        
+                    {{end}}
+                */}}
+                
+        {{end}}
+            
+    </ul>
+    </div>
+    <div class="filter-wrapper">
+        <span>Filtruj wg zastosowania:</span>
+        <select name="zastosowanie" id='zastosowania-select'>
+            <option value="">-</option>
+            <option value="do wnętrz">do wnętrz</option>
+            <option value="na zewnątrz">na zewnątrz</option>
+        </select>
+    </div>
+</div>
+<div class="right-side">
+    {{ if eq .Type "categories"}}
+ 
+    {{ range $categorieslist.categories }}
+                
+                {{if eq .slug $ctitle}}
+                    {{.opis | safeHTML }}
+                {{end}}
+            
+    {{end}}
+    {{ partial "listing/listing_products.html" .  }}
+        {{ range $categorieslist.categories }}
+                
+                {{if eq .slug $ctitle}}
+                    {{.opis_pod_listowaniem | safeHTML }}
+                {{end}}
+            {{end}}
+    {{end}}
+</div>
+</div>
 {{end}}
+    

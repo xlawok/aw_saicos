@@ -13,7 +13,7 @@ posts = ["HTML"]
 "/" = "/:slug/"
 categories = "/kategoria/:slug/"
 porady-eksperta = "/:slug/"
-products = "/:slug/"
+produkty = "/:slug/"
 na-zewnatrz = "/na-zewnatrz/:slug/"
 do-wnetrz = "/do-wnetrz/:slug/"
 [related]

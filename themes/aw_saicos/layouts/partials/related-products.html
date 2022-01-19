@@ -1,0 +1,19 @@
+<div class='sc-suggested-products'>
+    {{ with first 4 (where (where (where site.RegularPages.ByDate "Section" "produkty") ".Params.categories" "intersect" .Params.categories ) ".Params.slug" "!=" .Params.slug ).Reverse }}
+    <p class="related-header">Powiązane produkty</p>
+   
+        <ul>
+        {{ range .}}
+            
+            <li>
+                <a href="{{ .Permalink }}">
+                    {{- partial "img.html" (dict "image" .Params.image "imgsizes" "(max-width: 992px) 100vw, 35vw")  -}} 
+                    <p class='product-title'>{{.Params.name}}</p>
+                    <p class='product-subtitle'>{{.Params.subname}}</p>
+                </a>
+            </li>
+            
+        {{end}}
+        </ul>
+    {{end}}
+</div>

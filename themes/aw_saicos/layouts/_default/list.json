@@ -1,7 +1,7 @@
 {{ $result := newScratch }}
 {{ $result.Set "pages" slice }}
-{{ range where site.RegularPages "Section" "products" }}
+{{ range where site.RegularPages "Section" "produkty" }}
 
-{{ $result.Add "pages" (dict "url" .Permalink "description" .Params.description "name" .Params.name "categories" .Params.categories "producers" .Params.producers "product_code" .Params.product_code "delivery_time" .Params.delivery_time "in_promotion" .Params.in_promotion "price" .Params.price "image" .Params.image "id" .Params.id "alt" .Params.alt) }}
+{{ $result.Add "pages" (dict "url" .Permalink  "name" .Params.name "categories" .Params.categories "image" .Params.image "alt" .Params.alt "subname" .Params.subname "zastosowanie" .Params.zastosowanie) }}
 {{ end }}
 {{ $result.Get "pages" | jsonify }}

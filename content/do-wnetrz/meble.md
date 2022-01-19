@@ -4,7 +4,7 @@ opis_pod_naglowkiem = "<p>Powierzchnie tarasów narażone są na szczególnie tr
 slug = "meble"
 title = "Zastosowanie produktów Saicos do mebli | Saicos"
 [sugerowane_produkty]
-wybierz_produkty = ["products/premium-hardwax-Oil.md"]
+wybierz_produkty = ["produkty/premium-hardwax-Oil.md"]
 [[sugerowane_produkty.header_repeater]]
 block_tag_type = "div"
 bold_txt = "gruby"

@@ -1,0 +1,198 @@
+<div id="main-cnt"></div>
+
+<template id="product-listing-template">
+    <li  class="produkt-item">
+        <a class="first_link" href="#">
+            
+            <img class="img_1" alt="#" title="#" src="#" border="0" >
+            <p class='p_title product-title'></p>
+            <p class='product-subtitle'></p>
+        </a>
+       
+    </li>
+  </template>
+  
+<script>
+ function getUrlVars() {
+    var vars = {};
+    var parts = window.location.href.replace(/[?&]+([^=&]+)=([^&]*)/gi, function(m,key,value) {
+        vars[key] = value;
+    });
+    return vars;
+}
+function getUrlParam(parameter, defaultvalue){
+    var urlparameter = defaultvalue;
+    if(window.location.href.indexOf(parameter) > -1){
+        urlparameter = getUrlVars()[parameter];
+        }
+    return urlparameter;
+}
+  
+    function createListWithTemplate(products,mainContainer) {
+        
+        const ul = document.createElement('ul');
+        ul.classList.add('list', 'hero-list');
+        const template = document.getElementById('product-listing-template');
+        if(products.length==0){
+            const lack = document.createElement('div');
+            lack.classList.add('no-records');
+            lack.innerHTML ="Brak wyników"
+            ul.appendChild(lack);
+            mainContainer.replaceWith(ul);
+        }
+        else{
+            for (var i = 0; i < products.length; i++) {
+                const productCard = document.importNode(template.content, true);
+                productCard.querySelector('.p_title').textContent = products[i].name;
+                productCard.querySelector('.product-subtitle').textContent = products[i].subname;
+                
+                
+                productCard.querySelector('.first_link').href = products[i].url;
+                
+                productCard.querySelector('.img_1').src = products[i].image;
+                productCard.querySelector('.img_1').title = products[i].name;
+                let productalt = products[i].alt;
+                if(productalt) productCard.querySelector('.img_1').alt = productalt;
+                else productCard.querySelector('.img_1').alt = products[i].name;
+    
+               
+                // image
+                // var div = document.createElement("div");
+                // div.innerHTML = 'Name: ' + data[i].firstName + ' ' + data[i].lastName;
+                ul.appendChild(productCard);
+            }
+    
+            mainContainer.replaceWith(ul);
+        }
+
+    }
+
+    document.addEventListener("DOMContentLoaded", function() {
+       var category_name = document.getElementById('category_name');
+       var producer_name = document.getElementById('producer_name');
+        
+        var myHeaders = new Headers();
+        myHeaders.append("Content-Type", "application/json");
+
+        var raw = "";
+
+        var requestOptions = {
+        method: 'GET',
+        headers: myHeaders,
+
+        redirect: 'follow'
+        };
+
+fetch("/produkty/index.json", requestOptions)
+.then(response => response.text())
+.then(function(result){
+    var data = JSON.parse(result);
+    data=data.sort(function(a, b){
+        let retval = 0;
+        
+        retval = a.id < b.id ? -1 : 1;  
+        if(getUrlParam('sortby', 'default')=='nameasc'){
+            if (retval === 0)
+            retval = a.name.toUpperCase() < b.name.toUpperCase() ? -1 : 1;  
+        }
+        if(getUrlParam('sortby', 'default')=='namedesc'){
+            if (retval === 0)
+            retval = a.name.toUpperCase() > b.name.toUpperCase() ? -1 : 1;  
+        }
+        if(getUrlParam('sortby', 'default')=='cenaasc'){
+            if (a.price > b.price)
+                retval = -1;
+        }
+        if(getUrlParam('sortby', 'default')=='cenadesc'){
+            if (a.price < b.price)
+                retval = 1;
+        }
+        
+        return retval;
+    });
+    if(category_name){
+        category_name=category_name.dataset.category;
+        var data =data.filter(obj=> obj.categories.indexOf(category_name)!= -1);
+    }
+  //  if(producer_name){
+  //      producer_name=producer_name.dataset.category;
+  //      var data =data.filter(obj=> obj.producers.indexOf(producer_name)!= -1);
+  //  }
+  var mainContainer = document.getElementById("main-cnt");
+createListWithTemplate(data,mainContainer);
+//for (var i = 0; i < data.length; i++) {
+  // append each person to our page
+//}
+    var zastosowania_select= document.querySelector('#zastosowania-select');
+    
+
+    if(typeof(zastosowania_select) != 'undefined' && zastosowania_select != null){
+        zastosowania_select.addEventListener('change',function(e){
+            var ul_list= document.querySelector('.hero-list');        
+            const div_main = document.createElement('div');
+            div_main.id='main-cnt';
+            ul_list.replaceWith(div_main);
+            var zastosowanie_value = zastosowania_select.options[zastosowania_select.selectedIndex].value;
+            //console.log(zastosowanie_value);
+            ////ponowne zaciąganie listy teraz dla  zastosowan
+            fetch("/produkty/index.json", requestOptions)
+            .then(response => response.text())
+            .then(function(result){
+                var data = JSON.parse(result);
+                data=data.sort(function(a, b){
+                    let retval = 0;
+                    
+                    retval = a.id < b.id ? -1 : 1;  
+                    if(getUrlParam('sortby', 'default')=='nameasc'){
+                        if (retval === 0)
+                        retval = a.name.toUpperCase() < b.name.toUpperCase() ? -1 : 1;  
+                    }
+                    if(getUrlParam('sortby', 'default')=='namedesc'){
+                        if (retval === 0)
+                        retval = a.name.toUpperCase() > b.name.toUpperCase() ? -1 : 1;  
+                    }
+                    if(getUrlParam('sortby', 'default')=='cenaasc'){
+                        if (a.price > b.price)
+                            retval = -1;
+                    }
+                    if(getUrlParam('sortby', 'default')=='cenadesc'){
+                        if (a.price < b.price)
+                            retval = 1;
+                    }
+                    
+                    return retval;
+                });
+                var category_name = document.getElementById('category_name');
+                if(category_name){
+                    category_name=category_name.dataset.category;
+                    var data =data.filter(obj=> obj.categories.indexOf(category_name)!= -1);
+                }
+                if(zastosowanie_value!=""){
+                    
+                    var data =data.filter(obj=> obj.zastosowanie.indexOf(zastosowanie_value)!= -1);
+                }
+                var mainContainer = document.getElementById("main-cnt");
+                console.log(mainContainer);
+                createListWithTemplate(data,mainContainer);
+            
+            }
+            
+            )
+            .catch(error => console.log('error', error));
+            ///////////
+        });
+    }
+// console.log(json);
+// console.log(document.getElementById(star_id));
+}
+
+)
+.catch(error => console.log('error', error));
+      
+
+
+
+    
+      
+});
+</script>
