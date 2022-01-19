@@ -1,7 +1,6 @@
 +++
 body_class = ""
 description = "Dane kotaktowe"
-draft = true
 keywords = ""
 kod_formularza = "<div id=\"my-form-status\"></div><form id=\"contactform\" action=\"https://formspree.io/f/xgerdkry\"\n  method=\"POST\">      <div class='input-cnt'>   <label for='imie'>Imię i nazwisko*</label><input required name=\"imie\" type=\"text\"\n  id=\"imie\" placeholder=\"Imię i nazwisko\">   </div>   \n<div class='input-cnt'>   <label for='firma'>Firma (opcjonalnie)</label><input  name=\"firma\" type=\"text\"\n  id=\"firma\" placeholder=Firma\">   </div>  \n     <div class='input-cnt'>   <label for='email'> Adres e-mail*</label><input required name=\"email\"\n  type=\"email\" id=\"email\" placeholder=\"Adres e-mail\">   </div>\n  \n  <div class='input-cnt'> <label for='message'>\n  Treść wiadmości</label>  <textarea name=\"message\"  id=\"message\" ></textarea>   </div>   <div class='input-cnt rodo-cnt'>   <input id='rodo-accept'\n  type='checkbox' required name='rodo-accept' value='accept'><label for='rodo-accept'>Akceptuję warunki polityki prywatności\n  </label>   </div>     <button  type=\"submit\">Wyślij</button>   </form>"
 mapka_google_kod = "<iframe src=\"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2504.8487518805628!2d17.006315016081174!3d51.111250679572045!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x470fc206611bc281%3A0x709a9fa646fac869!2sSaicos!5e0!3m2!1spl!2spl!4v1642522993921!5m2!1spl!2spl\" width=\"600\" height=\"450\" style=\"border:0;\" allowfullscreen=\"\" loading=\"lazy\"></iframe>"
@@ -13,6 +12,9 @@ template_name = "template-contact"
 title = "Kontakt | Saicos"
 tytul_do_listowania = "Kontakt"
 wyswietl_formularz = true
+[menu.main]
+name = "Kontakt"
+weight = 3
 [[header_repeater]]
 block_tag_type = "h1"
 bold_txt = "bardzo gruby"

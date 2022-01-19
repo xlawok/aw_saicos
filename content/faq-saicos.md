@@ -1,7 +1,6 @@
 +++
 body_class = "template-faq"
 description = "Najczęściej zadawane pytania"
-draft = true
 keywords = ""
 robots = ""
 slug = "faq"
