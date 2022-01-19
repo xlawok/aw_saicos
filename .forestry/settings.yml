@@ -38,6 +38,10 @@ sections:
 - type: heading
   label: Ustawienia
 - type: document
+  path: data/header.yml
+  label: Header
+  match: "**/*"
+- type: document
   path: data/footer.yml
   label: Stopka
 upload_dir: content/uploads
