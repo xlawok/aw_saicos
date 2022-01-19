@@ -6,9 +6,6 @@ languageCode = "pl"
 portraitPhotoWidths = [1500, 1000, 750]
 theme = "aw_saicos"
 title = "saicos.pl"
-[[menu.main]]
-name = "Porady eksperta"
-weight = 2
 [outputs]
 posts = ["HTML"]
 section = ["JSON", "HTML"]

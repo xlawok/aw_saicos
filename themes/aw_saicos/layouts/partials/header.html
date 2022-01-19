@@ -45,10 +45,10 @@
                                 <span>{{ .Name }}</span></a>
                                 {{if eq .Name "Produkty"}}
 
-                                <ul>
+                                <ul class='menu-categories'>
                                     {{ $categorieslist := site.Data.categories }}
                                     {{ range $key, $value:=  $categorieslist.categories }}
-                            
+                                    {{$nazwa:=slice $key}}
                                 {{$tytul:=.tytul}}
                                 {{$slug:=.slug}}
                                 {{$opis_menu:=.opis_menu}}
@@ -68,6 +68,22 @@
                                                     {{$tytul}}
                                                 </div>
                                                 {{$opis_menu}}
+                                                {{ with first 3 (where (where (where site.RegularPages.ByDate "Section" "produkty") ".Params.categories" "intersect" $nazwa ) ".Params.slug" "!=" $slug ).Reverse }}
+                                                                                             
+                                                    <ul class='menu-cat-prod'>
+                                                    {{ range .}}
+                                                        
+                                                        <li>
+                                                            <a href="{{ .Permalink }}">
+                                                                {{- partial "img.html" (dict "image" .Params.image "imgsizes" "(max-width: 992px) 50vw, 20vw")  -}} 
+                                                                <p class='product-title'>{{.Params.name}}</p>
+                                                                
+                                                            </a>
+                                                        </li>
+                                                        
+                                                    {{end}}
+                                                    </ul>
+                                                {{end}}
                                             </div>
                                         </li>
                                     {{ end }}

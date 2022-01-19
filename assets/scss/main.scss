@@ -140,6 +140,105 @@ header{
             padding-right: 14.47916667vw;
         }
     }
+    .below-row{
+        ul{
+            list-style: none;
+            padding: 0;
+            margin: 0;
+        }
+        .main-menu{
+            display: flex;
+            flex-wrap: wrap;
+            flex-direction: row;
+            margin: 0;
+            padding: 0;
+            justify-content:  space-evenly;
+            >li{
+                position: relative;
+            }
+            li{
+                
+                a{
+                    font-size: 1.125rem;
+                    text-decoration: none;
+                    position: relative;
+                    &:hover{
+                        text-decoration: underline;
+                    }
+                }
+                .sub-menu,.menu-categories{
+                    width: max-content;
+                }
+                .sub-menu,.menu-categories,.category-info{
+                    position: absolute;
+                    display: none;
+                    background-color: #171715;
+                }
+                &:hover{
+                    .sub-menu,.menu-categories{
+                        display: flex;
+                        flex-direction: column;
+                        inset: 100% auto auto 0;
+                        li{
+                            padding-left: 1rem;
+                            padding-bottom: 1rem;
+                        }
+                    }
+                }
+                .menu-categories{
+                   > li{
+                       width: 100%;
+                       padding-right: 1rem;
+                       @media(min-width: 1366px){
+                            &:hover{
+                                .category-info{
+                                    padding: 1rem;
+                                    display: flex;
+                                    flex-direction: column;
+                                    inset: 0 auto 0 100%;
+                                    background-color: #171715;
+                                    color: #fff;
+                                    height: 30.9375rem;
+                                    min-width: 21.875rem;
+                                    font-size: 1.3125rem;
+                                    .category-info-header{
+                                        font-weight: 900;
+                                        font-size: 2.8125rem;
+                                        line-height: 1;
+                                        padding-bottom: 1rem;
+                                    }
+                                    .menu-cat-prod{
+                                        padding-top: 2rem;
+                                        padding-bottom: 2rem;
+                                        background-color: #171715;
+                                        display: flex;
+                                        flex-direction: row;
+                                        justify-content:flex-start;
+                                        gap: .5rem;
+                                        li{
+                                            width: 8.125rem;
+                                            background-color: #fff;
+                                            // height: 10.1875rem;
+                                            img{
+                                                width: 100%;
+                                            }
+                                            .product-title{
+                                                font-size: 16px;
+                                                color: #171715;
+                                                
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                       }
+                        
+                    }
+                }
+            }
+        }
+        
+    }
 }
 footer{
     .first-row{
