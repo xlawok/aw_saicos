@@ -3,7 +3,8 @@ description = "Produkty Saicos zastosowania"
 opis_pod_naglowkiem = "<p>Nasze produkty przeznaczone do użytku we wnętrzach oraz na zewnątrz to szeroka gama wszechstronnych, specjalistycznych środków.</p>"
 robots = "noindex nofollow"
 slug = "/do-wnetrz"
-title = "Zastosowanie | Saicos"
+title = "Zastosowanie do wnętrz | Saicos"
+tytul_do_listowania = "Do wnętrz"
 [sugerowane_produkty]
 wybierz_produkty = ["produkty/oleje.md", "produkty/premium-hardwax-Oil.md"]
 [[sugerowane_produkty.header_repeater]]
