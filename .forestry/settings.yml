@@ -40,7 +40,6 @@ sections:
 - type: document
   path: data/header.yml
   label: Header
-  match: "**/*"
 - type: document
   path: data/footer.yml
   label: Stopka
