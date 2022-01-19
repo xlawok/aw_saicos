@@ -5,7 +5,8 @@ keywords = ""
 opis_pod_naglowkiem = "<p>Nasze produkty przeznaczone do użytku we wnętrzach oraz na zewnątrz to szeroka gama wszechstronnych, specjalistycznych środków.</p>"
 robots = "noindex nofollow"
 slug = "/na-zewnatrz"
-title = "Zastosowanie | Saicos"
+title = "Zastosowanie na zewnątrz | Saicos"
+tytul_do_listowania = "Na zewnątrz"
 [sugerowane_produkty]
 wybierz_produkty = ["produkty/oleje.md", "produkty/premium-hardwax-Oil.md"]
 [[sugerowane_produkty.header_repeater]]
