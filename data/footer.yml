@@ -37,6 +37,11 @@ stopka:
       break_line: false
       block_tag_type: div
       txt_block_size: MD
+    menu_stopki:
+    - produkty/_index.md
+    - na-zewnatrz/_index.md
+    - do-wnetrz/_index.md
+    - kontakt-saicos.md
   trzecia_kolumna:
     header_repeater:
     - txt_block: Kategorie
