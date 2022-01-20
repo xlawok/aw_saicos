@@ -1,7 +1,7 @@
 +++
 alt = "kolor do drewna bel-air"
 body_class = ""
-categories = ["Lakiery"]
+categories = ["Lakiery","lakiery-do-drewna"]
 description = "Bel-Air"
 image = "/uploads/72xx-bel-air-25-d-gb.jpg"
 keywords = ""

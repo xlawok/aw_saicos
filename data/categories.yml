@@ -1,9 +1,9 @@
 ---
 categories:
-  Lakiery:
+  lakiery:
     kategoria: Lakiery
-    tytul: Lakiery
-    slug: Lakiery
+    tytul: lakiery
+    slug: lakiery
     opis: "<p>Lakiery do drewna opis nad listowaniem</p>"
     opis_pod_listowaniem: "<p>Lakiery do drewna opis pod listowaniem</p>"
     opis_menu: "AAA jakby jakiś opis w menu dla pozycji lakiery"
