@@ -1,12 +1,12 @@
 ---
 categories:
-  oleje-do-drewna:
-    kategoria: oleje do drewna
-    tytul: oleje do drewna
-    slug: oleje-do-drewna
-    opis: "<p>Oleje do drewna opis nad listowaniem</p>"
-    opis_pod_listowaniem: "<p>Oleje do drewna opis pod listowaniem</p>"
-    opis_menu: "AAA jakby jakiś opis w menu"
+  Lakiery:
+    kategoria: Lakiery
+    tytul: Lakiery
+    slug: Lakiery
+    opis: "<p>Lakiery do drewna opis nad listowaniem</p>"
+    opis_pod_listowaniem: "<p>Lakiery do drewna opis pod listowaniem</p>"
+    opis_menu: "AAA jakby jakiś opis w menu dla pozycji lakiery"
   oleje-do-drewna-2:
     kategoria: oleje do drewna
     tytul: inne oleje do drewna
