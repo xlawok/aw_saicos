@@ -12,10 +12,6 @@ url = "#"
 weight = 2
 [[menu.main]]
 name = "Porady eksperta"
-weight = 4
-[[menu.main]]
-name = "O nas"
-url = "#"
 weight = 3
 [outputs]
 posts = ["HTML"]
