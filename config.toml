@@ -10,9 +10,6 @@ title = "saicos.pl"
 name = "Zastosowanie"
 url = "#"
 weight = 2
-[[menu.main]]
-name = "Porady eksperta"
-weight = 3
 [outputs]
 posts = ["HTML"]
 section = ["JSON", "HTML"]

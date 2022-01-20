@@ -14,10 +14,13 @@
         {{end}}
     
     </div>
+    {{end}}
     <div class="second-row">
+        {{with $header}}
         <a href="/">
         {{- partial "img.html" (dict "image" .zdjecie "ifsrcset" "nosrcset"  "tag_class" "logo")  -}}
         </a>
+        {{end}}
         <nav class='below-row'>
             <ul class='main-menu'>
                 {{ $currentPage := . }}
@@ -112,5 +115,5 @@
             </ul>
         </nav>
     </div>
-{{end}}
+
 </header>
