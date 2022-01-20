@@ -5,6 +5,10 @@ robots = "noindex nofollow"
 slug = "/do-wnetrz"
 title = "Zastosowanie do wnętrz | Saicos"
 tytul_do_listowania = "Do wnętrz"
+[menu.main]
+name = "Do wnętrz"
+parent = "Zastosowanie"
+weight = 2
 [sugerowane_produkty]
 wybierz_produkty = ["produkty/oleje.md", "produkty/premium-hardwax-Oil.md"]
 [[sugerowane_produkty.header_repeater]]

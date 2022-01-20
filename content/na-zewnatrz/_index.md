@@ -7,6 +7,10 @@ robots = "noindex nofollow"
 slug = "/na-zewnatrz"
 title = "Zastosowanie na zewnątrz | Saicos"
 tytul_do_listowania = "Na zewnątrz"
+[menu.main]
+name = "Na zewnątrz"
+parent = "Zastosowanie"
+weight = 1
 [sugerowane_produkty]
 wybierz_produkty = ["produkty/oleje.md", "produkty/premium-hardwax-Oil.md"]
 [[sugerowane_produkty.header_repeater]]

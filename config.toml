@@ -6,6 +6,17 @@ languageCode = "pl"
 portraitPhotoWidths = [1500, 1000, 750]
 theme = "aw_saicos"
 title = "saicos.pl"
+[[menu.main]]
+name = "Zastosowanie"
+url = "#"
+weight = 2
+[[menu.main]]
+name = "Porady eksperta"
+weight = 4
+[[menu.main]]
+name = "O nas"
+url = "#"
+weight = 3
 [outputs]
 posts = ["HTML"]
 section = ["JSON", "HTML"]
@@ -29,7 +40,3 @@ filename = "sitemap.xml"
 priority = 0.5
 [taxonomies]
 category = "categories"
-[[menu.main]]
-name = "O nas"
-url = "#"
-weight = 2
