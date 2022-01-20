@@ -4,6 +4,7 @@ description = "Produkty - Saicos."
 slug = "/produkty"
 title = "Produkty - Saicos"
 tytul_do_listowania = "Produkty"
+robots = "noindex"
 [menu.main]
 name = "Produkty"
 weight = 1

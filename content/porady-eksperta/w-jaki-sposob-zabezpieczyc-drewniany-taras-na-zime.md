@@ -5,7 +5,7 @@ slug = "/w-jaki-sposob-zabezpieczyc-drewniany-taras-na-zime"
 title = "W jaki sposób zabezpieczyć drewniany taras na zimę? | Porady eksperta - Saicos"
 tytul_do_listowania = "W jaki sposób zabezpieczyć drewniany taras na zimę?"
 zdjecie= "/uploads/zabezpieczenie-tarasu.jpg"
-robots = "index follow"
+robots = "noindex follow"
 summary = "Drewniany taras, który nie posiada zadaszenia narażony jest na długotrwałe oddziaływanie niszczących czynników atmosferycznych. Między innymi jest to promieniowanie słoneczne przez które pozbawione ochrony deski tracą swój pierwotny kolor i szarzeją."
 +++
 Drewniany taras, który nie posiada zadaszenia narażony jest na długotrwałe oddziaływanie niszczących czynników atmosferycznych. Między innymi jest to promieniowanie słoneczne przez które pozbawione ochrony deski tracą swój pierwotny kolor i szarzeją. Kolejnymi czynnikami są wilgoć i deszcz, które mogą wnikać w drewno i dochodzić do uszkodzeń mechanicznych oraz przetarć. Jeżeli w niedokładny sposób lub nieodpowiednim produktem pomalujesz swój drewniany taras albo pozostawisz drewno bez warstwy ochronnej deski mogą szybko domagać się renowacji oraz wymiany. Zastanawiasz się jak zabezpieczyć swój drewniany przed zimą? Wszystkiego dowiesz się z tego artykułu.

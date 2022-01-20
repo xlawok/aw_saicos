@@ -2,6 +2,7 @@
 description = "Zastosowanie produktów Saicos do mebli "
 opis_pod_naglowkiem = "<p>Powierzchnie tarasów narażone są na szczególnie trudne warunki użytkowania.</p><p>Nieustannie eksponowane są na zmienne warunki atmosferyczne – od ostrego słońca, po deszcz, a nawet zalegający śnieg.</p><p>Do tego pamiętać należy jeszcze o koniecznej, wysokiej odporności na ścieralność, ponieważ tarasy eksploatowane są w ciągłym kontakcie z obuwiem, przesuwanymi meblami itp.</p><p>Preparaty do tarasów SAICOS produkowane są z myślą o takich właśnie, ekstremalnych uwarunkowaniach.</p>"
 slug = "meble"
+robots = "noindex"
 title = "Zastosowanie produktów Saicos do mebli | Saicos"
 [sugerowane_produkty]
 wybierz_produkty = ["produkty/premium-hardwax-Oil.md"]

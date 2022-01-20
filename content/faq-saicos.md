@@ -2,7 +2,7 @@
 body_class = "template-faq"
 description = "Najczęściej zadawane pytania"
 keywords = ""
-robots = ""
+robots = "noindex"
 slug = "faq"
 template_name = "template-faq"
 title = "FAQ | Saicos"

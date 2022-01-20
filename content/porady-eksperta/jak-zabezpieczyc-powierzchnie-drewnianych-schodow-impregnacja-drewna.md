@@ -5,7 +5,7 @@ slug = "/jak-zabezpieczyc-powierzchnie-drewnianych-schodow-impregnacja-drewna"
 title = "Jak zabezpieczyć powierzchnię drewnianych schodów? Impregnacja drewna | Porady eksperta - Saicos"
 tytul_do_listowania = "Jak zabezpieczyć powierzchnię drewnianych schodów?"
 zdjecie= "/uploads/zabezpieczenie-drewnianych-schodow-impregnacja.jpg"
-robots = "index follow"
+robots = "noindex follow"
 summary = "Konserwacja drewnianych schodów jest procesem, który pomaga zabezpieczyć je w odpowiedni sposób przed różnymi czynnikami. Drewno jest naturalnym i pięknym materiałem, który w rewelacyjny sposób potrafi ozdobić wnętrze każdego domu. Aby ten materiał był przez cały czas w dobrym stanie należy o niego odpowiednio zadbać. "
 +++
 Drewno jest niezwykle szlachetnym surowcem, który dodaje wnętrzu charakteru oraz elegancji. Schody drewniane pełnią nie tylko funkcje użytkowe, ale również dekoracyjne. Aby służyły na długie lata i wyglądały w dalszym ciągu efektownie należy odpowiednio je zaimpregnować. Zatem w jaki sposób chronić drewniane schody?
