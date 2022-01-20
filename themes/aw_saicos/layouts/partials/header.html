@@ -1,16 +1,18 @@
 <header>
     {{ $header := site.Data.header }}
+    {{$ctitle :=.Title}}
+    {{$type := .Type}}
 {{with $header}}
     <div class="first-row">
         
         
         {{with .numer_telefonu}}
-          <span class="phone"><img src="img/phone-icon.svg"><a href="tel:{{ trim  . "-" }}">{{.}}</a></span>
+          <span class="phone"><img src="/img/phone-icon.svg"><a href="tel:{{ trim  . "-" }}">{{.}}</a></span>
         
         {{end}}
     
         {{with .adres_email}}
-            <span class="mailto"><img src="img/mail-icon.svg"><a href="mailto:{{.}}">{{.}}</a></span>
+            <span class="mailto"><img src="/img/mail-icon.svg"><a href="mailto:{{.}}">{{.}}</a></span>
         {{end}}
     
     </div>
@@ -42,7 +44,7 @@
                         </li>
                         
                     {{ else }}
-                        <li>
+                        <li class="{{if eq .Name "Produkty"}} parent    {{ if or (eq $type "categories") (eq $type "produkty")}} active {{end}} {{end}} {{ if $currentPage.IsMenuCurrent "main" . }}active{{ end }}">
                             <a href="{{ .URL }}">
                                 {{ .Pre }}
                                 <span>{{ .Name }}</span></a>
@@ -64,7 +66,7 @@
                                         loop tylko dla kategorii głównych
                                     */}}
                                     {{ if not (in $key "/") }}
-                                        <li >
+                                        <li class="{{if eq $slug $ctitle}} active{{end}}">
                                             <a href="/kategoria/{{$slug}}">{{$tytul}}</a> 
                                             <div class="category-info">
                                                 <div class='category-info-header'>

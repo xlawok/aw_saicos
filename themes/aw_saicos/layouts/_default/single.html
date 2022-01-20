@@ -3,7 +3,7 @@
         <div class="sc-faq">
             {{ $header_list := (.Params.header_repeater) }}
   
-            {{- partial "header-tag.html" (dict "context" . "header_list" $header_list "custom_class" "usage-listing-header")  -}}
+            {{- partial "header-tag.html" (dict "context" . "header_list" $header_list "custom_class" "usage-listing-header  p-header")  -}}
             <div class='faq-wrapper'>
                 {{ with .Params.faq}}
                     <ul class="faq-list" >
@@ -46,7 +46,7 @@
         <div class="sc-kontakt">
             {{ $header_list := (.Params.header_repeater) }}
 
-            {{- partial "header-tag.html" (dict "context" . "header_list" $header_list "custom_class" "usage-listing-header")  -}}
+            {{- partial "header-tag.html" (dict "context" . "header_list" $header_list "custom_class" "usage-listing-header p-header")  -}}
             <div class='contact-cols-wrapper'>
                 <div class='contact-left'>
                     <div class='left-col-header'>

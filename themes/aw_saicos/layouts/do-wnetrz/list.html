@@ -3,7 +3,7 @@
   
 {{ $header_list := (.Params.header_repeater) }}
   
-    {{- partial "header-tag.html" (dict "context" . "header_list" $header_list "custom_class" "usage-listing-header")  -}}
+    {{- partial "header-tag.html" (dict "context" . "header_list" $header_list "custom_class" "usage-listing-header p-header")  -}}
     <div class="usage-listing-desc">
         {{.Params.opis_pod_naglowkiem | safeHTML}}
     </div>

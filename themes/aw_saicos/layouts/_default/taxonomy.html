@@ -4,7 +4,7 @@
     {{ $categorieslist := site.Data.categories }}
     {{$ctitle :=.Title}}
         {{ if eq .Type "categories"}}
-            <h1 id="category_name" class=" category_name" data-category="{{ lower .Title }}"  >
+            <h1 id="category_name" class=" category_name p-header" data-category="{{ lower .Title }}"  >
             
                 {{ range $categorieslist.categories }}
                     
