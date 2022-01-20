@@ -149,6 +149,10 @@ header{
         }
     }
     .second-row{
+        @media (max-width: 1365px) {
+            position: fixed;
+            top: 0;left: 0;
+        }
         padding: 0 1rem;
         background-color: #171715;
         display: flex;
@@ -310,10 +314,117 @@ header{
                 }
             }
         }
+        @media (max-width: 1365px) {
+            
+            #main-nav {
+              
+              
+                width: 100vw;
+                position: absolute;
+                left: 0;
+                top: 5.5rem;
+                z-index: -1;
+                text-align: center;
+                background-color: #171715;
+              
+            }
+            #main-nav{
+                transform: translateX(110%);
+                transition: transform .5s ease;
+            }
+            .menu-btn-cnt{
+                width: 3.125rem;
+                height: 3.125rem;
+                border: 0;
+                // border-radius: 50%;
+                // border: 0.0625rem solid #1692D3;
+                display: flex;
+                background-color: transparent;
+                flex-direction: column;
+                justify-content: space-evenly;
+                align-items: flex-end;
+                padding: .25rem 0 .4rem 0;
+                // margin-right: 3rem;
+                transition: background-color .3s ease;
+                cursor: pointer;
+                top: 0;
+                position: absolute;
+                right: 1rem;
+                margin-right: 0;
+                span{
+                    
+                    display: block;
+                    margin-right: .7rem;
+                    transition: transform .3s ease;
+                    background-color: #fff;
+                    box-shadow: 0.3125rem 0.625rem 0.625rem #00000029;
+                    border-radius: 4rem;
+                    height: 0.25rem;
+                    transform-origin: center;
+                    &:nth-child(1){
+                        width: 1.875rem;
+                    }
+                    &:nth-child(2){
+                        width: 1.875rem;
+                    }
+                    &:nth-child(3){
+                        width: 1.875rem;
+                    }
+                }
+                
+            }
+            &.active{
+                .menu-btn-cnt{
+                    span{
+                        &:nth-child(2){
+                            display: none;
+                        }
+                        &:nth-child(1){
+                            transform: rotate(45deg) translate(.2rem,-0.2rem);
+                        }
+                        &:nth-child(3){
+                            transform: rotate(135deg) translate(-.75rem,.5rem);
+                        }
+                    }
+                }
+                #main-nav{
+                    transform: translateX(0);
+                    flex-direction: column;
+                    >li{
+                       >a{
+                        font-weight: 900;
+                       } 
+                       &.parent:after{
+                           display: none;
+                       }
+                    }
+                    .sub-menu,.menu-categories{
+                        display: flex;
+                        flex-direction: column;
+                        position: relative;
+                        display: flex;
+                        flex-direction: column;
+                        position: relative;
+                        justify-content: center;
+                        padding: 1rem 0;
+                        width: 100%;
+                        align-items: center;
+                        >li{
+                            padding: .5rem 0;
+                        }
+                    }
+                }
+            }
+        }
         @media (min-width: 1366px){
             width: 80%;
             padding: 1rem 0;
+            .menu-btn-cnt{
+                display: none;
+            }
         }
+
+     
     }
 }
 footer{

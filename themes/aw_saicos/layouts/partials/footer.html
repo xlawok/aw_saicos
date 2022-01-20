@@ -148,4 +148,18 @@
         {{end}}
     </div>
 </footer>
+<script>
+    document.addEventListener('DOMContentLoaded', function () {
+        if (document.readyState === "interactive") {
+            var menu_btn=document.querySelector('.menu-btn-cnt');
+            if(menu_btn){
+                menu_btn.addEventListener('click',function(e){
+                    e.preventDefault();
+                 
+                    document.querySelector('nav.below-row').classList.toggle('active');
+                });
+            }
+        }
+    });
+</script>
 {{end}}
