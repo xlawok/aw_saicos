@@ -16,7 +16,7 @@ categories:
     opis_menu: ""
   dodatki-do-lakieru:
     kategoria: dodatki do lakieru
-    tytul: Dodatki do lakieru
+    tytul: dodatki do lakieru
     slug: dodatki-do-lakieru
     opis: ""
     opis_pod_listowaniem: ""
@@ -24,7 +24,7 @@ categories:
   farby-do-drewna:
     kategoria: farby do drewna
     tytul: farby do drewna
-    slug: farby do drewna
+    slug: farby-do-drewna
     opis: ""
     opis_pod_listowaniem: ""
     opis_menu: ""
