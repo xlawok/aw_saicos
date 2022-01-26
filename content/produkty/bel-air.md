@@ -1,7 +1,7 @@
 +++
 alt = "kolor do drewna bel-air"
 body_class = ""
-categories = ["Lakiery","lakiery-do-drewna"]
+categories = ["oleje-do-drewna"]
 description = "Bel-Air"
 image = "/uploads/72xx-bel-air-25-d-gb.jpg"
 keywords = ""
@@ -11,7 +11,7 @@ robots = "noindex"
 slug = "bel-air"
 subname = "kolor do drewna"
 title = "Bel Air"
-zastosowanie = ["na zewnątrz", "do wnętrz"]
+zastosowanie = ["na zewnątrz"]
 [dodatkowy_opis]
 kolory = ["/uploads/bel_air_transparentny-600x281.jpg", "/uploads/bel_air_kryjacy-600x220.jpg"]
 piktogramy = "/uploads/bel_air_piktogramy-600x75.jpg"
@@ -21,11 +21,6 @@ youtube_embed = "<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.
 nazwa_atrybutu = "Dostępne pojemności:"
 opis_atrybutu = "<p>2 l</p>"
 template = "partial-produkt-atrybut"
-[[cechy]]
-nazwa_atrybutu = "Cechy:"
-template = "partial-produkt-atrybut-ikona"
-[[cechy.cechy]]
-ikona = "/uploads/podlogi_drewniane_icon.svg"
-nazwa_cechy = "Cecha przykładowa"
+
 
 +++

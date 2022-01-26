@@ -80,7 +80,7 @@
                     {{ $categorieslist := site.Data.categories }}
                     {{ range $key, $value:=  $categorieslist.categories }}
             
-                {{$tytul:=.tytul}}
+                {{$tytul:=.kategoria}}
                 {{$slug:=.slug}}
                 {{$podkategorie:=""}}
                 {{$podkategorie:=.podkategorie}}
@@ -101,7 +101,7 @@
                                     {{$current_subcategory:=.}}
                                     {{ with index $categorieslist.categories . }}
                                     
-                                    {{$tytul:=.tytul}}
+                                    {{$tytul:=.kategoria}}
                                     {{$slug:=.slug}}
                                     {{$podkategorie:=""}}
                                     {{$podkategorie:=.podkategorie}}

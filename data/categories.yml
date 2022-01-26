@@ -4,20 +4,104 @@ categories:
     kategoria: Lakiery
     tytul: lakiery
     slug: lakiery
-    opis: "<p>Lakiery do drewna opis nad listowaniem</p>"
-    opis_pod_listowaniem: "<p>Lakiery do drewna opis pod listowaniem</p>"
-    opis_menu: "AAA jakby jakiś opis w menu dla pozycji lakiery"
-  oleje-do-drewna-2:
+    opis: ""
+    opis_pod_listowaniem: ""
+    opis_menu: ""
+  utwardzacze-do-lakieru:
+    kategoria: utwardzacze do lakieru
+    tytul: utwardzacze do lakieru
+    slug: utwardzacze-do-lakieru
+    opis: ""
+    opis_pod_listowaniem: ""
+    opis_menu: ""
+  dodatki-do-lakieru:
+    kategoria: dodatki do lakieru
+    tytul: Dodatki do lakieru
+    slug: dodatki-do-lakieru
+    opis: ""
+    opis_pod_listowaniem: ""
+    opis_menu: ""
+  farby-do-drewna:
+    kategoria: farby do drewna
+    tytul: farby do drewna
+    slug: farby do drewna
+    opis: ""
+    opis_pod_listowaniem: ""
+    opis_menu: ""
+  oleje-do-drewna:
     kategoria: oleje do drewna
-    tytul: inne oleje do drewna
-    slug: oleje-do-drewna-2
-    opis: "<p>Oleje do drewna opis nad listowaniem</p>"
-    opis_pod_listowaniem: "<p>Oleje do drewna 2 opis pod listowaniem</p>"
-    opis_menu: "BBB jakby jakiś opis w menu"
-  lakiery-do-drewna:
-    kategoria: lakiery do drewna
-    tytul: lakiery do drewna
-    slug: lakiery-do-drewna
-    opis: "<p>lakiery do drewna opis nad listowaniem</p>"
-    opis_pod_listowaniem: "<p>lakiery do drewna 2 opis pod listowaniem</p>"
-    opis_menu: "ccc jakby jakiś opis w menu"
+    tytul: oleje do drewna
+    slug: oleje-do-drewna
+    opis: ""
+    opis_pod_listowaniem: ""
+    opis_menu: ""
+  koncentraty-do-drewna:
+    kategoria: koncentraty do drewna
+    tytul: koncentraty do drewna
+    slug: koncentraty-do-drewna
+    opis: ""
+    opis_pod_listowaniem: ""
+    opis_menu: ""
+  lazury-do-drewna:
+    kategoria: lazury do drewna
+    tytul: lazury do drewna
+    slug: lazury-do-drewna
+    opis: ""
+    opis_pod_listowaniem: ""
+    opis_menu: ""
+  woski-do-drewna:
+    kategoria: woski do drewna
+    tytul: woski do drewna
+    slug: woski-do-drewna
+    opis: ""
+    opis_pod_listowaniem: ""
+    opis_menu: ""
+  impregnaty-do-drewna:
+    kategoria: impregnaty do drewna
+    tytul: impregnaty do drewna
+    slug: impregnaty-do-drewna
+    opis: ""
+    opis_pod_listowaniem: ""
+    opis_menu: ""
+  dodatki-do-drewna:
+    kategoria: dodatki do drewna
+    tytul: dodatki do drewna
+    slug: dodatki-do-drewna
+    opis: ""
+    opis_pod_listowaniem: ""
+    opis_menu: ""
+  podklady-gruntujace-do-drewna:
+    kategoria: podkłady gruntujące do drewna
+    tytul: Podkłady gruntujące do drewna
+    slug: podklady-gruntujace-do-drewna
+    opis: ""
+    opis_pod_listowaniem: ""
+    opis_menu: ""
+  podklady-do-drewna:
+    kategoria: podkłady do drewna
+    tytul: Podkłady do drewna
+    slug: podklady-do-drewna
+    opis: ""
+    opis_pod_listowaniem: ""
+    opis_menu: ""
+  narzedzia:
+    kategoria: narzędzia
+    tytul: narzedzia
+    slug: narzedzia
+    opis: ""
+    opis_pod_listowaniem: ""
+    opis_menu: ""
+  czyszczenie-powierzchni:
+    kategoria: czyszczenie powierzchni
+    tytul: czyszczenie powierzchni
+    slug: czyszczenie-powierzchni
+    opis: ""
+    opis_pod_listowaniem: ""
+    opis_menu: ""
+  oleje-do-kompozytu:
+    kategoria: oleje do kompozytu
+    tytul: oleje do kompozytu
+    slug: oleje-do-kompozytu
+    opis: ""
+    opis_pod_listowaniem: ""
+    opis_menu: ""

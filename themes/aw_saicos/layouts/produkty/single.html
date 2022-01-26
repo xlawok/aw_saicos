@@ -66,14 +66,14 @@
             {{end}}
             {{with .piktogramy}}
             <div class='pikto-wrapper'>
-                {{- partial "img.html" (dict "image" . "imgsizes" "35vw")  -}} 
+                {{- partial "img.html" (dict "image" . "imgsizes" "35vw" "ifsrcset" "nosrcset")  -}} 
             </div>
             {{end}}
         </div>
         <div class='info-right-part'>
             {{with .kolory}}
                 {{range .}}
-                    {{- partial "img.html" (dict "image" . "imgsizes" "35vw")  -}} 
+                    {{- partial "img.html" (dict "image" . "imgsizes" "35vw"  "ifsrcset" "nosrcset")  -}} 
                 {{end}}
             {{end}}
         </div>
