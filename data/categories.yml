@@ -105,3 +105,10 @@ categories:
     opis: ""
     opis_pod_listowaniem: ""
     opis_menu: ""
+  zestawy-czyszczenie-powierzchni:
+    kategoria: zestawy do czyszczenia powierzchni
+    tytul: zestawy do czyszczenia powierzchni
+    slug: zestawy-czyszczenie-powierzchni
+    opis: ""
+    opis_pod_listowaniem: ""
+    opis_menu: ""
