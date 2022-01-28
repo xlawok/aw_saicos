@@ -10,7 +10,7 @@ product_description = "<p>Pozwala na uzyskanie czarnej powłoki, pozostawiając 
 robots = "noindex"
 slug = "extra-czarny-9918eco"
 subname = ""
-title = "MultiTop Extra Czarny (9918Eco)"
+title = "MultiTop Extra Czarny (9918Eco) | Saicos"
 zastosowanie = ["do wnętrz","na zewnątrz"]
 [dodatkowy_opis]
 kolory = []

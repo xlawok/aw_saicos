@@ -10,7 +10,7 @@ product_description = "<p>Opracowana w oparciu o najnowsze wyniki badań powłok
 robots = "noindex"
 slug = "premium-hardwax-oil"
 subname = ""
-title = "Premium Hardwax-Oil"
+title = "Premium Hardwax-Oil | Saicos"
 zastosowanie = ["do wnętrz","na zewnątrz"]
 [dodatkowy_opis]
 kolory = ["/uploads/premium_hardwax_wybarwienia-e1618254428595-600x209.jpg"]

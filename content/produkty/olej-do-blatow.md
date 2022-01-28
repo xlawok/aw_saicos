@@ -10,7 +10,7 @@ product_description = "<p>SAICOS Olej do blatów to specjalny rodzaj oleju oprac
 robots = "noindex"
 slug = "olej-do-blatow"
 subname = ""
-title = "Olej do blatów"
+title = "Olej do blatów | Saicos"
 zastosowanie = ["do wnętrz"]
 [dodatkowy_opis]
 kolory = ["/uploads/wybarwienia_olej_do_blatow.jpg"]

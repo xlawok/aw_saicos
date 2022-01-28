@@ -10,7 +10,7 @@ product_description = "<p>Ten bazujący na wodzie system łączy zalety szybkieg
 robots = "noindex"
 slug = "bel-air"
 subname = "kolor do drewna"
-title = "Bel Air"
+title = "Bel Air | Saicos"
 zastosowanie = ["na zewnątrz"]
 [dodatkowy_opis]
 kolory = ["/uploads/bel_air_transparentny-600x281.jpg", "/uploads/bel_air_kryjacy-600x220.jpg"]

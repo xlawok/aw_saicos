@@ -10,7 +10,7 @@ product_description = "<p>Szukasz doskonałej ochrony dla drewnianego tarasu? Ma
 robots = "noindex"
 slug = "olej-do-tarasow-h2o"
 subname = ""
-title = "Olej do tarasów H2O"
+title = "Olej do tarasów H2O | Saicos"
 zastosowanie = ["na zewnątrz"]
 [dodatkowy_opis]
 kolory = ["/uploads/H20_wybarwienia-1-600x69.jpg"]

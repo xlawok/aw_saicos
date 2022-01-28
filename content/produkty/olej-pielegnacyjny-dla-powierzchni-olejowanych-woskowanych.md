@@ -10,7 +10,7 @@ product_description = "<p>Specjalnie dla olejowanej/woskowanej powierzchni.</p><
 robots = "noindex"
 slug = "olej-pielegnacyjny-dla-powierzchni-olejowanych-woskowanych"
 subname = ""
-title = "Olej Pielęgnacyjny dla powierzchni olejowanych/woskowanych"
+title = "Olej Pielęgnacyjny dla powierzchni olejowanych/woskowanych | Saicos"
 zastosowanie = ["do wnętrz","na zewnątrz"]
 [dodatkowy_opis]
 kolory = ["/uploads/olej_pielegnacyjny_wybarwienia.jpg"]

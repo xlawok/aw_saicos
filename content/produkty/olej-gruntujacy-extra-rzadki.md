@@ -10,7 +10,7 @@ product_description = "<p>Grunt do egzotycznych gatunków drewna i podłóg podd
 robots = "noindex"
 slug = "olej-gruntujacy-extra-rzadki"
 subname = ""
-title = "Olej Gruntujący Extra Rzadki"
+title = "Olej Gruntujący Extra Rzadki | Saicos"
 zastosowanie = ["do wnętrz","na zewnątrz"]
 [dodatkowy_opis]
 kolory = ["/uploads/olej_gruntujacy_extra_rzadki_wybarwienia-e1618307094407-300x69.jpg"]

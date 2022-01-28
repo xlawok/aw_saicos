@@ -10,7 +10,7 @@ product_description = "<p>Dla końcowego wykończenia powierzchni wstępnie olej
 robots = "noindex"
 slug = "profesjonalny-olej-pielegnacyjny-dla-powierzchni-olejowanych-wstepnie"
 subname = ""
-title = "Profesjonalny Olej Pielęgnacyjny dla powierzchni olejowanych wstępnie"
+title = "Profesjonalny Olej Pielęgnacyjny dla powierzchni olejowanych wstępnie | Saicos"
 zastosowanie = ["do wnętrz","na zewnątrz"]
 [dodatkowy_opis]
 kolory = ["/uploads/olej_pielegnacyjny_profi_wybarwienia.jpg"]

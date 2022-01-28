@@ -10,7 +10,7 @@ product_description = "<p>Umożliwia produkcję bardzo wysokiej jakości lakieru
 robots = "noindex"
 slug = "utwardzacz-2k-9908eco"
 subname = ""
-title = "MultiTop Utwardzacz 2K (9908Eco)"
+title = "MultiTop Utwardzacz 2K (9908Eco) | Saicos"
 zastosowanie = ["do wnętrz"]
 [dodatkowy_opis]
 kolory = []

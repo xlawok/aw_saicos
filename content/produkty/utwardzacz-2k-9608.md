@@ -10,7 +10,7 @@ product_description = "<p>Dodatek do lakieru 2K PU Elastic.</p><p>Z Utwardzaczem
 robots = "noindex"
 slug = "utwardzacz-2k-9608"
 subname = ""
-title = "Utwardzacz 2K (9608)"
+title = "Utwardzacz 2K (9608) | Saicos"
 zastosowanie = ["do wnętrz"]
 [dodatkowy_opis]
 kolory = []

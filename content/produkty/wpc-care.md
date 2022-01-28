@@ -10,7 +10,7 @@ product_description = "<p>SAICOS WPC Care jest transparentną i otwarto porową 
 robots = "noindex"
 slug = "wpc-care"
 subname = ""
-title = "WPC Care"
+title = "WPC Care | Saicos"
 zastosowanie = ["na zewnątrz"]
 [dodatkowy_opis]
 kolory = ["/uploads/wpc_care_wybarwienia.jpg"]

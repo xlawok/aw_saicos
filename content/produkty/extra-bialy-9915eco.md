@@ -10,7 +10,7 @@ product_description = "<p>Aby uzyskać wyjątkową biel podłogi, zalecamy zasto
 robots = "noindex"
 slug = "extra-bialy-9915eco"
 subname = ""
-title = "MultiTop Extra Biały (9915Eco)"
+title = "MultiTop Extra Biały (9915Eco) | Saicos"
 zastosowanie = ["do wnętrz","na zewnątrz"]
 [dodatkowy_opis]
 kolory = []

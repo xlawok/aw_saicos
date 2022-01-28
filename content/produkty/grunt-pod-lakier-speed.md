@@ -10,7 +10,7 @@ product_description = "<p>Specjalny grunt, o krótkim czasie schnięcia, do nano
 robots = "noindex"
 slug = "grunt-pod-lakier-speed"
 subname = ""
-title = "Grunt pod lakier „Speed” – bezbarwny"
+title = "Grunt pod lakier „Speed” – bezbarwny | Saicos"
 zastosowanie = ["do wnętrz","na zewnątrz"]
 [dodatkowy_opis]
 kolory = []

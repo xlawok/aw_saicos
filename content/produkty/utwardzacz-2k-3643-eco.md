@@ -10,7 +10,7 @@ product_description = "<p>DODATEK do Saicos Ecoline Twardy Wosk Olejny 2.0</p><p
 robots = "noindex"
 slug = "utwardzacz-2k-3643-eco"
 subname = ""
-title = "Utwardzacz 2K (3643Eco)"
+title = "Utwardzacz 2K (3643Eco) | Saicos"
 zastosowanie = ["do wnętrz"]
 [dodatkowy_opis]
 kolory = []

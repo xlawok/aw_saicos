@@ -10,7 +10,7 @@ product_description = "<p>Naturalne oleje wnikają głęboko w drewno i utrzymuj
 robots = "noindex"
 slug = "olej-do-mebli"
 subname = ""
-title = "Olej do mebli – bezbarwny"
+title = "Olej do mebli – bezbarwny | Saicos"
 zastosowanie = ["do wnętrz"]
 [dodatkowy_opis]
 kolory = []

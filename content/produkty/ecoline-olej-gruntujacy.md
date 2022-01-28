@@ -10,7 +10,7 @@ product_description = "<p>Specjalny środek dla twojego drewna – bezbarwny lub
 robots = "noindex"
 slug = "ecoline-olej-gruntujacy"
 subname = ""
-title = "Ecoline Olej Gruntujący"
+title = "Ecoline Olej Gruntujący | Saicos"
 zastosowanie = ["do wnętrz"]
 [dodatkowy_opis]
 kolory = ["/uploads/Ecoline_olej_gruntujacy_wybarwienia-600x271.jpg"]

@@ -10,7 +10,7 @@ product_description = "<p>Środek gruntujący do ochrony przed powstawaniem w st
 robots = "noindex"
 slug = "bialy-podklad-gruntujacy"
 subname = ""
-title = "Biały podkład gruntujący"
+title = "Biały podkład gruntujący | Saicos"
 zastosowanie = ["do wnętrz","na zewnątrz"]
 [dodatkowy_opis]
 kolory = []

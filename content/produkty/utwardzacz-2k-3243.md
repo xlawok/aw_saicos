@@ -10,7 +10,7 @@ product_description = "<p>DODATEK do Saicos Premium Hardwax-Oil.</p><p>Dzięki d
 robots = "noindex"
 slug = "utwardzacz-2k-3243"
 subname = ""
-title = "Utwardzacz 2K (3243)"
+title = "Utwardzacz 2K (3243 | Saicos)"
 zastosowanie = ["do wnętrz"]
 [dodatkowy_opis]
 kolory = []

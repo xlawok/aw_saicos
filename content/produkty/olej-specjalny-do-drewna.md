@@ -10,7 +10,7 @@ product_description = "<p>Najlepsza ochrona dla drewnianych tarasów i mebli ogr
 robots = "noindex"
 slug = "olej-specjalny-do-drewna"
 subname = ""
-title = "Olej Specjalny do Drewna"
+title = "Olej Specjalny do Drewna | Saicos"
 zastosowanie = ["na zewnątrz"]
 [dodatkowy_opis]
 kolory = ["/uploads/olej_specjalny_do_drewna_wybarwienia.jpg"]
