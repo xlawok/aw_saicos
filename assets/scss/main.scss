@@ -116,7 +116,7 @@ body{
 }
 header{
     position: relative;
-    z-index: 1;
+    z-index: 2;
     .first-row{
         background-color: #EFD7B8;
         max-height: 2rem;
@@ -236,29 +236,31 @@ header{
                     display: none;
                     background-color: #171715;
                 }
-                &:hover{
-                    .sub-menu,.menu-categories{
-                        display: flex;
-                        flex-direction: column;
-                        inset: 100% auto auto 0;
-                        padding-bottom: 1rem;
-                        li{
-                            padding-left: 1rem;
-                            // padding-bottom: 1rem;
-                            padding-top: 1rem;
+                @media(min-width: 1366px){
+                    &:hover{
+                        .sub-menu,.menu-categories{
+                            display: flex;
+                            flex-direction: column;
+                            inset: 100% auto auto 0;
                             padding-bottom: 1rem;
-                            &:not(:last-child){
-                                a{
-                                    padding-bottom: 1rem;
-                                    border-bottom: 1px solid #fff;;
-                                    
+                            li{
+                                padding-left: 1rem;
+                                // padding-bottom: 1rem;
+                                padding-top: 1rem;
+                                padding-bottom: 1rem;
+                                &:not(:last-child){
+                                    a{
+                                        padding-bottom: 1rem;
+                                        border-bottom: 1px solid #fff;;
+                                        
+                                    }
                                 }
                             }
-                        }
-                        >li{
-                            width: 100%;
-                            padding-right: 1rem;
-                         
+                            >li{
+                                width: 100%;
+                                padding-right: 1rem;
+                            
+                            }
                         }
                     }
                 }
@@ -318,7 +320,7 @@ header{
             
             #main-nav {
               
-              
+                justify-content: flex-start;
                 width: 100vw;
                 position: absolute;
                 left: 0;
@@ -326,7 +328,9 @@ header{
                 z-index: -1;
                 text-align: center;
                 background-color: #171715;
-              
+                height: calc(100vh - 5.5rem);
+                min-height: 30rem;
+                overflow-y: auto;
             }
             #main-nav{
                 transform: translateX(110%);
@@ -414,6 +418,12 @@ header{
                         }
                     }
                 }
+            }
+        }
+        @media (max-width: 767px) {
+            #main-nav {
+                flex-wrap: nowrap;
+                height: 100%;
             }
         }
         @media (min-width: 1366px){
