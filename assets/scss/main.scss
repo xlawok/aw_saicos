@@ -96,7 +96,10 @@ body{
     font-weight: 900;
     text-align: center;
     height: 8.125rem;
-    margin-top: -.5rem;
+    @media(min-width: 1365px){
+        margin-top: -.5rem;
+    }
+    
     &:before{
         background: #EFD7B8 0% 0% no-repeat padding-box;
         opacity: 0.3;
