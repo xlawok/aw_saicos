@@ -6,7 +6,7 @@ kod_formularza = "<div id=\"my-form-status\"></div><form id=\"contactform\" acti
 mapka_google_kod = "<iframe src=\"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2504.8487518805628!2d17.006315016081174!3d51.111250679572045!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x470fc206611bc281%3A0x709a9fa646fac869!2sSaicos!5e0!3m2!1spl!2spl!4v1642522993921!5m2!1spl!2spl\" width=\"600\" height=\"450\" style=\"border:0;\" allowfullscreen=\"\" loading=\"lazy\"></iframe>"
 naglowek_lewej_kolumny = "Wybierz województwo"
 naglowek_prawej_kolumny = "Skorzystaj z formularza"
-robots = "noindex"
+robots = ""
 slug = "kontakt"
 template_name = "template-contact"
 title = "Kontakt | Saicos"
@@ -22,6 +22,42 @@ break_line = false
 color_txt = "czarny"
 txt_block = "Kontakt"
 txt_block_size = "L"
+[[wojewodztwa]]
+nazwa = "Zachodniopomorskie"
+[[wojewodztwa.partnerzy]]
+nazwa = "RoyalWood"
+[[wojewodztwa.partnerzy.wiersz_adresu]]
+pole_tel = "ul. Majora Władysława Raginisa 13/1"
+template = "partial-pole-tekst"
+[[wojewodztwa.partnerzy.wiersz_adresu]]
+pole_tel = "71-625 Szczecin"
+template = "partial-pole-tekst"
+[[wojewodztwa.partnerzy.wiersz_adresu]]
+pole_tel = "884 737 407"
+template = "partial-pole-phone"
+[[wojewodztwa.partnerzy.wiersz_adresu]]
+pole_email = "royalwood@wp.pl"
+template = "partial-pole-mail"
+[[wojewodztwa.partnerzy.wiersz_adresu]]
+pole_website = "www.royalpodlogi.pl"
+template = "partial-pole-website"
+[[wojewodztwa.partnerzy]]
+nazwa = "PODŁOGA"
+[[wojewodztwa.partnerzy.wiersz_adresu]]
+pole_tel = "Wioleta J. Gańcza"
+template = "partial-pole-tekst"
+[[wojewodztwa.partnerzy.wiersz_adresu]]
+pole_tel = "ul.Welecka 2"
+template = "partial-pole-tekst"
+[[wojewodztwa.partnerzy.wiersz_adresu]]
+pole_tel = "72-006 Mierzyn k/ Szczecina"
+template = "partial-pole-tekst"
+[[wojewodztwa.partnerzy.wiersz_adresu]]
+pole_tel = "091/ 483 32 99"
+template = "partial-pole-phone"
+[[wojewodztwa.partnerzy.wiersz_adresu]]
+pole_tel = "501 075 939"
+template = "partial-pole-phone"
 [[wojewodztwa]]
 nazwa = "Dolnośląskie"
 [[wojewodztwa.partnerzy]]
@@ -71,4 +107,5 @@ template = "partial-pole-mail"
 [[wojewodztwa.partnerzy.wiersz_adresu]]
 pole_tel = "509 962 262"
 template = "partial-pole-phone"
+
 +++
