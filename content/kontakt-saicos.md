@@ -14,7 +14,7 @@ tytul_do_listowania = "Kontakt"
 wyswietl_formularz = true
 [menu.main]
 name = "Kontakt"
-weight = 4
+weight = 5
 [[header_repeater]]
 block_tag_type = "h1"
 bold_txt = "bardzo gruby"

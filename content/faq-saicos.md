@@ -15,6 +15,9 @@ break_line = false
 color_txt = "czarny"
 txt_block = "Ostatnio na blogu"
 txt_block_size = "XL"
+[menu.main]
+name = "FAQ"
+weight = 4
 [[faq]]
 odpowiedz = "W przypadku powłok przezroczystych kolor podłoża ma kolosalne znaczenie, ponieważ jest widoczny przez powłokę."
 pytanie = "Dlaczego ta sama, przezroczysta powłoka wygląda tak różnie na różnych gatunkach drewna?"
