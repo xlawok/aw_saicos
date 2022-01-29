@@ -61,9 +61,14 @@ template = "partial-pole-mail"
 [[wojewodztwa]]
 nazwa = "Kujawsko-Pomorskie"
 [[wojewodztwa.partnerzy]]
-nazwa = "fghf"
+nazwa = "Salon Parkiet"
 [[wojewodztwa.partnerzy.wiersz_adresu]]
-pole_tel = "gfhfg"
+pole_tel = "Ul. Towarowa 22, Bydgoszcz"
 template = "partial-pole-tekst"
-
+[[wojewodztwa.partnerzy.wiersz_adresu]]
+pole_email = "biuro@salon-parkiet.pl"
+template = "partial-pole-mail"
+[[wojewodztwa.partnerzy.wiersz_adresu]]
+pole_tel = "509 962 262"
+template = "partial-pole-phone"
 +++
