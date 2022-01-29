@@ -72,6 +72,190 @@ template = "partial-pole-mail"
 pole_tel = "509 962 262"
 template = "partial-pole-phone"
 [[wojewodztwa]]
+nazwa = "Pomorskie"
+[[wojewodztwa.partnerzy]]
+nazwa = "Profi Parkiet"
+[[wojewodztwa.partnerzy.wiersz_adresu]]
+pole_tel = "Ul. Morska 62, Gdynia"
+template = "partial-pole-tekst"
+[[wojewodztwa.partnerzy.wiersz_adresu]]
+pole_tel = "58 667 20 97"
+template = "partial-pole-phone"
+[[wojewodztwa.partnerzy.wiersz_adresu]]
+pole_email = "biuro@profi-parkiet.com.pl"
+template = "partial-pole-mail"
+[[wojewodztwa.partnerzy]]
+nazwa = "Bis"
+[[wojewodztwa.partnerzy.wiersz_adresu]]
+pole_tel = "Ul. 30 Stycznia 40, Tczew"
+template = "partial-pole-tekst"
+[[wojewodztwa.partnerzy.wiersz_adresu]]
+pole_tel = "693 568 550"
+template = "partial-pole-phone"
+[[wojewodztwa.partnerzy.wiersz_adresu]]
+pole_tel = "Slaw-bis@wp.pl"
+template = "partial-pole-mail"
+[[wojewodztwa.partnerzy]]
+nazwa = "Fest Parkiet"
+[[wojewodztwa.partnerzy.wiersz_adresu]]
+pole_tel = "Ul. Kowalska 9, Kościerzyna"
+template = "partial-pole-tekst"
+[[wojewodztwa.partnerzy.wiersz_adresu]]
+pole_tel = "604 787 518"
+template = "partial-pole-phone"
+[[wojewodztwa.partnerzy.wiersz_adresu]]
+pole_email = "Roman.peplinski@fest-parkiet.pl"
+template = "partial-pole-mail"
+[[wojewodztwa.partnerzy]]
+nazwa = "Świat Drewna"
+[[wojewodztwa.partnerzy.wiersz_adresu]]
+pole_tel = "ul. Kartuska 302"
+template = "partial-pole-tekst"
+[[wojewodztwa.partnerzy.wiersz_adresu]]
+pole_tel = "80-125 Gdańsk"
+template = "partial-pole-tekst"
+[[wojewodztwa.partnerzy.wiersz_adresu]]
+pole_email = "biuro@swiatdrewna.com"
+template = "partial-pole-mail"
+[[wojewodztwa]]
+nazwa = "Warmińsko-mazurskie"
+[[wojewodztwa.partnerzy]]
+nazwa = "M3"
+[[wojewodztwa.partnerzy.wiersz_adresu]]
+pole_tel = "Ul. Budowlana 2A, Olsztyn"
+template = "partial-pole-tekst"
+[[wojewodztwa.partnerzy.wiersz_adresu]]
+pole_tel = "895 320 906"
+template = "partial-pole-phone"
+[[wojewodztwa.partnerzy]]
+nazwa = "Mazur Parkiet"
+[[wojewodztwa.partnerzy.wiersz_adresu]]
+pole_tel = "Ul. Jagodna 3B, Pisz"
+template = "partial-pole-tekst"
+[[wojewodztwa.partnerzy.wiersz_adresu]]
+pole_tel = "87 425 19 51"
+template = "partial-pole-phone"
+[[wojewodztwa.partnerzy]]
+nazwa = "Mazur Parkiet"
+[[wojewodztwa.partnerzy.wiersz_adresu]]
+pole_tel = "Ul. Stary Rynek 5/1, Ełk"
+template = "partial-pole-tekst"
+[[wojewodztwa.partnerzy.wiersz_adresu]]
+pole_tel = "87 621 46 95"
+template = "partial-pole-phone"
+[[wojewodztwa]]
+nazwa = "Wielkopolskie"
+[[wojewodztwa.partnerzy]]
+nazwa = "MAD PODŁOGI"
+[[wojewodztwa.partnerzy.wiersz_adresu]]
+pole_tel = "Kamińskiego 19"
+template = "partial-pole-tekst"
+[[wojewodztwa.partnerzy.wiersz_adresu]]
+pole_tel = "63-900 Rawicz"
+template = "partial-pole-tekst"
+[[wojewodztwa.partnerzy.wiersz_adresu]]
+pole_tel = "509 939 586"
+template = "partial-pole-phone"
+[[wojewodztwa.partnerzy.wiersz_adresu]]
+pole_website = "www.mad-podlogi.pl"
+template = "partial-pole-website"
+[[wojewodztwa.partnerzy]]
+nazwa = "OHRPOL"
+[[wojewodztwa.partnerzy.wiersz_adresu]]
+pole_tel = "Morelowa 1"
+template = "partial-pole-tekst"
+[[wojewodztwa.partnerzy.wiersz_adresu]]
+pole_tel = "62-800 Kalisz"
+template = "partial-pole-tekst"
+[[wojewodztwa.partnerzy.wiersz_adresu]]
+pole_tel = "62 760 35 43"
+template = "partial-pole-phone"
+[[wojewodztwa.partnerzy.wiersz_adresu]]
+pole_website = "www.ohrpol.pl"
+template = "partial-pole-website"
+[[wojewodztwa.partnerzy]]
+nazwa = "GIEŁDA PARKIETÓW"
+[[wojewodztwa.partnerzy.wiersz_adresu]]
+pole_tel = "Czechosłowacka 121a"
+template = "partial-pole-tekst"
+[[wojewodztwa.partnerzy.wiersz_adresu]]
+pole_tel = "61-425 Poznań"
+template = "partial-pole-tekst"
+[[wojewodztwa.partnerzy.wiersz_adresu]]
+pole_tel = "61 866 10 20"
+template = "partial-pole-phone"
+[[wojewodztwa.partnerzy.wiersz_adresu]]
+pole_tel = "728 836 376"
+template = "partial-pole-phone"
+[[wojewodztwa.partnerzy.wiersz_adresu]]
+pole_website = "www.gieldaparkietow.pl"
+template = "partial-pole-website"
+[[wojewodztwa.partnerzy]]
+nazwa = "PARKIETY PODŁOGI ROMAN POL"
+[[wojewodztwa.partnerzy.wiersz_adresu]]
+pole_tel = "Poznańska 50"
+template = "partial-pole-tekst"
+[[wojewodztwa.partnerzy.wiersz_adresu]]
+pole_tel = "62-005 Bolechowo k. Poznania"
+template = "partial-pole-tekst"
+[[wojewodztwa.partnerzy.wiersz_adresu]]
+pole_tel = "61 892 03 10"
+template = "partial-pole-phone"
+[[wojewodztwa.partnerzy.wiersz_adresu]]
+pole_website = "www.parkietyrp.com"
+template = "partial-pole-website"
+[[wojewodztwa.partnerzy]]
+nazwa = "PARKIETON"
+[[wojewodztwa.partnerzy.wiersz_adresu]]
+pole_tel = "Gronowska 22"
+template = "partial-pole-tekst"
+[[wojewodztwa.partnerzy.wiersz_adresu]]
+pole_tel = "64-100 Leszno"
+template = "partial-pole-tekst"
+[[wojewodztwa.partnerzy.wiersz_adresu]]
+pole_tel = "603787858"
+template = "partial-pole-phone"
+[[wojewodztwa.partnerzy.wiersz_adresu]]
+pole_email = "parkieton@wp.pl"
+template = "partial-pole-mail"
+[[wojewodztwa.partnerzy]]
+nazwa = "DĘBOWY MŁYN"
+[[wojewodztwa.partnerzy.wiersz_adresu]]
+pole_tel = "Iglasta 6"
+template = "partial-pole-tekst"
+[[wojewodztwa.partnerzy.wiersz_adresu]]
+pole_tel = "64-100 Leszno"
+template = "partial-pole-tekst"
+[[wojewodztwa.partnerzy.wiersz_adresu]]
+pole_tel = "730 332 337"
+template = "partial-pole-phone"
+[[wojewodztwa.partnerzy.wiersz_adresu]]
+pole_email = "debowy.mlyn@gmail.com"
+template = "partial-pole-mail"
+[[wojewodztwa.partnerzy.wiersz_adresu]]
+pole_website = "www.debowymlyn.pl"
+template = "partial-pole-website"
+[[wojewodztwa.partnerzy]]
+nazwa = "NATUR WOOD"
+[[wojewodztwa.partnerzy.wiersz_adresu]]
+pole_tel = "ul.Ostrowska 334"
+template = "partial-pole-tekst"
+[[wojewodztwa.partnerzy.wiersz_adresu]]
+pole_tel = "61-312 Poznań"
+template = "partial-pole-tekst"
+[[wojewodztwa.partnerzy.wiersz_adresu]]
+pole_tel = "517 094 673"
+template = "partial-pole-phone"
+[[wojewodztwa.partnerzy.wiersz_adresu]]
+pole_tel = "61 872 01 58"
+template = "partial-pole-phone"
+[[wojewodztwa.partnerzy.wiersz_adresu]]
+pole_email = "info@naturwood.pl"
+template = "partial-pole-mail"
+[[wojewodztwa.partnerzy.wiersz_adresu]]
+pole_website = "www.naturwood.pl"
+template = "partial-pole-website"
+[[wojewodztwa]]
 nazwa = "Zachodniopomorskie"
 [[wojewodztwa.partnerzy]]
 nazwa = "RoyalWood"
@@ -107,5 +291,38 @@ template = "partial-pole-phone"
 [[wojewodztwa.partnerzy.wiersz_adresu]]
 pole_tel = "501 075 939"
 template = "partial-pole-phone"
-
+[[wojewodztwa.partnerzy]]
+nazwa = "BL DREWNO"
+[[wojewodztwa.partnerzy.wiersz_adresu]]
+pole_tel = "Ul. Gryfińska 105"
+template = "partial-pole-tekst"
+[[wojewodztwa.partnerzy.wiersz_adresu]]
+pole_tel = "79-772 Szczecin"
+template = "partial-pole-tekst"
+[[wojewodztwa.partnerzy.wiersz_adresu]]
+pole_tel = "91 46 44 855"
+template = "partial-pole-phone"
+[[wojewodztwa.partnerzy.wiersz_adresu]]
+pole_email = "kdk@ludwinscy.com.pl"
+template = "partial-pole-mail"
+[[wojewodztwa.partnerzy.wiersz_adresu]]
+pole_website = "www.royalpodlogi.pl"
+template = "partial-pole-website"
+[[wojewodztwa.partnerzy]]
+nazwa = "FAGUS"
+[[wojewodztwa.partnerzy.wiersz_adresu]]
+pole_tel = "Noskowo 4"
+template = "partial-pole-tekst"
+[[wojewodztwa.partnerzy.wiersz_adresu]]
+pole_tel = "76-100 Sławno"
+template = "partial-pole-tekst"
+[[wojewodztwa.partnerzy.wiersz_adresu]]
+pole_tel = "502 488 750"
+template = "partial-pole-phone"
+[[wojewodztwa.partnerzy.wiersz_adresu]]
+pole_email = "fagus@fagus.com.pl"
+template = "partial-pole-mail"
+[[wojewodztwa.partnerzy.wiersz_adresu]]
+pole_website = "www.royalpodlogi.pl"
+template = "partial-pole-website"
 +++
