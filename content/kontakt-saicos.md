@@ -58,6 +58,20 @@ template = "partial-pole-phone"
 [[wojewodztwa.partnerzy.wiersz_adresu]]
 pole_email = "biuro@parkietex.pl"
 template = "partial-pole-mail"
+[[wojewodztwa.partnerzy]]
+nazwa = "NATURALNE PODŁOGI DREWNIANE Bartłomiej Sroka"
+[[wojewodztwa.partnerzy.wiersz_adresu]]
+pole_tel = "ul. Czereśniowa 19"
+template = "partial-pole-tekst"
+[[wojewodztwa.partnerzy.wiersz_adresu]]
+pole_tel = "58-100 Świdnica"
+template = "partial-pole-tekst"
+[[wojewodztwa.partnerzy.wiersz_adresu]]
+pole_tel = "606 351 959"
+template = "partial-pole-phone"
+[[wojewodztwa.partnerzy.wiersz_adresu]]
+pole_website = "www.parkietysroka.pl"
+template = "partial-pole-website"
 [[wojewodztwa]]
 nazwa = "Kujawsko-Pomorskie"
 [[wojewodztwa.partnerzy]]
