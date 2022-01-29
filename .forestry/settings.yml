@@ -20,6 +20,13 @@ sections:
   templates:
   - product
 - type: directory
+  path: content/porady-eksperta
+  label: Porady eksperta
+  create: all
+  match: "**/*"
+  templates:
+  - product
+- type: directory
   path: content/na-zewnatrz
   label: Na zewnątrz
   create: all
