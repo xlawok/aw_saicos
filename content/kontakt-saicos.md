@@ -23,42 +23,6 @@ color_txt = "czarny"
 txt_block = "Kontakt"
 txt_block_size = "L"
 [[wojewodztwa]]
-nazwa = "Zachodniopomorskie"
-[[wojewodztwa.partnerzy]]
-nazwa = "RoyalWood"
-[[wojewodztwa.partnerzy.wiersz_adresu]]
-pole_tel = "ul. Majora Władysława Raginisa 13/1"
-template = "partial-pole-tekst"
-[[wojewodztwa.partnerzy.wiersz_adresu]]
-pole_tel = "71-625 Szczecin"
-template = "partial-pole-tekst"
-[[wojewodztwa.partnerzy.wiersz_adresu]]
-pole_tel = "884 737 407"
-template = "partial-pole-phone"
-[[wojewodztwa.partnerzy.wiersz_adresu]]
-pole_email = "royalwood@wp.pl"
-template = "partial-pole-mail"
-[[wojewodztwa.partnerzy.wiersz_adresu]]
-pole_website = "www.royalpodlogi.pl"
-template = "partial-pole-website"
-[[wojewodztwa.partnerzy]]
-nazwa = "PODŁOGA"
-[[wojewodztwa.partnerzy.wiersz_adresu]]
-pole_tel = "Wioleta J. Gańcza"
-template = "partial-pole-tekst"
-[[wojewodztwa.partnerzy.wiersz_adresu]]
-pole_tel = "ul.Welecka 2"
-template = "partial-pole-tekst"
-[[wojewodztwa.partnerzy.wiersz_adresu]]
-pole_tel = "72-006 Mierzyn k/ Szczecina"
-template = "partial-pole-tekst"
-[[wojewodztwa.partnerzy.wiersz_adresu]]
-pole_tel = "091/ 483 32 99"
-template = "partial-pole-phone"
-[[wojewodztwa.partnerzy.wiersz_adresu]]
-pole_tel = "501 075 939"
-template = "partial-pole-phone"
-[[wojewodztwa]]
 nazwa = "Dolnośląskie"
 [[wojewodztwa.partnerzy]]
 nazwa = "Kenio"
@@ -106,6 +70,42 @@ pole_email = "biuro@salon-parkiet.pl"
 template = "partial-pole-mail"
 [[wojewodztwa.partnerzy.wiersz_adresu]]
 pole_tel = "509 962 262"
+template = "partial-pole-phone"
+[[wojewodztwa]]
+nazwa = "Zachodniopomorskie"
+[[wojewodztwa.partnerzy]]
+nazwa = "RoyalWood"
+[[wojewodztwa.partnerzy.wiersz_adresu]]
+pole_tel = "ul. Majora Władysława Raginisa 13/1"
+template = "partial-pole-tekst"
+[[wojewodztwa.partnerzy.wiersz_adresu]]
+pole_tel = "71-625 Szczecin"
+template = "partial-pole-tekst"
+[[wojewodztwa.partnerzy.wiersz_adresu]]
+pole_tel = "884 737 407"
+template = "partial-pole-phone"
+[[wojewodztwa.partnerzy.wiersz_adresu]]
+pole_email = "royalwood@wp.pl"
+template = "partial-pole-mail"
+[[wojewodztwa.partnerzy.wiersz_adresu]]
+pole_website = "www.royalpodlogi.pl"
+template = "partial-pole-website"
+[[wojewodztwa.partnerzy]]
+nazwa = "PODŁOGA"
+[[wojewodztwa.partnerzy.wiersz_adresu]]
+pole_tel = "Wioleta J. Gańcza"
+template = "partial-pole-tekst"
+[[wojewodztwa.partnerzy.wiersz_adresu]]
+pole_tel = "ul.Welecka 2"
+template = "partial-pole-tekst"
+[[wojewodztwa.partnerzy.wiersz_adresu]]
+pole_tel = "72-006 Mierzyn k/ Szczecina"
+template = "partial-pole-tekst"
+[[wojewodztwa.partnerzy.wiersz_adresu]]
+pole_tel = "091/ 483 32 99"
+template = "partial-pole-phone"
+[[wojewodztwa.partnerzy.wiersz_adresu]]
+pole_tel = "501 075 939"
 template = "partial-pole-phone"
 
 +++
