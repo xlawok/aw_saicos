@@ -33,3 +33,7 @@ filename = "sitemap.xml"
 priority = 0.5
 [taxonomies]
 category = "categories"
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true

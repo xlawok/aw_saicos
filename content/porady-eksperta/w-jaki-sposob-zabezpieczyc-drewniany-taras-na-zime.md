@@ -15,16 +15,6 @@ Drewniany taras, który nie posiada zadaszenia narażony jest na długotrwałe o
 - [Olej do tarasów, czyli sprawdzona konserwacja desek tarasowych](#olej-do-tarasów-czyli-sprawdzona-konserwacja-desek-tarasowych)
 - [Jak w prawidłowy sposób przeprowadzić olejowanie tarasu?](#jak-w-prawidłowy-sposób-przeprowadzić-olejowanie-tarasu)
 - [Lazura do drewna – zabezpieczenie przed zimą mebli ogrodowych](#lazura-do-drewna--zabezpieczenie-przed-zimą-mebli-ogrodowych)
-  - [Dodatek antypoślizgowy R10 do Oleju Specjalnego](#dodatek-antypoślizgowy-r10-do-oleju-specjalnego)
-  - [Green-Ex – koncentrat](#green-ex--koncentrat)
-  - [Lazura Bezbarwna – bez biocydów](#lazura-bezbarwna--bez-biocydów)
-  - [Lazura UV zewnętrzna](#lazura-uv-zewnętrzna)
-  - [Odszarzacz do drewna – Power Gel](#odszarzacz-do-drewna--power-gel)
-  - [Odszarzacz do drewna – koncentrat](#odszarzacz-do-drewna--koncentrat)
-  - [Olej do tarasów H2O](#olej-do-tarasów-h2o)
-  - [Olej Specjalny do Drewna](#olej-specjalny-do-drewna)
-  - [Środek czyszczący do kompozytu (WPC) – koncentrat](#środek-czyszczący-do-kompozytu-wpc--koncentrat)
-  - [Wosk do krawędzi – bezbarwny](#wosk-do-krawędzi--bezbarwny)
 
 Jak dbać o drewniany taras?
 ---------------------------
@@ -44,7 +34,7 @@ Jak krok po kroku przygotować swój drewniany taras do zabezpieczenia? Na co zw
 Olej do tarasów, czyli sprawdzona konserwacja desek tarasowych
 --------------------------------------------------------------
 
-![](https://saicos.pl/wp-content/uploads/2021/09/zabezpieczenie-tarasu2.jpg)
+<img src="/uploads/zabezpieczenie-tarasu2.jpg" loading="lazy">
 
 Jednym z najbardziej sprawdzonych sposobów na zabezpieczenie drewnianego tarasu jest **olejowanie**. [**Olej do tarasów**](https://saicos.pl/na-zewnatrz/tarasy/) stanowi skuteczną ochronę drewna przed niekorzystnymi warunkami atmosferycznymi jakimi są zmienne temperatury oraz panująca wilgoć. Olej nie tworzy na powierzchni deski nieprzepuszczalnej powłoki tylko wnika w głąb drewna i wzmacnia jego strukturę oraz skutecznie zabezpiecza przed czynnikami zewnętrznymi. Dodatkowo olej tarasowy nadaje trwały kolor jak i uwydatnia rysunek słojów. Aby zapewnić najbardziej skuteczną ochronne dla swojego tarasu musisz wybrać dobrej jakości olej przeznaczony na zewnątrz. Świetnie sprawdza się **Olej do tarasów drewnianych** jak i **Olej do tarasów H2O**. Druga propozycja nie dość, że świetnie chroni przed warunkami pogodowymi przez długi czas to charakteryzuje się tym, że jest antypoślizgowy oraz ma krótki czas schnięcia. Dzięki odpowiednio dobranym produktom do zabezpieczenia tarasów nie musisz obawiać się nawet najbardziej srogiej zimy!
 
@@ -57,83 +47,3 @@ Lazura do drewna – zabezpieczenie przed zimą mebli ogrodowych
 -------------------------------------------------------------
 
 Oprócz zabezpieczenia przez sezonem zimowym swojego tarasu nie możesz zapominać o drewnianych meblach, altance czy nawet płocie. Z produktami SAICOS zapewnisz swoim drewnianym elementom w ogrodzie najlepszą ochronę, przez co zostaną z Tobą na długie lata. [**Lazura do drewna**](https://saicos.pl/na-zewnatrz/meble-ogrodowe/) jest przeznaczona do pielęgnacji jak i zabezpieczenia drewna. Chroni powierzchnie przed wilgocią oraz szkodnikami a jednocześnie nadaje ładny kolor i w naturalny sposób podkreśla rysunek słojów. Lazura zabezpiecza przed niekorzystnym wpływem warunkom atmosferycznych jak i promieniowaniem UV. Dzięki nam dopasujesz kolor lazury do swoich upodobań jak i gatunku drewna a Twoje meble ogrodowe czy altana będą pięknie prezentowały się i zyskają ochronę na długi czas! W przypadku, gdy nie chcesz zmieniać koloru swoich drewnianych powierzchni **lazura bezbarwna** sprawdzi się idealnie. **Lazura do drewna bezbarwna** podkreśli naturalny kolor i pozwoli na zachowanie dobrego wyglądu na lata.
-
-[
-
-![Dodatek antypoślizgowy R10 do Oleju Specjalnego](data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20600%20600'%3E%3C/svg%3E)
-
-### Dodatek antypoślizgowy R10 do Oleju Specjalnego
-
-](https://saicos.pl/produkty/dodatek-antyposlizgowy-r10-do-oleju-specjalnego/)
-
-[
-
-![Green-Ex – koncentrat](data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20600%20600'%3E%3C/svg%3E)
-
-### Green-Ex – koncentrat
-
-](https://saicos.pl/produkty/green-ex-koncentrat/)
-
-[
-
-![Lazura Bezbarwna – bez biocydów](data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20600%20600'%3E%3C/svg%3E)
-
-### Lazura Bezbarwna – bez biocydów
-
-](https://saicos.pl/produkty/lazura-bezbarwna-bez-biocydow/)
-
-[
-
-![Lazura UV zewnętrzna](data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20600%20600'%3E%3C/svg%3E)
-
-### Lazura UV zewnętrzna
-
-](https://saicos.pl/produkty/lazura-uv-zewnetrzna/)
-
-[
-
-![Odszarzacz do drewna – Power Gel](data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20600%20600'%3E%3C/svg%3E)
-
-### Odszarzacz do drewna – Power Gel
-
-](https://saicos.pl/produkty/odszarzacz-do-drewna-power-gel/)
-
-[
-
-![Odszarzacz do drewna – koncentrat](data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20600%20600'%3E%3C/svg%3E)
-
-### Odszarzacz do drewna – koncentrat
-
-](https://saicos.pl/produkty/odszarzacz-do-drewna-koncentrat/)
-
-[
-
-![Olej do tarasów H2O](data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20600%20600'%3E%3C/svg%3E)
-
-### Olej do tarasów H2O
-
-](https://saicos.pl/produkty/olej-do-tarasow-h2o/)
-
-[
-
-![Olej Specjalny do Drewna](data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20600%20600'%3E%3C/svg%3E)
-
-### Olej Specjalny do Drewna
-
-](https://saicos.pl/produkty/olej-specjalny-do-drewna/)
-
-[
-
-![Środek czyszczący do kompozytu (WPC) – koncentrat](data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20600%20600'%3E%3C/svg%3E)
-
-### Środek czyszczący do kompozytu (WPC) – koncentrat
-
-](https://saicos.pl/produkty/srodek-czyszczacy-do-kompozytu-wpc/)
-
-[
-
-![Wosk do krawędzi – bezbarwny](data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20600%20600'%3E%3C/svg%3E)
-
-### Wosk do krawędzi – bezbarwny
-
-](https://saicos.pl/produkty/wosk-do-krawedzi/)

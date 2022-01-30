@@ -12,10 +12,10 @@ Drewno jest niezwykle szlachetnym surowcem, który dodaje wnętrzu charakteru or
 
 **Z tego artykułu dowiesz się:**
 
-1.  [Dlaczego warto zabezpieczać drewniane schody?](#dlaczego-warto-zabezpieczac-drewniane-schody)
-2.  [Czym najlepiej zabezpieczyć drewno?](#czym-najlepiej-zabezpieczyc-drewno)
-3.  [Jak lakierować drewno?](#jak-lakierowac-drewno)
-4.  [Dlaczego warto wybierać olej do impregnacji drewna?](#dlaczego-warto-wybierac-olej-do-impregnacji-drewna)
+- [**Dlaczego warto zabezpieczać drewniane schody?**](#dlaczego-warto-zabezpieczać-drewniane-schody)
+- [**Czym najlepiej zabezpieczyć drewno?**](#czym-najlepiej-zabezpieczyć-drewno)
+- [**Jak lakierować drewno?**](#jak-lakierować-drewno)
+- [**Dlaczego warto wybierać olej do impregnacji drewna?**](#dlaczego-warto-wybierać-olej-do-impregnacji-drewna)
 
 **Dlaczego warto zabezpieczać drewniane schody?**
 -------------------------------------------------
@@ -46,83 +46,3 @@ Istnieją różne [**powłoki wykończeniowe**](https://saicos.pl/do-wnetrz/podl
 Zaletą olejowania schodów z pewnością jest ochrona przed uszkodzeniami mechanicznymi. Olej w odróżnieniu od lakieru nie pozostawia na nim powłoki, natomiast skutecznie chroni je od środka. Zapewnia także oddychanie materiały oraz posiada substancje przyśpieszające utwardzanie, które skutecznie zapobiegają pękaniu drewna. Olejowanie schodów jest również ekologiczne, ponieważ oleje są w pełni naturalne i nie posiadają szkodliwych składników. Olej w odróżnieniu do lakieru pozwala podkreślić naturalne piękno drewna, dlatego jest idealnym wyborem dla osób, które chcą uwydatnić naturalny kolor czy słoje.
 
 Po całym procesie zabezpieczenia swoich drewnianych schodów odpowiednimi preparatami i powłokami wykończeniowymi nie zapomnij o poprawnym oraz regularnym czyszczeniu schodów. Należy je bardzo dokładnie czyścić, ponieważ drewno jest wrażliwe na działanie wody i często powoduje odkształcanie się desek czy odpryskiwanie lakieru. Podczas mycia ogranicz maksymalnie użycie wody i postaw na stosowanie specjalnych środków do czyszczenia drewnianych powierzchni. Do pielęgnacji drewna warto też używać delikatnych emulsji czy nieco gęstszych detergentów, które posiadają właściwości uodporniające i nabłyszczające.
-
-[
-
-![Ecoline Magic Cleaner – do wszystkich powierzchni – koncentrat](https://saicos.pl/wp-content/uploads/2020/12/8125Eco-Magic-Cleaner-1-D.png)
-
-### Ecoline Magic Cleaner – do wszystkich powierzchni – koncentrat
-
-](https://saicos.pl/produkty/ecoline-magic-cleaner-koncentrat/)
-
-[
-
-![Ecoline Magic Cleaner – do wszystkich powierzchni – spray](https://saicos.pl/wp-content/uploads/2020/12/8126Eco-Magic-Cleaner-Spray-1-D.png)
-
-### Ecoline Magic Cleaner – do wszystkich powierzchni – spray
-
-](https://saicos.pl/produkty/ecoline-magic-cleaner-do-wszystkich-powierzchni-spray/)
-
-[
-
-![Ecoline MultiTop Lacquer Polish – dla powierzchni lakierowanych](https://saicos.pl/wp-content/uploads/2020/12/8152Eco-MultiTop-Lack-Polish-1-D.png)
-
-### Ecoline MultiTop Lacquer Polish – dla powierzchni lakierowanych
-
-](https://saicos.pl/produkty/ecoline-multitop-lacquer-polish/)
-
-[
-
-![Ecoline Odświeżacz do powierzchni lakierowanych](https://saicos.pl/wp-content/uploads/2021/04/8106Eco-Auffrischer-1-GB-600x600.png)
-
-### Ecoline Odświeżacz do powierzchni lakierowanych
-
-](https://saicos.pl/produkty/ecoline-odswiezacz-do-powierzchni-lakierowanych/)
-
-[
-
-![Ecoline Wash Care – koncentrat – do wszystkich powierzchni](https://saicos.pl/wp-content/uploads/2020/12/8101Eco-Wischpflege-1-D-GB.png)
-
-### Ecoline Wash Care – koncentrat – do wszystkich powierzchni
-
-](https://saicos.pl/produkty/ecoline-wash-care-koncentrat/)
-
-[
-
-![Ecoline Wax Care – powierzchnie olejowane](https://saicos.pl/wp-content/uploads/2021/04/8119Eco-Pflegewachs-1-D-GB-600x600.png)
-
-### Ecoline Wax Care – powierzchnie olejowane
-
-](https://saicos.pl/produkty/ecoline-wax-care/)
-
-[
-
-![Ecoline Wax Care Spray](https://saicos.pl/wp-content/uploads/2020/12/8129-Eco-Pflegewachs-Spray-1-GB.png)
-
-### Ecoline Wax Care Spray
-
-](https://saicos.pl/produkty/ecoline-wax-care-spray/)
-
-[
-
-![Ecoline Wypełniacz Szczelin – bezbarwny](https://saicos.pl/wp-content/uploads/2021/04/0970002Eco-Holzkitt-Losung-5-GB-600x600.png)
-
-### Ecoline Wypełniacz Szczelin – bezbarwny
-
-](https://saicos.pl/produkty/ecoline-wypelniacz-szczelin/)
-
-[
-
-![Ecoline Zestaw do Czyszczenia i Pielęgnacji – powierzchni olejowoskowanych](https://saicos.pl/wp-content/uploads/2020/12/8311Eco-Fusboden-Reinigungs-Pflegeset-D-GB-1.png)
-
-### Ecoline Zestaw do Czyszczenia i Pielęgnacji – powierzchni olejowoskowanych
-
-](https://saicos.pl/produkty/ecoline-zestaw-do-czyszczenia-i-pielegnacji/)
-
-[
-
-![Ecoline Zestaw do Pielęgnacji – powierzchni olejowoskowanych](https://saicos.pl/wp-content/uploads/2020/12/8310Eco-Fusboden-Pflegeset-D-GB.png)
-
-### Ecoline Zestaw do Pielęgnacji – powierzchni olejowoskowanych
-
-](https://saicos.pl/produkty/ecoline-zestaw-do-pielegnacji/)
