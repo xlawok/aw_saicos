@@ -86,6 +86,372 @@ template = "partial-pole-mail"
 pole_tel = "509 962 262"
 template = "partial-pole-phone"
 [[wojewodztwa]]
+nazwa = "Lubelskie"
+[[wojewodztwa.partnerzy]]
+nazwa = "Palisander"
+[[wojewodztwa.partnerzy.wiersz_adresu]]
+pole_tel = "Ul. Lubelska 55, Puławy"
+template = "partial-pole-tekst"
+[[wojewodztwa.partnerzy.wiersz_adresu]]
+pole_tel = "882 030 071"
+template = "partial-pole-phone"
+[[wojewodztwa.partnerzy.wiersz_adresu]]
+pole_email = "palisander.pulawy@gmail.com"
+template = "partial-pole-mail"
+[[wojewodztwa]]
+nazwa = "Łódzkie"
+[[wojewodztwa.partnerzy]]
+nazwa = "PARKIETUS"
+[[wojewodztwa.partnerzy.wiersz_adresu]]
+pole_tel = "ul. Włókniarzy 221/225"
+template = "partial-pole-tekst"
+[[wojewodztwa.partnerzy.wiersz_adresu]]
+pole_tel = "90-322 Łódź"
+template = "partial-pole-tekst"
+[[wojewodztwa.partnerzy.wiersz_adresu]]
+pole_tel = "42 205 44 18"
+template = "partial-pole-phone"
+[[wojewodztwa.partnerzy.wiersz_adresu]]
+pole_email = "biuro@parkietus.com.pl"
+template = "partial-pole-mail"
+[[wojewodztwa.partnerzy.wiersz_adresu]]
+pole_website = "www.parkietus.com.pl"
+template = "partial-pole-website"
+[[wojewodztwa.partnerzy]]
+nazwa = "PARKIETUS"
+[[wojewodztwa.partnerzy.wiersz_adresu]]
+pole_tel = "ul. Kilińskiego 160"
+template = "partial-pole-tekst"
+[[wojewodztwa.partnerzy.wiersz_adresu]]
+pole_tel = "90-322 Łódź"
+template = "partial-pole-tekst"
+[[wojewodztwa.partnerzy.wiersz_adresu]]
+pole_tel = "42 676 01 42"
+template = "partial-pole-phone"
+[[wojewodztwa.partnerzy.wiersz_adresu]]
+pole_email = "biuro@parkietus.com.pl"
+template = "partial-pole-mail"
+[[wojewodztwa.partnerzy.wiersz_adresu]]
+pole_website = "www.parkietus.com.pl"
+template = "partial-pole-website"
+[[wojewodztwa.partnerzy]]
+nazwa = "PRZYBYSZ"
+[[wojewodztwa.partnerzy.wiersz_adresu]]
+pole_tel = "ul. Aleksandrówka 86"
+template = "partial-pole-tekst"
+[[wojewodztwa.partnerzy.wiersz_adresu]]
+pole_tel = "Rawa Mazowiecka"
+template = "partial-pole-tekst"
+[[wojewodztwa.partnerzy.wiersz_adresu]]
+pole_tel = "695 178 832"
+template = "partial-pole-phone"
+[[wojewodztwa.partnerzy.wiersz_adresu]]
+pole_email = "schodyparkiety@onet.pl"
+template = "partial-pole-mail"
+[[wojewodztwa.partnerzy]]
+nazwa = "PARKIET DEKOR"
+[[wojewodztwa.partnerzy.wiersz_adresu]]
+pole_tel = "ul. Warszawska 131"
+template = "partial-pole-tekst"
+[[wojewodztwa.partnerzy.wiersz_adresu]]
+pole_tel = "Tomaszów Mazowiecki"
+template = "partial-pole-tekst"
+[[wojewodztwa.partnerzy.wiersz_adresu]]
+pole_tel = "502 303 891"
+template = "partial-pole-phone"
+[[wojewodztwa.partnerzy.wiersz_adresu]]
+pole_email = "Leszekparkiet@poczta.onet.pl"
+template = "partial-pole-mail"
+[[wojewodztwa]]
+nazwa = "Małopolskie"
+[[wojewodztwa.partnerzy]]
+nazwa = "EXFLOOR™"
+[[wojewodztwa.partnerzy.wiersz_adresu]]
+pole_tel = "Ul. Tarnowska 169"
+template = "partial-pole-tekst"
+[[wojewodztwa.partnerzy.wiersz_adresu]]
+pole_tel = "33-300 Nowy Sącz"
+template = "partial-pole-tekst"
+[[wojewodztwa.partnerzy.wiersz_adresu]]
+pole_tel = "18 415 66 51"
+template = "partial-pole-phone"
+[[wojewodztwa.partnerzy.wiersz_adresu]]
+pole_tel = "505 060 562"
+template = "partial-pole-phone"
+[[wojewodztwa.partnerzy.wiersz_adresu]]
+pole_email = "biuro@exfloor.pl"
+template = "partial-pole-mail"
+[[wojewodztwa.partnerzy.wiersz_adresu]]
+pole_website = "www.exfloor.pl"
+template = "partial-pole-website"
+[[wojewodztwa.partnerzy]]
+nazwa = "EXFLOOR™"
+[[wojewodztwa.partnerzy.wiersz_adresu]]
+pole_tel = "Ul. Siemomysła 41"
+template = "partial-pole-tekst"
+[[wojewodztwa.partnerzy.wiersz_adresu]]
+pole_tel = "30-571 Kraków"
+template = "partial-pole-tekst"
+[[wojewodztwa.partnerzy.wiersz_adresu]]
+pole_tel = "505 060 562"
+template = "partial-pole-phone"
+[[wojewodztwa.partnerzy.wiersz_adresu]]
+pole_tel = "508 287 728"
+template = "partial-pole-phone"
+[[wojewodztwa.partnerzy.wiersz_adresu]]
+pole_email = "biuro@exfloor.pl"
+template = "partial-pole-mail"
+[[wojewodztwa.partnerzy.wiersz_adresu]]
+pole_website = "www.exfloor.pl"
+template = "partial-pole-website"
+[[wojewodztwa.partnerzy]]
+nazwa = "CSiD JANSER MAŁOPOLSKA"
+[[wojewodztwa.partnerzy.wiersz_adresu]]
+pole_tel = "Henryka Wieniawskiego 64 lok.6"
+template = "partial-pole-tekst"
+[[wojewodztwa.partnerzy.wiersz_adresu]]
+pole_tel = "31-436 Kraków"
+template = "partial-pole-tekst"
+[[wojewodztwa.partnerzy.wiersz_adresu]]
+pole_tel = "505 975 032"
+template = "partial-pole-phone"
+[[wojewodztwa.partnerzy.wiersz_adresu]]
+pole_email = "malopolska@janser.pl"
+template = "partial-pole-mail"
+[[wojewodztwa.partnerzy.wiersz_adresu]]
+pole_website = "www.janser.pl"
+template = "partial-pole-website"
+[[wojewodztwa.partnerzy]]
+nazwa = "JANAS JANUSZ JANKOWSKI"
+[[wojewodztwa.partnerzy.wiersz_adresu]]
+pole_tel = "Tytusa Czyżewskiego 3"
+template = "partial-pole-tekst"
+[[wojewodztwa.partnerzy.wiersz_adresu]]
+pole_tel = "30-085 Kraków"
+template = "partial-pole-tekst"
+[[wojewodztwa.partnerzy.wiersz_adresu]]
+pole_tel = "600 830 854"
+template = "partial-pole-phone"
+[[wojewodztwa.partnerzy.wiersz_adresu]]
+pole_website = "janaspodlogi.pl"
+template = "partial-pole-website"
+[[wojewodztwa]]
+nazwa = "Mazowieckie"
+[[wojewodztwa.partnerzy]]
+nazwa = "Parkiet Wawa"
+[[wojewodztwa.partnerzy.wiersz_adresu]]
+pole_tel = "Ul. Bartycka 24/26, lok 114 A, Warszawa"
+template = "partial-pole-tekst"
+[[wojewodztwa.partnerzy.wiersz_adresu]]
+pole_email = "info@parkietwawa.pl"
+template = "partial-pole-mail"
+[[wojewodztwa.partnerzy.wiersz_adresu]]
+pole_tel = "22 559 11 14"
+template = "partial-pole-phone"
+[[wojewodztwa.partnerzy]]
+nazwa = "Parkiet Wawa"
+[[wojewodztwa.partnerzy.wiersz_adresu]]
+pole_tel = "Ul. Solec 81 B, pawilon A10, Warszawa"
+template = "partial-pole-tekst"
+[[wojewodztwa.partnerzy.wiersz_adresu]]
+pole_email = "biuro@parkietwawa.pl"
+template = "partial-pole-mail"
+[[wojewodztwa.partnerzy.wiersz_adresu]]
+pole_tel = "22 321 37 74"
+template = "partial-pole-phone"
+[[wojewodztwa.partnerzy]]
+nazwa = "Amar Parkiety"
+[[wojewodztwa.partnerzy.wiersz_adresu]]
+pole_tel = "Ul. Krynoliny 20, Warszawa"
+template = "partial-pole-tekst"
+[[wojewodztwa.partnerzy.wiersz_adresu]]
+pole_email = "sklep@amarparkiety.pl"
+template = "partial-pole-mail"
+[[wojewodztwa.partnerzy.wiersz_adresu]]
+pole_tel = "516 039 871"
+template = "partial-pole-phone"
+[[wojewodztwa.partnerzy]]
+nazwa = "Super Parkiet Sp. z o. o."
+[[wojewodztwa.partnerzy.wiersz_adresu]]
+pole_tel = "Ul. Listopadowa 1, Warszawa"
+template = "partial-pole-tekst"
+[[wojewodztwa.partnerzy.wiersz_adresu]]
+pole_email = "info@superparkiet.pl"
+template = "partial-pole-mail"
+[[wojewodztwa.partnerzy.wiersz_adresu]]
+pole_tel = "22 882 20 11"
+template = "partial-pole-phone"
+[[wojewodztwa.partnerzy]]
+nazwa = "Parkietywola.pl"
+[[wojewodztwa.partnerzy.wiersz_adresu]]
+pole_tel = "Ul. Andrychowska 9"
+template = "partial-pole-tekst"
+[[wojewodztwa.partnerzy.wiersz_adresu]]
+pole_email = "robimypodlogi@gmail.com"
+template = "partial-pole-mail"
+[[wojewodztwa.partnerzy.wiersz_adresu]]
+pole_tel = "726 236 865"
+template = "partial-pole-phone"
+[[wojewodztwa.partnerzy]]
+nazwa = "Parkiet Styl"
+[[wojewodztwa.partnerzy.wiersz_adresu]]
+pole_tel = "Ul. Spokojna 1, Marki"
+template = "partial-pole-tekst"
+[[wojewodztwa.partnerzy.wiersz_adresu]]
+pole_email = "parkietstyl@gmail.com"
+template = "partial-pole-mail"
+[[wojewodztwa.partnerzy.wiersz_adresu]]
+pole_tel = "22 771 44 77"
+template = "partial-pole-phone"
+[[wojewodztwa.partnerzy]]
+nazwa = "Janser Mazowsze"
+[[wojewodztwa.partnerzy.wiersz_adresu]]
+pole_tel = "Ul. Aleja Wilanowska 368C, Warszawa"
+template = "partial-pole-tekst"
+[[wojewodztwa.partnerzy.wiersz_adresu]]
+pole_email = "mazowsze@janser.pl"
+template = "partial-pole-mail"
+[[wojewodztwa.partnerzy.wiersz_adresu]]
+pole_tel = "22 847 62 04"
+template = "partial-pole-phone"
+[[wojewodztwa.partnerzy]]
+nazwa = "Filso"
+[[wojewodztwa.partnerzy.wiersz_adresu]]
+pole_tel = "Ul. Gajowa 25/27, Radom"
+template = "partial-pole-tekst"
+[[wojewodztwa.partnerzy.wiersz_adresu]]
+pole_email = "biuro@filso.pl"
+template = "partial-pole-mail"
+[[wojewodztwa.partnerzy.wiersz_adresu]]
+pole_tel = "539 352 299"
+template = "partial-pole-phone"
+[[wojewodztwa.partnerzy]]
+nazwa = "Studio Wnętrz"
+[[wojewodztwa.partnerzy.wiersz_adresu]]
+pole_tel = "Ul. Hallera 13, Ostrołęka"
+template = "partial-pole-tekst"
+[[wojewodztwa.partnerzy.wiersz_adresu]]
+pole_email = "wnetrzatm@gmail.com"
+template = "partial-pole-mail"
+[[wojewodztwa.partnerzy.wiersz_adresu]]
+pole_tel = "668 464 104"
+template = "partial-pole-phone"
+[[wojewodztwa]]
+nazwa = "Podlaskie"
+[[wojewodztwa.partnerzy]]
+nazwa = "Fornir"
+[[wojewodztwa.partnerzy.wiersz_adresu]]
+pole_tel = "Ul. Towarowa 5, Białystok"
+template = "partial-pole-tekst"
+[[wojewodztwa.partnerzy.wiersz_adresu]]
+pole_email = "sklepfornir@gmail.com"
+template = "partial-pole-mail"
+[[wojewodztwa.partnerzy.wiersz_adresu]]
+pole_tel = "668 425 716"
+template = "partial-pole-phone"
+[[wojewodztwa.partnerzy]]
+nazwa = "Bento"
+[[wojewodztwa.partnerzy.wiersz_adresu]]
+pole_tel = "Ul. Ciesielska 2, Białystok"
+template = "partial-pole-tekst"
+[[wojewodztwa.partnerzy.wiersz_adresu]]
+pole_email = "bento@bento.białystok.pl"
+template = "partial-pole-mail"
+[[wojewodztwa.partnerzy.wiersz_adresu]]
+pole_tel = "603 33 99 24"
+template = "partial-pole-phone"
+[[wojewodztwa.partnerzy]]
+nazwa = "Bento"
+[[wojewodztwa.partnerzy.wiersz_adresu]]
+pole_tel = "Ul. Poleska 85, Białystok"
+template = "partial-pole-tekst"
+[[wojewodztwa.partnerzy.wiersz_adresu]]
+pole_email = "poleska@bento.bialystok.pl"
+template = "partial-pole-mail"
+[[wojewodztwa.partnerzy.wiersz_adresu]]
+pole_tel = "537 366 600"
+template = "partial-pole-phone"
+[[wojewodztwa.partnerzy]]
+nazwa = "Magia Drewna"
+[[wojewodztwa.partnerzy.wiersz_adresu]]
+pole_tel = "Ul. Spokojna 1A, Łomża"
+template = "partial-pole-tekst"
+[[wojewodztwa.partnerzy.wiersz_adresu]]
+pole_email = "magiadrewna@magiadrewna.pl"
+template = "partial-pole-mail"
+[[wojewodztwa.partnerzy.wiersz_adresu]]
+pole_tel = "604 993 288"
+template = "partial-pole-phone"
+[[wojewodztwa]]
+nazwa = "Podkarpackie"
+[[wojewodztwa.partnerzy]]
+nazwa = "SALON PARKIETU"
+[[wojewodztwa.partnerzy.wiersz_adresu]]
+pole_tel = "ul.Piłsudskiego 33"
+template = "partial-pole-tekst"
+[[wojewodztwa.partnerzy.wiersz_adresu]]
+pole_tel = "37-100 Łańcut"
+template = "partial-pole-tekst"
+[[wojewodztwa.partnerzy.wiersz_adresu]]
+pole_tel = "508 376 663"
+template = "partial-pole-phone"
+[[wojewodztwa.partnerzy.wiersz_adresu]]
+pole_email = "biuro@salonparkietu.com.pl"
+template = "partial-pole-mail"
+[[wojewodztwa.partnerzy.wiersz_adresu]]
+pole_website = "www.salonparkietu.pl"
+template = "partial-pole-website"
+[[wojewodztwa.partnerzy]]
+nazwa = "JATA"
+[[wojewodztwa.partnerzy.wiersz_adresu]]
+pole_tel = "Ul. Nazimka 1"
+template = "partial-pole-tekst"
+[[wojewodztwa.partnerzy.wiersz_adresu]]
+pole_tel = "35-302 Rzeszów"
+template = "partial-pole-tekst"
+[[wojewodztwa.partnerzy.wiersz_adresu]]
+pole_tel = "17 858 54 54"
+template = "partial-pole-phone"
+[[wojewodztwa.partnerzy.wiersz_adresu]]
+pole_email = "Jata.rzeszow@wp.pl"
+template = "partial-pole-mail"
+[[wojewodztwa.partnerzy.wiersz_adresu]]
+pole_website = "www.jata.rzeszow.pl"
+template = "partial-pole-website"
+[[wojewodztwa.partnerzy]]
+nazwa = "EKO-PODŁOGA Krzysztof Rybczak"
+[[wojewodztwa.partnerzy.wiersz_adresu]]
+pole_tel = "ul. Krakowska 7"
+template = "partial-pole-tekst"
+[[wojewodztwa.partnerzy.wiersz_adresu]]
+pole_tel = "38-500 Sanok"
+template = "partial-pole-tekst"
+[[wojewodztwa.partnerzy.wiersz_adresu]]
+pole_tel = "662 369 876"
+template = "partial-pole-phone"
+[[wojewodztwa.partnerzy]]
+nazwa = "PodlogiSklep.pl"
+[[wojewodztwa.partnerzy.wiersz_adresu]]
+pole_tel = "ul. Lwowska 7"
+template = "partial-pole-tekst"
+[[wojewodztwa.partnerzy.wiersz_adresu]]
+pole_tel = "38-400 Krosno"
+template = "partial-pole-tekst"
+[[wojewodztwa.partnerzy.wiersz_adresu]]
+pole_tel = "607 202 802"
+template = "partial-pole-phone"
+[[wojewodztwa.partnerzy]]
+nazwa = "Oleje do Drewna"
+[[wojewodztwa.partnerzy.wiersz_adresu]]
+pole_tel = "ul. Bieszczadzka 2B/4"
+template = "partial-pole-tekst"
+[[wojewodztwa.partnerzy.wiersz_adresu]]
+pole_tel = "38-400 Krosno"
+template = "partial-pole-tekst"
+[[wojewodztwa.partnerzy.wiersz_adresu]]
+pole_website = "www.saicossklep.pl"
+template = "partial-pole-website"
+[[wojewodztwa]]
 nazwa = "Pomorskie"
 [[wojewodztwa.partnerzy]]
 nazwa = "Profi Parkiet"
@@ -131,6 +497,103 @@ template = "partial-pole-tekst"
 [[wojewodztwa.partnerzy.wiersz_adresu]]
 pole_email = "biuro@swiatdrewna.com"
 template = "partial-pole-mail"
+[[wojewodztwa]]
+nazwa = "Świętokrzyskie"
+[[wojewodztwa.partnerzy]]
+nazwa = "Sportex"
+[[wojewodztwa.partnerzy.wiersz_adresu]]
+pole_tel = "Ul. Ściegiennego 69, Kielce"
+template = "partial-pole-tekst"
+[[wojewodztwa.partnerzy.wiersz_adresu]]
+pole_tel = "600 689 687"
+template = "partial-pole-phone"
+[[wojewodztwa.partnerzy.wiersz_adresu]]
+pole_email = "Sportex-parkiety@wp.pl"
+template = "partial-pole-mail"
+[[wojewodztwa.partnerzy]]
+nazwa = "Abak Dom i Wnętrze"
+[[wojewodztwa.partnerzy.wiersz_adresu]]
+pole_tel = "Ul. Zawichojska 13, Sandomierz"
+template = "partial-pole-tekst"
+[[wojewodztwa.partnerzy.wiersz_adresu]]
+pole_tel = "604 409 485"
+template = "partial-pole-phone"
+[[wojewodztwa.partnerzy.wiersz_adresu]]
+pole_email = "sklep@abakdom.pl"
+template = "partial-pole-mail"
+[[wojewodztwa]]
+nazwa = "Śląskie"
+[[wojewodztwa.partnerzy]]
+nazwa = "CENTRUM PARKIETOWE NOWAK"
+[[wojewodztwa.partnerzy.wiersz_adresu]]
+pole_tel = "ul. 11-go Listopada 32"
+template = "partial-pole-tekst"
+[[wojewodztwa.partnerzy.wiersz_adresu]]
+pole_tel = "43-229 Ćwiklice"
+template = "partial-pole-tekst"
+[[wojewodztwa.partnerzy.wiersz_adresu]]
+pole_tel = "32 211 22 88"
+template = "partial-pole-phone"
+[[wojewodztwa.partnerzy.wiersz_adresu]]
+pole_email = "biuro@centrum-parkietowe.pl"
+template = "partial-pole-mail"
+[[wojewodztwa.partnerzy.wiersz_adresu]]
+pole_website = "www.centrum-parkietowe.pl"
+template = "partial-pole-website"
+[[wojewodztwa.partnerzy]]
+nazwa = "PARKIET DOM"
+[[wojewodztwa.partnerzy.wiersz_adresu]]
+pole_tel = "ul. Jana III Sobieskiego 66"
+template = "partial-pole-tekst"
+[[wojewodztwa.partnerzy.wiersz_adresu]]
+pole_tel = "44-100 Gliwice"
+template = "partial-pole-tekst"
+[[wojewodztwa.partnerzy.wiersz_adresu]]
+pole_tel = "791 092 009"
+template = "partial-pole-phone"
+[[wojewodztwa.partnerzy.wiersz_adresu]]
+pole_email = "parkietgliwice@wp.pl"
+template = "partial-pole-mail"
+[[wojewodztwa.partnerzy.wiersz_adresu]]
+pole_website = "www.parkietgliwice.pl"
+template = "partial-pole-website"
+[[wojewodztwa.partnerzy]]
+nazwa = "PARKIET – LAK"
+[[wojewodztwa.partnerzy.wiersz_adresu]]
+pole_tel = "ul. Brzeźnicka 60A"
+template = "partial-pole-tekst"
+[[wojewodztwa.partnerzy.wiersz_adresu]]
+pole_tel = "42-200 Częstochowa"
+template = "partial-pole-tekst"
+[[wojewodztwa.partnerzy.wiersz_adresu]]
+pole_tel = "34 322 12 17"
+template = "partial-pole-phone"
+[[wojewodztwa.partnerzy.wiersz_adresu]]
+pole_email = "parkietlak@parkietlak.pl"
+template = "partial-pole-mail"
+[[wojewodztwa.partnerzy.wiersz_adresu]]
+pole_website = "www.parkietlak.pl"
+template = "partial-pole-website"
+[[wojewodztwa.partnerzy]]
+nazwa = "PARKIETPOL"
+[[wojewodztwa.partnerzy.wiersz_adresu]]
+pole_tel = "ul. Zagórska 159 ( przy C.H.GWAREK)"
+template = "partial-pole-tekst"
+[[wojewodztwa.partnerzy.wiersz_adresu]]
+pole_tel = "42-600 Tarnowskie Góry"
+template = "partial-pole-tekst"
+[[wojewodztwa.partnerzy.wiersz_adresu]]
+pole_tel = "883 133 044"
+template = "partial-pole-phone"
+[[wojewodztwa.partnerzy.wiersz_adresu]]
+pole_tel = "503 133 644"
+template = "partial-pole-phone"
+[[wojewodztwa.partnerzy.wiersz_adresu]]
+pole_email = "parkietlak@parkietlak.pl"
+template = "partial-pole-mail"
+[[wojewodztwa.partnerzy.wiersz_adresu]]
+pole_website = "www.parkietpol.pl"
+template = "partial-pole-website"
 [[wojewodztwa]]
 nazwa = "Warmińsko-mazurskie"
 [[wojewodztwa.partnerzy]]
