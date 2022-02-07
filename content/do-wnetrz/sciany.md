@@ -16,7 +16,7 @@ txt_block_size = "L"
 block_tag_type = "h1"
 bold_txt = "bardzo gruby"
 color_txt = "czarny"
-txt_block = "Tarasy"
+txt_block = "Ściany"
 txt_block_size = "XL"
 
 +++
