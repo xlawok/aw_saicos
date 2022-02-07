@@ -2,12 +2,12 @@
 blok_pod_bannerem = "<h2 class=\"txt-XL\">Produkty do pielęgnacji drewna od Saicos</h2><p> Drewno to cenny, szlachetny surowiec, wykorzystywany w różnych celach, na przykład do budowy podłóg, mebli, domków. </p><p>Wymaga jednak zabezpieczenia specjalnymi środkami, aby utworzone z niego elementy były odpowiednio trwałe i na długo zachowały piękny wygląd. </p><p>Oferta SAICOS to najwyższej jakości produkty do drewna, które chronią i upiększają ten surowiec w naturalny sposób. </p><p>Innowacyjny asortyment produktów obejmuje różnorodne produkty do wszystkich rodzajów drewna, użytkowanego wewnątrz i na zewnątrz.</p>"
 body_class = "home"
 description = "Saicos"
-draft = false
 keywords = ""
 robots = "noindex nofollow"
 sekcja_kolumny_tekst_zdjecie = []
 slug = "/"
 title = "Strona główna | SAICOS.PL"
+tytul_do_listowania = ""
 [aktualnosci]
 wlacz_wyswietlanie = true
 [[aktualnosci.header_repeater]]
@@ -109,7 +109,7 @@ block_tag_type = "h2"
 bold_txt = "gruby"
 break_line = false
 color_txt = "biały"
-txt_block = "do wnętrz"
+txt_block = "na zewnątrz"
 txt_block_size = "XL"
 [[kolumny_txt_zdjecie]]
 nazwa = "Zobacz środki do pielęgnacji drewna"
