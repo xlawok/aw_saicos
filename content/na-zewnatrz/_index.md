@@ -47,7 +47,7 @@ txt_block = "tarasy"
 txt_block_size = "L"
 [[kafelki_kategorii]]
 nazwa = "Meble ogrodowe"
-odnosnik = "zastosowanie/_index.md"
+odnosnik = "na-zewnatrz/meble-ogrodowe.md"
 zdjecie = "/uploads/shutterstock_145729802-scaled.jpg"
 [[kafelki_kategorii.header_repeater]]
 block_tag_type = "h2"
