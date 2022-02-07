@@ -13,6 +13,9 @@
         <!-- Note that the content for index.html, as a sort of list page, will pull from content/_index.md -->
         <!-- {{.Content}} -->
   
-    {{- partial "sggested-products.html" .Params.sugerowane_produkty -}} 
+    {{- partial "sggested-products.html" .Params.sugerowane_produkty -}}
+    <div class="usage-listing-desc">
+        {{.Params.opis_seo | safeHTML}}
+    </div>
     
 {{ end }}
