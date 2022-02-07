@@ -83,4 +83,4 @@ fields:
       format: html-blocks
   label: Opis SEO
 pages:
-- content/na-zewnatrz/_index.md  
+- content/do-wnetrz/_index.md  
