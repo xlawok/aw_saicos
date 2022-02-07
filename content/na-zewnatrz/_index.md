@@ -46,8 +46,8 @@ color_txt = "biały"
 txt_block = "tarasy"
 txt_block_size = "L"
 [[kafelki_kategorii]]
-nazwa = "Do wnętrz"
-odnosnik = "zastosowanie/_index.md"
+nazwa = "Meble ogrodowe"
+odnosnik = "na-zewnatrz/meble-ogrodowe.md"
 zdjecie = "/uploads/shutterstock_145729802-scaled.jpg"
 [[kafelki_kategorii.header_repeater]]
 block_tag_type = "h2"
@@ -61,7 +61,7 @@ block_tag_type = "h2"
 bold_txt = "bardzo gruby"
 break_line = false
 color_txt = "biały"
-txt_block = "do wnętrz"
+txt_block = "moble ogrodowe"
 txt_block_size = "L"
 
 +++
