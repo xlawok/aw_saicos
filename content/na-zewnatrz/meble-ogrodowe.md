@@ -6,7 +6,6 @@ slug = "meble-ogrodowe"
 title = "Meble ogrodowe | Saicos"
 [sugerowane_produkty]
 wybierz_produkty = ["produkty/bel-air.md"]
-wybierz_produkty = ["produkty/bialy-podklad-gruntujacy.md"]
 [[sugerowane_produkty.header_repeater]]
 block_tag_type = "div"
 bold_txt = "gruby"
