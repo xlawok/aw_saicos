@@ -31,9 +31,9 @@ produkty_marki:
     - ikona: "/uploads/tarasy-icon.svg"
       tytul: TARASY
       odnosnik: ''
-    - ikona: "/uploads/podlogi_drewniane_icon.svg"
-      tytul: PODŁOGI I SCHODY DREWNIANE
-      odnosnik: do-wnetrz
+    - ikona: "/uploads/meble-ogrodowe-icon.svg"
+      tytul: MEBLE OGRODOWE
+      odnosnik: ''
 stopka:
   pierwsza_kolumna:
     zdjecie: "/uploads/saicos-logo.png"
