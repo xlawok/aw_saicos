@@ -95,7 +95,7 @@ txt_block = "do wnętrz"
 txt_block_size = "XL"
 [[kafelki_kategorii]]
 nazwa = "pielęgnacja drewna"
-odnosnik = "do-wnetrz/sciany.md"
+odnosnik = "na-zewnatrz/_index.md"
 zdjecie = "/uploads/zabezpieczenie-tarasu2.jpg"
 [[kafelki_kategorii.header_repeater]]
 block_tag_type = "h2"
