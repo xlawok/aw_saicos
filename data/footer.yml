@@ -28,7 +28,7 @@ produkty_marki:
   prawa_kolumna:
     tytul_kolumny: 'PRZEZNACZENIE: NA ZEWNĄTRZ'
     pozycje_kolumny:
-    - ikona: "/uploads/podlogi_drewniane_icon.svg"
+    - ikona: "/uploads/tarasy-icon.svg"
       tytul: TARASY
       odnosnik: ''
     - ikona: "/uploads/podlogi_drewniane_icon.svg"
