@@ -66,7 +66,7 @@ txt_block_size = "L"
 [[kafelki_kategorii]]
 nazwa = "Płoty i elewacje"
 odnosnik = "na-zewnatrz/ploty-i-elewacje.md"
-zdjecie = "/uploads//uploads/na-zewnatrz-ploty-i-elewacje-jpg.webp"
+zdjecie = "/uploads/na-zewnatrz-ploty-i-elewacje-jpg.webp"
 [[kafelki_kategorii.header_repeater]]
 block_tag_type = "h2"
 bold_txt = "gruby"
