@@ -3,7 +3,7 @@ description = "Zastosowanie produktów Saicos do podłóg PVC "
 opis_pod_naglowkiem = "<h2>Ochrona podłóg elastycznych, PVC, linoleum</h2><p>Produkty podłogowe SAICOS to nie tylko środki do podłóg drewnianych.</p><p>Nasza oferta obejmuje również podłogi elastyczne, wykonane z PVC (czyli polichlorku winylu) oraz produkowane z linoleum (materiał o składzie naturalnym).</p><p>Podłogi tego typu narażone są często na duże obciążenia. Użytkowane są bowiem w kuchniach, łazienkach, a nawet na halach sportowych.</p><p>Z tego względu wymagają one szczególnego zabezpieczenia. SAICOS takie właśnie wykończenie zapewnia.</p>"
 robots = ""
 slug = "mebpodlogi-pvcle"
-title = "Zastosowanie produktów Saicos do podłóg PVC | Saicos"
+title = "Do podłóg PVC | Saicos"
 [sugerowane_produkty]
 wybierz_produkty = ["produkty/2k-pu-elastic.md", "produkty/antyposlizgowy-r10-9616.md", "produkty/utwardzacz-2k-9608.md", "produkty/opozniacz-9619.md"]
 [[sugerowane_produkty.header_repeater]]
