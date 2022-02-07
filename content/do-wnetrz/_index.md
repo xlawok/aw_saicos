@@ -94,7 +94,7 @@ txt_block_size = "L"
 [[kafelki_kategorii]]
 nazwa = "do pielęgnacji drewna"
 odnosnik = "do-wnetrz/srodki-do-pielegnacji-drewna.md"
-zdjecie = "/uploads/do-wnetrz-sciany-jpg.webp"
+zdjecie = "/uploads/do-wnetrz-pielegnacja-jpg.webp"
 [[kafelki_kategorii.header_repeater]]
 block_tag_type = "h2"
 bold_txt = "gruby"
