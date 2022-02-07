@@ -65,7 +65,7 @@ txt_block = "moble ogrodowe"
 txt_block_size = "L"
 [[kafelki_kategorii]]
 nazwa = "Płoty i elewacje"
-odnosnik = "na-zewnatrz/meble-ogrodowe.md"
+odnosnik = "na-zewnatrz/ploty-i-elewacje.md"
 zdjecie = "/uploads/shutterstock_145729802-scaled.jpg"
 [[kafelki_kategorii.header_repeater]]
 block_tag_type = "h2"
