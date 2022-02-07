@@ -46,7 +46,7 @@ color_txt = "biały"
 txt_block = "tarasy"
 txt_block_size = "L"
 [[kafelki_kategorii]]
-nazwa = "Do wnętrz"
+nazwa = "Meble ogrodowe"
 odnosnik = "zastosowanie/_index.md"
 zdjecie = "/uploads/shutterstock_145729802-scaled.jpg"
 [[kafelki_kategorii.header_repeater]]
