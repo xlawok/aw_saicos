@@ -1,6 +1,6 @@
 +++
 description = "Zastosowanie produktów Saicos na zewnątrz "
-opis_pod_naglowkiem = "<p>Powierzchnie tarasów narażone są na szczególnie trudne warunki użytkowania.</p><p>Nieustannie eksponowane są na zmienne warunki atmosferyczne – od ostrego słońca, po deszcz, a nawet zalegający śnieg.</p><p>Do tego pamiętać należy jeszcze o koniecznej, wysokiej odporności na ścieralność, ponieważ tarasy eksploatowane są w ciągłym kontakcie z obuwiem, przesuwanymi meblami itp.</p><p>Preparaty do tarasów SAICOS produkowane są z myślą o takich właśnie, ekstremalnych uwarunkowaniach.</p>"
+opis_pod_naglowkiem = "<p><strong>LAZURY, FARBY DO MEBLI OGRODOWYCH</strong></p><p>Drewniane meble są doskonałym dopełnieniem aranżacji każdego ogrodu.</p><p>Jednakże, w odróżnieniu od mebli używanych we wnętrzach, meble ogrodowe wystawiane są na znacznie trudniejsze warunki eksploatacji.</p><p>Warunkiem długowieczności i niezmiennie świeżego wyglądu jest odpowiednie zabezpieczenie drewna.</p><p>Z produktami marki SAICOS zapewnisz swoim meblom najlepszą ochronę.</p>"
 robots = ""
 slug = "meble-ogrodowe"
 title = "Meble ogrodowe | Saicos"
