@@ -34,6 +34,9 @@ produkty_marki:
     - ikona: "/uploads/meble-ogrodowe-icon.svg"
       tytul: MEBLE OGRODOWE
       odnosnik: ''
+    - ikona: "/uploads/ploty-i-elewacje-icon.svg"
+      tytul: PŁOTY I ELEWACJE
+      odnosnik: ''
 stopka:
   pierwsza_kolumna:
     zdjecie: "/uploads/saicos-logo.png"
