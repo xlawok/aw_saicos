@@ -1,11 +1,26 @@
 +++
-description = "Zastosowanie produktów Saicos do mebli "
-opis_pod_naglowkiem = "<p>Powierzchnie tarasów narażone są na szczególnie trudne warunki użytkowania.</p><p>Nieustannie eksponowane są na zmienne warunki atmosferyczne – od ostrego słońca, po deszcz, a nawet zalegający śnieg.</p><p>Do tego pamiętać należy jeszcze o koniecznej, wysokiej odporności na ścieralność, ponieważ tarasy eksploatowane są w ciągłym kontakcie z obuwiem, przesuwanymi meblami itp.</p><p>Preparaty do tarasów SAICOS produkowane są z myślą o takich właśnie, ekstremalnych uwarunkowaniach.</p>"
-slug = "meble"
+description = "Zastosowanie produktów Saicos do podłóg PVC "
+opis_pod_naglowkiem = "Ochrona podłóg elastycznych, PVC, linoleum
+Produkty podłogowe SAICOS to nie tylko środki do podłóg drewnianych.
+
+ 
+
+Nasza oferta obejmuje również podłogi elastyczne, wykonane z PVC (czyli polichlorku winylu) oraz produkowane z linoleum (materiał o składzie naturalnym).
+
+ 
+
+Podłogi tego typu narażone są często na duże obciążenia. Użytkowane są bowiem w kuchniach, łazienkach, a nawet na halach sportowych.
+
+ 
+
+Z tego względu wymagają one szczególnego zabezpieczenia. SAICOS  takie właśnie wykończenie zapewnia.
+
+"
+slug = "mebpodlogi-pvcle"
 robots = "noindex"
-title = "Zastosowanie produktów Saicos do mebli | Saicos"
+title = "Zastosowanie produktów Saicos do podłóg PVC | Saicos"
 [sugerowane_produkty]
-wybierz_produkty = ["produkty/premium-hardwax-Oil.md"]
+wybierz_produkty = ["produkty/2k-pu-elastic.md","produkty/antyposlizgowy-r10-9616.md","produkty/utwardzacz-2k-9608.md","produkty/opozniacz-9619.md"]
 [[sugerowane_produkty.header_repeater]]
 block_tag_type = "div"
 bold_txt = "gruby"

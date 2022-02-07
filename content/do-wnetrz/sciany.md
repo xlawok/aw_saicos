@@ -1,11 +1,26 @@
 +++
 description = "Zastosowanie produktów Saicos do ścian "
-opis_pod_naglowkiem = "<p>Powierzchnie tarasów narażone są na szczególnie trudne warunki użytkowania.</p><p>Nieustannie eksponowane są na zmienne warunki atmosferyczne – od ostrego słońca, po deszcz, a nawet zalegający śnieg.</p><p>Do tego pamiętać należy jeszcze o koniecznej, wysokiej odporności na ścieralność, ponieważ tarasy eksploatowane są w ciągłym kontakcie z obuwiem, przesuwanymi meblami itp.</p><p>Preparaty do tarasów SAICOS produkowane są z myślą o takich właśnie, ekstremalnych uwarunkowaniach.</p>"
+opis_pod_naglowkiem = "ŚCIANY – Wosk kolorowy, impregnaty
+Drewniane okładziny ścienne mogą występować w różnych postaciach.
+
+ 
+
+Ze względu na łatwość obróbki, drewno na ścianach może występować w różnych formach, zarówno tych prostych, jak płaskie panele, jak i wyszukanych i skomplikowanych, na przykład w postaci sztukaterii.
+
+ 
+
+Ostateczny sznyt dany element uzyskuje poprzez zastosowanie odpowiedniej warstwy wykończeniowej.
+
+ 
+
+Zastosowanie w takim wypadku lakierów lub wosków z naszej oferty to najlepszy wybór i świetna decyzja.
+
+"
 slug = "sciany"
 robots = "noindex"
 title = "Zastosowanie produktów Saicos do ścian | Saicos"
 [sugerowane_produkty]
-wybierz_produkty = ["produkty/premium-hardwax-Oil.md"]
+wybierz_produkty = ["produkty/wosk-kolorowy-classic.md","produkty/wosk-twardy-rzadki-bezbarwny.md","produkty/impregnat-drewna-bez-biocydow.md","produkty/ochrona-przed-promieniowaniem-uv-do-wnetrz.md","produkty/olej-gruntujacy-extra-rzadki.md","produkty/bel-air.md"]
 [[sugerowane_produkty.header_repeater]]
 block_tag_type = "div"
 bold_txt = "gruby"

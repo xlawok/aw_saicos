@@ -25,7 +25,7 @@ txt_block = "Zastosowanie produktów Saicos"
 txt_block_size = "XXL"
 [[kafelki_kategorii]]
 nazwa = "podłogi i schody drewniane"
-odnosnik = "do-wnetrz/podlogi-i-schody-drewaniane.md"
+odnosnik = "do-wnetrz/podlogi-i-schody-drewniane.md"
 zdjecie = "/uploads/shutterstock_145729802-scaled.jpg"
 [[kafelki_kategorii.header_repeater]]
 block_tag_type = "h2"
