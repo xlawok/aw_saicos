@@ -22,7 +22,7 @@ txt_block_size = "L"
 block_tag_type = "h1"
 bold_txt = "gruby"
 color_txt = "czarny"
-txt_block = "Zastosowanie produktów Saicos"
+txt_block = "Produkty Saicos do zastosowań wewnątrz"
 txt_block_size = "XXL"
 [[kafelki_kategorii]]
 nazwa = "podłogi i schody drewniane"
