@@ -13,9 +13,9 @@ produkty_marki:
     - ikona: "/uploads/podlogi_drewniane_icon.svg"
       tytul: PODŁOGI I SCHODY DREWNIANE
       odnosnik: do-wnetrz
-    - ikona: "/uploads/podlogi_drewniane_icon.svg"
-      tytul: PODŁOGI I SCHODY DREWNIANE
-      odnosnik: do-wnetrz
+    - ikona: "/uploads/podlogi-pvc-icon.svg"
+      tytul: PODŁOGI ELASTYCZNE, PVC, LINOLEUM
+      odnosnik: ''
   prawa_kolumna:
     tytul_kolumny: 'PRZEZNACZENIE: NA ZEWNĄTRZ'
     pozycje_kolumny:
