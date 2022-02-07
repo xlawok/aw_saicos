@@ -37,6 +37,9 @@ produkty_marki:
     - ikona: "/uploads/ploty-i-elewacje-icon.svg"
       tytul: PŁOTY I ELEWACJE
       odnosnik: ''
+    - ikona: "/uploads/pielegnacja-2-icon.svg"
+      tytul: PIELĘGNACJA
+      odnosnik: ''
 stopka:
   pierwsza_kolumna:
     zdjecie: "/uploads/saicos-logo.png"
