@@ -16,6 +16,9 @@ produkty_marki:
     - ikona: "/uploads/podlogi-pvc-icon.svg"
       tytul: PODŁOGI ELASTYCZNE, PVC, LINOLEUM
       odnosnik: ''
+    - ikona: "/uploads/meble-icon.svg"
+      tytul: MEBLE
+      odnosnik: ''
   prawa_kolumna:
     tytul_kolumny: 'PRZEZNACZENIE: NA ZEWNĄTRZ'
     pozycje_kolumny:
