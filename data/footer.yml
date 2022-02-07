@@ -29,8 +29,8 @@ produkty_marki:
     tytul_kolumny: 'PRZEZNACZENIE: NA ZEWNĄTRZ'
     pozycje_kolumny:
     - ikona: "/uploads/podlogi_drewniane_icon.svg"
-      tytul: PODŁOGI I SCHODY DREWNIANE
-      odnosnik: do-wnetrz
+      tytul: TARASY
+      odnosnik: ''
     - ikona: "/uploads/podlogi_drewniane_icon.svg"
       tytul: PODŁOGI I SCHODY DREWNIANE
       odnosnik: do-wnetrz
