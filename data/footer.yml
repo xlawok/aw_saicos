@@ -22,6 +22,9 @@ produkty_marki:
     - ikona: "/uploads/sciany-icon.svg"
       tytul: ŚCIANY
       odnosnik: ''
+    - ikona: "/uploads/pielegnacja-icon.svg"
+      tytul: PIELĘGNACJA
+      odnosnik: ''
   prawa_kolumna:
     tytul_kolumny: 'PRZEZNACZENIE: NA ZEWNĄTRZ'
     pozycje_kolumny:
