@@ -1,21 +1,6 @@
 +++
 description = "Zastosowanie produktów Saicos do ścian "
-opis_pod_naglowkiem = "ŚCIANY – Wosk kolorowy, impregnaty
-Drewniane okładziny ścienne mogą występować w różnych postaciach.
-
- 
-
-Ze względu na łatwość obróbki, drewno na ścianach może występować w różnych formach, zarówno tych prostych, jak płaskie panele, jak i wyszukanych i skomplikowanych, na przykład w postaci sztukaterii.
-
- 
-
-Ostateczny sznyt dany element uzyskuje poprzez zastosowanie odpowiedniej warstwy wykończeniowej.
-
- 
-
-Zastosowanie w takim wypadku lakierów lub wosków z naszej oferty to najlepszy wybór i świetna decyzja.
-
-"
+opis_pod_naglowkiem = ""
 slug = "sciany"
 robots = "noindex"
 title = "Zastosowanie produktów Saicos do ścian | Saicos"
