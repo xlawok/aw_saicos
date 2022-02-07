@@ -91,5 +91,22 @@ bold_txt = "bardzo gruby"
 color_txt = "biały"
 txt_block = "do ścian"
 txt_block_size = "L"
+[[kafelki_kategorii]]
+nazwa = "do pielęgnacji drewna"
+odnosnik = "do-wnetrz/srodki-do-pielegnacji-drewna.md"
+zdjecie = "/uploads/do-wnetrz-sciany-jpg.webp"
+[[kafelki_kategorii.header_repeater]]
+block_tag_type = "h2"
+bold_txt = "gruby"
+break_line = true
+color_txt = "biały"
+txt_block = "Produkty Saicos"
+txt_block_size = "L"
+[[kafelki_kategorii.header_repeater]]
+block_tag_type = "h2"
+bold_txt = "bardzo gruby"
+color_txt = "biały"
+txt_block = "do śpielęgnacji drewna"
+txt_block_size = "L"
 
 +++
