@@ -5,7 +5,7 @@ robots = ""
 slug = "meble-ogrodowe"
 title = "Meble ogrodowe | Saicos"
 [sugerowane_produkty]
-wybierz_produkty = ["produkty/bel-air.md","produkty/bialy-podklad-gruntujacy.md","produkty/house-garden.md","produkty/lazura-bezbarwna-bez-biocydow.md""produkty/lazura-olejna.md","produkty/lazura-uv-zewnetrzna.md"]
+wybierz_produkty = ["produkty/bel-air.md","produkty/bialy-podklad-gruntujacy.md","produkty/house-garden.md","produkty/lazura-bezbarwna-bez-biocydow.md","produkty/lazura-olejna.md","produkty/lazura-uv-zewnetrzna.md"]
 [[sugerowane_produkty.header_repeater]]
 block_tag_type = "div"
 bold_txt = "gruby"
