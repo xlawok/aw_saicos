@@ -24,9 +24,43 @@ color_txt = "czarny"
 txt_block = "Zastosowanie produktów Saicos"
 txt_block_size = "XXL"
 [[kafelki_kategorii]]
+nazwa = "podłogi i schody drewniane"
+odnosnik = "do-wnetrz/podlogi-i-schody-drewaniane.md"
+zdjecie = "/uploads/shutterstock_145729802-scaled.jpg"
+[[kafelki_kategorii.header_repeater]]
+block_tag_type = "h2"
+bold_txt = "gruby"
+break_line = true
+color_txt = "biały"
+txt_block = "Produkty Saicos"
+txt_block_size = "L"
+[[kafelki_kategorii.header_repeater]]
+block_tag_type = "h2"
+bold_txt = "bardzo gruby"
+color_txt = "biały"
+txt_block = "do podłóg i schodów drewnianych"
+txt_block_size = "L"
+[[kafelki_kategorii]]
+nazwa = "podłogi PVC"
+odnosnik = "do-wnetrz/podlogi-pvc.md"
+zdjecie = "/uploads/do-wnetrz-podlogi-pvc-jpg.webp"
+[[kafelki_kategorii.header_repeater]]
+block_tag_type = "h2"
+bold_txt = "gruby"
+break_line = true
+color_txt = "biały"
+txt_block = "Produkty Saicos"
+txt_block_size = "L"
+[[kafelki_kategorii.header_repeater]]
+block_tag_type = "h2"
+bold_txt = "bardzo gruby"
+color_txt = "biały"
+txt_block = "do podłóg PVC"
+txt_block_size = "L"
+[[kafelki_kategorii]]
 nazwa = "do mebli"
 odnosnik = "do-wnetrz/meble.md"
-zdjecie = "/uploads/shutterstock_145729802-scaled.jpg"
+zdjecie = "/uploads/do-wnetrz-meble-jpg.webp"
 [[kafelki_kategorii.header_repeater]]
 block_tag_type = "h2"
 bold_txt = "gruby"
@@ -43,7 +77,7 @@ txt_block_size = "L"
 [[kafelki_kategorii]]
 nazwa = "do ścian"
 odnosnik = "do-wnetrz/sciany.md"
-zdjecie = "/uploads/shutterstock_145729802-scaled.jpg"
+zdjecie = "/uploads/do-wnetrz-sciany-jpg.webp"
 [[kafelki_kategorii.header_repeater]]
 block_tag_type = "h2"
 bold_txt = "gruby"
