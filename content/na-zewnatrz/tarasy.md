@@ -5,7 +5,7 @@ slug = "tarasy"
 robots = "noindex"
 title = "Zastosowanie produktów Saicos na tarasach | Saicos"
 [sugerowane_produkty]
-wybierz_produkty = ["produkty/bel-air.md"]
+wybierz_produkty = ["produkty/olej-specjalny-do-drewna.md","produkty/wosk-do-krawedzi.md","produkty/olej-do-tarasow-h2o.md","produkty/wpc-care.md","produkty/dodatek-antyposlizgowy-r10-do-oleju-specjalnego.md"]
 [[sugerowane_produkty.header_repeater]]
 block_tag_type = "div"
 bold_txt = "gruby"
