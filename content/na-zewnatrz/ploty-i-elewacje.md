@@ -5,7 +5,7 @@ robots = ""
 slug = "ploty-i-elewacje"
 title = "Płoty i elewacje | Saicos"
 [sugerowane_produkty]
-wybierz_produkty = ["produkty/bel-air.md"]
+wybierz_produkty = ["produkty/lazura-olejna.md","produkty/house-garden.md","produkty/bel-air.md","produkty/lazura-uv-zewnetrzna.md","produkty/lazura-effect.md","produkty/lazura-poszarzajaca.md","produkty/bialy-podklad-gruntujacy.md","produkty/lazura-bezbarwna-bez-biocydow.md","produkty/olej-specjalny-do-drewna.md","produkty/wosk-do-krawedzi.md","produkty/wpc-care.md"]
 [[sugerowane_produkty.header_repeater]]
 block_tag_type = "div"
 bold_txt = "gruby"
