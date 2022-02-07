@@ -11,7 +11,8 @@
         display: flex;
         gap:.5rem;
         grid-template-columns: 1fr;
-        justify-content:start;
+        justify-content: center;
+        flex-wrap: wrap;
         li{
             border: 1px solid #EFD7B8;
             width: 100%;
