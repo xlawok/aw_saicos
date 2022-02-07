@@ -19,6 +19,9 @@ produkty_marki:
     - ikona: "/uploads/meble-icon.svg"
       tytul: MEBLE
       odnosnik: ''
+    - ikona: "/uploads/sciany-icon.svg"
+      tytul: ŚCIANY
+      odnosnik: ''
   prawa_kolumna:
     tytul_kolumny: 'PRZEZNACZENIE: NA ZEWNĄTRZ'
     pozycje_kolumny:
