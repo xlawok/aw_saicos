@@ -61,7 +61,7 @@ block_tag_type = "h2"
 bold_txt = "bardzo gruby"
 break_line = false
 color_txt = "biały"
-txt_block = "do wnętrz"
+txt_block = "moble ogrodowe"
 txt_block_size = "L"
 
 +++
