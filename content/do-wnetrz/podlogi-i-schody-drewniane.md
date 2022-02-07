@@ -1,6 +1,6 @@
 +++
-description = "Zastosowanie produktów Saicos do podłóg i schodów drewnianych "
-opis_pod_naglowkiem = "<h2>PODŁOGI I SCHODY DREWANIANE WOSK DO DREWNA</h2><h4>Drewno we wnętrzach dodaje im niepowtarzalnego charakteru.</h4><h4>To dotyk natury, na wyciągnięcie ręki, to namiastka lasu we własnym domu.</h4><h4>Głównymi elementami wykończenia wnętrz mieszkalnych, wykonywanych z drewna są podłogi, a także schody i ściany.</h4><h4>Szeroka oferta produktów do wnętrz SAICOS pozwala na dostosowanie powierzchni drewna do całokształtu wnętrza, zarówno pod kątem kolorystyki, jak i widoczności czy namacalności jego faktury.</h4>"
+description = "Do podłóg i schodów drewnianych "
+opis_pod_naglowkiem = "<h2>PODŁOGI I SCHODY DREWANIANE WOSK DO DREWNA</h2><p>Drewno we wnętrzach dodaje im niepowtarzalnego charakteru.</p><p>To dotyk natury, na wyciągnięcie ręki, to namiastka lasu we własnym domu.</p><p>Głównymi elementami wykończenia wnętrz mieszkalnych, wykonywanych z drewna są podłogi, a także schody i ściany.</p><p>Szeroka oferta produktów do wnętrz SAICOS pozwala na dostosowanie powierzchni drewna do całokształtu wnętrza, zarówno pod kątem kolorystyki, jak i widoczności czy namacalności jego faktury.</p>"
 robots = ""
 slug = "podlogi-i-schody-drewniane"
 title = "Zastosowanie produktów Saicos do podłóg i schodów drewnianych | Saicos"
