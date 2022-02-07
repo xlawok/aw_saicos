@@ -24,7 +24,7 @@ color_txt = "czarny"
 txt_block = "Zastosowanie produktów Saicos"
 txt_block_size = "XXL"
 [[kafelki_kategorii]]
-nazwa = "Meble"
+nazwa = "do mebli"
 odnosnik = "do-wnetrz/meble.md"
 zdjecie = "/uploads/shutterstock_145729802-scaled.jpg"
 [[kafelki_kategorii.header_repeater]]
