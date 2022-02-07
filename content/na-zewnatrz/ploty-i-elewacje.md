@@ -1,8 +1,8 @@
 +++
 description = "Zastosowanie produktów Saicos na zewnątrz "
-opis_pod_naglowkiem = "<p>Powierzchnie tarasów narażone są na szczególnie trudne warunki użytkowania.</p><p>Nieustannie eksponowane są na zmienne warunki atmosferyczne – od ostrego słońca, po deszcz, a nawet zalegający śnieg.</p><p>Do tego pamiętać należy jeszcze o koniecznej, wysokiej odporności na ścieralność, ponieważ tarasy eksploatowane są w ciągłym kontakcie z obuwiem, przesuwanymi meblami itp.</p><p>Preparaty do tarasów SAICOS produkowane są z myślą o takich właśnie, ekstremalnych uwarunkowaniach.</p>"
+opis_pod_naglowkiem = "<h2>OLEJE, LAZURY, WOSK DO PŁOTÓW I ELEWACJI</h2><p>Podstawowym warunkiem trwałości drewnianego płotu czy ściany, jest odpowiedniej jakość zabezpieczenie struktury drewna.</p><p>Regularna impregnacja i konserwacja drewna ma zapobiec zjawiskom takim jak próchnienie, szarzenie czy pojawianie się pleśni.</p><p>Dodatkowo preparaty SAICOS pozwalają na szeroki wybór kolorystyki wykończenia, zarówno w wariantach z widocznymi słojami, jak i z zastosowaniem kolorów kryjących.</p>"
+robots = ""
 slug = "ploty-i-elewacje"
-robots = "noindex"
 title = "Płoty i elewacje | Saicos"
 [sugerowane_produkty]
 wybierz_produkty = ["produkty/bel-air.md"]
