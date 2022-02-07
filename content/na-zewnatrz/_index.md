@@ -30,7 +30,7 @@ txt_block_size = "XXL"
 [[kafelki_kategorii]]
 nazwa = "Tarasy"
 odnosnik = "na-zewnatrz/tarasy.md"
-zdjecie = "/uploads/shutterstock_145729802-scaled.jpg"
+zdjecie = "/uploads/na-zwenatrz-tarasy-jpg.webp"
 [[kafelki_kategorii.header_repeater]]
 block_tag_type = "h2"
 bold_txt = "gruby"
@@ -48,7 +48,7 @@ txt_block_size = "L"
 [[kafelki_kategorii]]
 nazwa = "Meble ogrodowe"
 odnosnik = "na-zewnatrz/meble-ogrodowe.md"
-zdjecie = "/uploads/shutterstock_145729802-scaled.jpg"
+zdjecie = "/uploads/na-zewnatrz-meble-ogrodowe-jpg.webp"
 [[kafelki_kategorii.header_repeater]]
 block_tag_type = "h2"
 bold_txt = "gruby"
@@ -84,7 +84,7 @@ txt_block_size = "L"
 [[kafelki_kategorii]]
 nazwa = "Pielęgnacja"
 odnosnik = "na-zewnatrz/pielegnacja.md"
-zdjecie = "/uploads/shutterstock_145729802-scaled.jpg"
+zdjecie = "/uploads/na-zewnatrz-pielegnacja-jpg.webp"
 [[kafelki_kategorii.header_repeater]]
 block_tag_type = "h2"
 bold_txt = "gruby"
