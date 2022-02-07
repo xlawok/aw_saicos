@@ -18,5 +18,6 @@ bold_txt = "bardzo gruby"
 color_txt = "czarny"
 txt_block = "Płoty i elewacje"
 txt_block_size = "XL"
-
+[opis_seo]
+opis_seo = ""
 +++
