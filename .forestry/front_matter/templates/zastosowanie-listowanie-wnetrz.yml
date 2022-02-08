@@ -45,7 +45,7 @@ fields:
     label: Odnośnik
   config:
     min: 
-    max: 2
+    max: 
     labelField: 
   label: Kafelki kategorii
 - name: sugerowane_produkty
