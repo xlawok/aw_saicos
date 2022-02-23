@@ -31,7 +31,7 @@ txt_block_size = "XXL"
 [[kafelki_kategorii]]
 nazwa = "Tarasy"
 odnosnik = "na-zewnatrz/tarasy.md"
-zdjecie = "/uploads/na-zwenatrz-tarasy-jpg.webp"
+zdjecie = "/uploads/na-zwenatrz-tarasy-jpg.jpg"
 [[kafelki_kategorii.header_repeater]]
 block_tag_type = "h2"
 bold_txt = "gruby"
@@ -49,7 +49,7 @@ txt_block_size = "L"
 [[kafelki_kategorii]]
 nazwa = "Meble ogrodowe"
 odnosnik = "na-zewnatrz/meble-ogrodowe.md"
-zdjecie = "/uploads/na-zewnatrz-meble-ogrodowe-jpg.webp"
+zdjecie = "/uploads/na-zewnatrz-meble-ogrodowe-jpg.jpg"
 [[kafelki_kategorii.header_repeater]]
 block_tag_type = "h2"
 bold_txt = "gruby"
@@ -67,7 +67,7 @@ txt_block_size = "L"
 [[kafelki_kategorii]]
 nazwa = "Płoty i elewacje"
 odnosnik = "na-zewnatrz/ploty-i-elewacje.md"
-zdjecie = "/uploads/na-zewnatrz-ploty-i-elewacje-jpg.webp"
+zdjecie = "/uploads/na-zewnatrz-ploty-i-elewacje-jpg.jpg"
 [[kafelki_kategorii.header_repeater]]
 block_tag_type = "h2"
 bold_txt = "gruby"
@@ -85,7 +85,7 @@ txt_block_size = "L"
 [[kafelki_kategorii]]
 nazwa = "Pielęgnacja"
 odnosnik = "na-zewnatrz/pielegnacja.md"
-zdjecie = "/uploads/na-zewnatrz-pielegnacja-jpg.webp"
+zdjecie = "/uploads/na-zewnatrz-pielegnacja-jpg.jpg"
 [[kafelki_kategorii.header_repeater]]
 block_tag_type = "h2"
 bold_txt = "gruby"

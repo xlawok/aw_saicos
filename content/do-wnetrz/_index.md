@@ -46,7 +46,7 @@ txt_block_size = "L"
 [[kafelki_kategorii]]
 nazwa = "podłogi PVC"
 odnosnik = "do-wnetrz/podlogi-pvc.md"
-zdjecie = "/uploads/do-wnetrz-podlogi-pvc-jpg.webp"
+zdjecie = "/uploads/do-wnetrz-podlogi-pvc-jpg.jpg"
 [[kafelki_kategorii.header_repeater]]
 block_tag_type = "h2"
 bold_txt = "gruby"
@@ -63,7 +63,7 @@ txt_block_size = "L"
 [[kafelki_kategorii]]
 nazwa = "do mebli"
 odnosnik = "do-wnetrz/meble.md"
-zdjecie = "/uploads/do-wnetrz-meble-jpg.webp"
+zdjecie = "/uploads/do-wnetrz-meble-jpg.jpg"
 [[kafelki_kategorii.header_repeater]]
 block_tag_type = "h2"
 bold_txt = "gruby"
@@ -80,7 +80,7 @@ txt_block_size = "L"
 [[kafelki_kategorii]]
 nazwa = "do ścian"
 odnosnik = "do-wnetrz/sciany.md"
-zdjecie = "/uploads/do-wnetrz-sciany-jpg.webp"
+zdjecie = "/uploads/do-wnetrz-sciany-jpg.jpg"
 [[kafelki_kategorii.header_repeater]]
 block_tag_type = "h2"
 bold_txt = "gruby"
@@ -97,7 +97,7 @@ txt_block_size = "L"
 [[kafelki_kategorii]]
 nazwa = "do pielęgnacji drewna"
 odnosnik = "do-wnetrz/srodki-do-pielegnacji-drewna.md"
-zdjecie = "/uploads/do-wnetrz-pielegnacja-jpg.webp"
+zdjecie = "/uploads/do-wnetrz-pielegnacja-jpg.jpg"
 [[kafelki_kategorii.header_repeater]]
 block_tag_type = "h2"
 bold_txt = "gruby"

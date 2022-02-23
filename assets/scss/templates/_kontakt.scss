@@ -8,6 +8,17 @@
         flex-direction: row;
         .contact-left{
             width: 100%;
+            svg{
+                path{
+                    fill: rgb(221, 186, 130);
+                    transition: opacity 0.3 ease;
+                }
+                a:hover{
+                    path{
+                        opacity: 0.8;
+                    }
+                }
+            }
             .left-col-header{
                 font-size: 1.5625rem;
                 font-weight: 800;
@@ -47,93 +58,94 @@
                             border-color:#B0824F;
                         }
                     }
-                    .voivod-modal{
-                        display: none;
-                        position:absolute;
-                        z-index: -1;
-                        width: 100%;
-                        height: auto;
-                        inset: 0 auto auto 0;
-                        padding-bottom: 2rem;
-                        &.active {
-                            
-                            overflow-y: auto;
-                            z-index: 2;
-                            display: flex;
-                            flex-direction: column;
-                            align-items: center;
-                            padding-top: 2rem;
-                            &:before{
-                                display: block;
-                                content: " ";
-                                position: absolute;
-                                inset: 0 auto auto 0;
-                                background: #FAF3EA 0% 0% no-repeat padding-box;
-                                opacity: 0.95;
-                                width: 100%;
-                                height: 100%;
-                                z-index: -1;
-                            }
-                            .modal-vov-header{
-                                font-size: 45px;
-                                font-weight: 900;
-                                text-align: center;
-                            }
-                            .partner-name{
-                                font-size: 1.5625rem;
-                                font-weight: 900;
-                                padding-top: 2rem;
-                                padding-bottom: .5rem;
-                                margin: 0;
-                            }
-                            >span,>a{
-                                font-size: 1.3125rem;
-                                color: #171715;
-                                text-decoration: none;
-                                font-weight: 500;
-                            }
-                            a{
-                                color: #171715;
-                                text-decoration: none;
-                            }
-                            button{
-                                background-color: transparent;
-                                border: 0;
-                                position: absolute;
-                                inset: 1rem 1rem auto auto;
-                                width: 2rem;
-                                height: 2rem;
-                                min-width: unset;
-                                min-height: unset;
-                                &:before{
-                                    display: block;
-                                    content: " ";
-                                    position: absolute;
-                                    inset: 0 auto auto 0;
-                                    border-right: 2px solid #171715;
-                                    width: 100%;
-                                    height: 100%;
-                                    transform: rotate(45deg) translate(-1rem,1rem);
-                                }
-                                &:after{
-                                    display: block;
-                                    content: " ";
-                                    position: absolute;
-                                    inset: 0 auto auto 0;
-                                    border-right: 2px solid #171715;
-                                    width: 100%;
-                                    height: 100%;
-                                    transform: rotate(-45deg)translate(-2rem,0rem);
-                                }
-                            }
-                        }
-                    }
+                   
                     
                 }
                 @media (min-width: 560px){
                     // grid-template-columns: 1fr 1fr;
                     .voivod-item{
                         width: calc(50% - .5rem);
+                    }
+                }
+                .voivod-modal{
+                    display: none;
+                    position:absolute;
+                    z-index: -1;
+                    width: 100%;
+                    height: auto;
+                    inset: 0 auto auto 0;
+                    padding-bottom: 2rem;
+                    &.active {
+                        
+                        overflow-y: auto;
+                        z-index: 2;
+                        display: flex;
+                        flex-direction: column;
+                        align-items: center;
+                        padding-top: 2rem;
+                        &:before{
+                            display: block;
+                            content: " ";
+                            position: absolute;
+                            inset: 0 auto auto 0;
+                            background: #FAF3EA 0% 0% no-repeat padding-box;
+                            opacity: 0.95;
+                            width: 100%;
+                            height: 100%;
+                            z-index: -1;
+                        }
+                        .modal-vov-header{
+                            font-size: 45px;
+                            font-weight: 900;
+                            text-align: center;
+                        }
+                        .partner-name{
+                            font-size: 1.5625rem;
+                            font-weight: 900;
+                            padding-top: 2rem;
+                            padding-bottom: .5rem;
+                            margin: 0;
+                        }
+                        >span,>a{
+                            font-size: 1.3125rem;
+                            color: #171715;
+                            text-decoration: none;
+                            font-weight: 500;
+                        }
+                        a{
+                            color: #171715;
+                            text-decoration: none;
+                        }
+                        button{
+                            background-color: transparent;
+                            border: 0;
+                            position: absolute;
+                            inset: 1rem 1rem auto auto;
+                            width: 2rem;
+                            height: 2rem;
+                            min-width: unset;
+                            min-height: unset;
+                            &:before{
+                                display: block;
+                                content: " ";
+                                position: absolute;
+                                inset: 0 auto auto 0;
+                                border-right: 2px solid #171715;
+                                width: 100%;
+                                height: 100%;
+                                transform: rotate(45deg) translate(-1rem,1rem);
+                            }
+                            &:after{
+                                display: block;
+                                content: " ";
+                                position: absolute;
+                                inset: 0 auto auto 0;
+                                border-right: 2px solid #171715;
+                                width: 100%;
+                                height: 100%;
+                                transform: rotate(-45deg)translate(-2rem,0rem);
+                            }
+                        }
                     }
                 }
                 @media (min-width: 992px){
