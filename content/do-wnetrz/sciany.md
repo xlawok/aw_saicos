@@ -4,6 +4,7 @@ opis_pod_naglowkiem = "<h2><br>ŚCIANY – Wosk kolorowy, impregnaty</h2><p>Drew
 robots = ""
 slug = "sciany"
 title = "Do ścian | Saicos"
+name = "Do ścian"
 [sugerowane_produkty]
 wybierz_produkty = ["produkty/wosk-kolorowy-classic.md", "produkty/wosk-twardy-rzadki-bezbarwny.md", "produkty/impregnat-drewna-bez-biocydow.md", "produkty/ochrona-przed-promieniowaniem-uv-do-wnetrz.md", "produkty/olej-gruntujacy-extra-rzadki.md", "produkty/bel-air.md"]
 [[sugerowane_produkty.header_repeater]]

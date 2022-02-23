@@ -4,6 +4,7 @@ opis_pod_naglowkiem = ""
 robots = ""
 slug = "pielegnacja"
 title = "Pielęgnacja i konserwacja na zewnątrz | Saicos"
+name = "Pielęgnacja i konserwacja na zewnątrz"
 [sugerowane_produkty]
 wybierz_produkty = ["produkty/odszarzacz-do-drewna-koncentrat.md", "produkty/odszarzacz-do-drewna-power-gel.md", "produkty/green-ex-koncentrat.md", "produkty/srodek-czyszczacy-do-kompozytu-wpc.md"]
 [[sugerowane_produkty.header_repeater]]

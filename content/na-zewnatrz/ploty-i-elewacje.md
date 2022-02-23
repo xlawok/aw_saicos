@@ -4,6 +4,7 @@ opis_pod_naglowkiem = "<h2>OLEJE, LAZURY, WOSK DO PŁOTÓW I ELEWACJI</h2><p>Pod
 robots = ""
 slug = "ploty-i-elewacje"
 title = "Płoty i elewacje | Saicos"
+name = "Płoty i elewacje"
 [sugerowane_produkty]
 wybierz_produkty = ["produkty/lazura-olejna.md","produkty/house-garden.md","produkty/bel-air.md","produkty/lazura-uv-zewnetrzna.md","produkty/lazura-effect.md","produkty/lazura-poszarzajaca.md","produkty/bialy-podklad-gruntujacy.md","produkty/lazura-bezbarwna-bez-biocydow.md","produkty/olej-specjalny-do-drewna.md","produkty/wosk-do-krawedzi.md","produkty/wpc-care.md"]
 [[sugerowane_produkty.header_repeater]]

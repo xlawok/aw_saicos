@@ -4,6 +4,7 @@ opis_pod_naglowkiem = "<h2>PODŁOGI I SCHODY DREWANIANE WOSK DO DREWNA</h2><p>Dr
 robots = ""
 slug = "podlogi-i-schody-drewniane"
 title = "Do podłóg i schodów drewnianych | Saicos"
+name = "Do podłóg i schodów drewnianych"
 [sugerowane_produkty]
 wybierz_produkty = ["produkty/premium-hardwax-Oil.md", "produkty/ecoline-twardy-wosk-olejny.md", "produkty/ecoline-twardy-wosk-olejny-jedwabny-mat.md", "produkty/ecoline-multitop-lacquer-polish.md", "produkty/ecoline-future-2k-premium-sport.md", "produkty/dodatek-antyposlizgowy-r10-do-oleju-specjalnego.md", "produkty/ochrona-uv-3242.md", "produkty/utwardzacz-2k-3243.md", "produkty/utwardzacz-2k-3643-eco.md", "produkty/utwardzacz-2k-9908eco.md", "produkty/ochrona-przed-promieniowaniem-uv9914eco.md", "produkty/extra-bialy-9915eco.md", "produkty/antyposlizgowy-r10-9916eco.md", "produkty/opozniacz-slow-down-9919eco.md", "produkty/pur-9933eco.md", "produkty/extra-czarny-9918eco.md"]
 [[sugerowane_produkty.header_repeater]]

@@ -5,6 +5,7 @@ opis_seo = "<h2>DO CZEGO UŻYWA SIĘ LAZURY DO DREWNA?</h2><p><strong>Lazura </s
 robots = ""
 slug = "meble-ogrodowe"
 title = "Meble ogrodowe | Saicos"
+name = "Meble ogrodowe"
 [sugerowane_produkty]
 wybierz_produkty = ["produkty/bel-air.md", "produkty/bialy-podklad-gruntujacy.md", "produkty/house-garden.md", "produkty/lazura-bezbarwna-bez-biocydow.md", "produkty/lazura-olejna.md", "produkty/lazura-uv-zewnetrzna.md"]
 [[sugerowane_produkty.header_repeater]]

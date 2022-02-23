@@ -4,6 +4,7 @@ opis_pod_naglowkiem = "<h2>MEBLE DREWNIANE – Pielęgnacja<br>OLEJE I FARBY DO 
 robots = ""
 slug = "meble"
 title = "Do mebli | Saicos"
+name = "Do mebli"
 [sugerowane_produkty]
 wybierz_produkty = ["produkty/wosk-kolorowy-classic.md", "produkty/wosk-twardy-rzadki-bezbarwny.md", "produkty/impregnat-drewna-bez-biocydow.md", "produkty/ochrona-przed-promieniowaniem-uv-do-wnetrz.md", "produkty/olej-gruntujacy-extra-rzadki.md", "produkty/olej-do-blatow.md"]
 [[sugerowane_produkty.header_repeater]]

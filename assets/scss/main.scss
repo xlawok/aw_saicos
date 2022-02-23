@@ -251,6 +251,7 @@ header{
                 }
                 @media(min-width: 1366px){
                     &:hover{
+
                         .sub-menu,.menu-categories{
                             display: flex;
                             background-color: #ef7c00;
@@ -276,6 +277,37 @@ header{
                                 width: 100%;
                                 padding-right: 1rem;
                             
+                            }
+                        }
+                        &.zast-parent{
+                            .sub-menu{
+                                flex-direction: row;
+                                
+                               >li
+                               {
+                                &:first-child{
+                                    ul{
+                                        border-right: 1px solid #fff;
+                                    }
+                                    
+                                }
+                               
+                                &:nth-child(2){
+                                    // padding-left: 2rem;
+                                }
+                                    >a{
+                                        font-weight: bold;
+                                        border-bottom: 0;
+                                    }
+                               }
+                               
+                            }
+                            .menu-categories.sub-zastosowanie{
+                                position:static;
+                                li{
+                                    padding-left: 0;
+                                }
+                                
                             }
                         }
                     }
@@ -417,8 +449,17 @@ header{
                     flex-direction: column;
                     >li{
                        >a{
-                        font-weight: 900;
+                            font-weight: 900;
+                            font-size: 1.5rem;
                        } 
+                       &.zast-parent{
+                            .sub-menu{
+                                >li>a{
+                                    font-weight: 600;
+                                }
+                            }
+                       }
+                       
                        &.parent:after{
                            display: none;
                        }

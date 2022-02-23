@@ -4,6 +4,7 @@ opis_pod_naglowkiem = "<h2>Ochrona podłóg elastycznych, PVC, linoleum</h2><p>P
 robots = ""
 slug = "mebpodlogi-pvcle"
 title = "Do podłóg PVC | Saicos"
+name = "Do podłóg PVC"
 [sugerowane_produkty]
 wybierz_produkty = ["produkty/2k-pu-elastic.md", "produkty/antyposlizgowy-r10-9616.md", "produkty/utwardzacz-2k-9608.md", "produkty/opozniacz-9619.md"]
 [[sugerowane_produkty.header_repeater]]
