@@ -1,7 +1,7 @@
 +++
 description = "Zastosowanie produktów Saicos do mebli "
 name = "Do mebli"
-opis_pod_naglowkiem = "<h2>MEBLE DREWNIANE – OLEJE I FARBY DO MEBLI</h2><p>Meble drewniane od wielu lat cieszą się bardzo dużą popularnością.</p><p>Są dostojne, eleganckie, a ponieważ wykonane z naturalnego surowca – niepowtarzalne i unikalne.</p><p>Aby meble takie służyły Użytkownikom długie lata w niezmienionej formie, niezbędne są zarówno odpowiednie wykończenie powierzchni, jak i późniejsza jej pielęgnacja.</p><p>Firma Saicos oferuje Państwu woski, lakiery i środki służące do konserwacji mebli drewnianych, które zagwarantują najwyższy poziom ochrony przed czynnikami takimi, jak np. promieniowanie UV, wilgotność, czy ścieranie podczas codziennego użytkowania.</p>"
+opis_pod_naglowkiem = "<h2>MEBLE DREWNIANE – OLEJE I FARBY DO MEBLI</h2><p>Meble drewniane od wielu lat cieszą się bardzo dużą popularnością.</p><p>Są dostojne, eleganckie, a ponieważ wykonane z naturalnego surowca – niepowtarzalne i unikalne.</p><p>Aby meble takie służyły Użytkownikom długie lata w niezmienionej formie, niezbędne są zarówno odpowiednie wykończenie powierzchni, jak i późniejsza jej pielęgnacja.</p><p>Firma Saicos oferuje Państwu woski, lakiery i środki służące do konserwacji mebli drewnianych, które zagwarantują najwyższy poziom ochrony przed czynnikami takimi, jak np. promieniowanie UV, wilgotność, czy ścieranie podczas codziennego użytkowania.</p><p>Nasz olej do drewna dekoruje i zabezpiecza drewno przed wilgocią, plamami i codziennym użytkowaniem. Oleje do mebli Saicos nakłada się w bardzo prosty sposób za pomocą pędzla lub ściereczki.</p>"
 robots = ""
 slug = "meble"
 title = "Oleje i woski do mebli drewnianych | Saicos"
