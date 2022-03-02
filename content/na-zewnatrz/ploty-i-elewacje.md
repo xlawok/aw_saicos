@@ -4,7 +4,7 @@ name = "Płoty i elewacje"
 opis_pod_naglowkiem = "<h2>OLEJE, LAZURY, WOSK DO PŁOTÓW I ELEWACJI</h2><p>Podstawowym warunkiem trwałości drewnianego płotu czy ściany, jest odpowiedniej jakość zabezpieczenie struktury drewna.</p><p>Regularna impregnacja i konserwacja drewna ma zapobiec zjawiskom takim jak próchnienie, szarzenie czy pojawianie się pleśni.</p><p>Dodatkowo preparaty SAICOS pozwalają na szeroki wybór kolorystyki wykończenia, zarówno w wariantach z widocznymi słojami, jak i z zastosowaniem kolorów kryjących.</p>"
 robots = ""
 slug = "ploty-i-elewacje"
-title = "Elewacja drewniana i płoty - zabezpieczanie, impregnacja | Saicos"
+title = "Oleje, wosk, lazury do ochrony elewacji drewnianych i płotów | Saicos"
 [opis_seo]
 opis_seo = ""
 [sugerowane_produkty]
