@@ -6,7 +6,7 @@ keywords = ""
 robots = "noindex nofollow"
 sekcja_kolumny_tekst_zdjecie = []
 slug = "/"
-title = "Strona główna | SAICOS.PL"
+title = "Saicos | Powłoki wysokiej jakości do drewna | Produkty do pielęgnacji drewna"
 tytul_do_listowania = ""
 [aktualnosci]
 wlacz_wyswietlanie = true
