@@ -26,7 +26,7 @@ block_tag_type = "h1"
 bold_txt = "gruby"
 break_line = false
 color_txt = "czarny"
-txt_block = "Produkty Saicos do zastosowań do wnętrz"
+txt_block = "Impregnacja drewna wewnątrz - oleje, farby, woski, lakiery"
 txt_block_size = "XXL"
 [[kafelki_kategorii]]
 nazwa = "podłogi i schody drewniane"
