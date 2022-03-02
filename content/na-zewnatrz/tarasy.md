@@ -1,7 +1,7 @@
 +++
 description = "Zastosowanie produktów Saicos na zewnątrz "
 name = "Tarasy"
-opis_pod_naglowkiem = "<p>Powierzchnie tarasów narażone są na szczególnie trudne warunki użytkowania.</p><p>Nieustannie eksponowane są na zmienne warunki atmosferyczne – od ostrego słońca, po deszcz, a nawet zalegający śnieg.</p><p>Do tego pamiętać należy jeszcze o koniecznej, wysokiej odporności na ścieralność, ponieważ tarasy eksploatowane są w ciągłym kontakcie z obuwiem, przesuwanymi meblami itp.</p><p>Preparaty do tarasów SAICOS produkowane są z myślą o takich właśnie, ekstremalnych uwarunkowaniach.</p>"
+opis_pod_naglowkiem = "<p>Powierzchnie tarasów narażone są na szczególnie trudne warunki użytkowania.</p><p>Nieustannie eksponowane są na zmienne warunki atmosferyczne – od ostrego słońca, po deszcz, a nawet zalegający śnieg. Oleje do tarasów drewnianych służą do zabezpieczenia nawierzchni tarasu przed czynnikami atmosferycznymi.</p><p>Do tego pamiętać należy jeszcze o koniecznej, wysokiej odporności na ścieralność, ponieważ tarasy eksploatowane są w ciągłym kontakcie z obuwiem, przesuwanymi meblami itp.</p><p>Preparaty do tarasów SAICOS produkowane są z myślą o takich właśnie, ekstremalnych uwarunkowaniach.</p><p>Taras drewniany zabezpieczony olejem do tarasów lub impregnatem wygląda bardziej atrakcyjnie - preparaty uwydatniają strukturę deski tarasowej i nadają intensywnego koloru.</p>"
 robots = ""
 slug = "tarasy"
 title = "Preparaty i oleje do tarasów | Saicos"
