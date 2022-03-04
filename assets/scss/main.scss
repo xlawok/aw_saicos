@@ -285,8 +285,10 @@ header{
                             .sub-menu{
                                 flex-direction: row;
                                 
-                               >li
-                               {
+                               >li{
+                                &:hover{
+                                    color: black;
+                                }
                                 &:first-child{
                                     ul{
                                         border-right: 1px solid #fff;
