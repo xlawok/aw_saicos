@@ -319,6 +319,12 @@ header{
                        
                        @media(min-width: 1366px){
                             &:hover{
+                                a{
+                                    &:hover{
+                                        color: black; 
+                                        font-weight: 500;
+                                    }
+                                }
                                 .category-info{
                                     padding: 1rem;
                                     display: flex;
