@@ -194,6 +194,7 @@ header{
                 margin-bottom: -2rem;
                 
                 &.parent{
+                    background-color: #333333;
                     &:after{
                         content: " ";
                         display: block;
