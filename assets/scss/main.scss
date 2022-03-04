@@ -215,6 +215,7 @@ header{
                         transition: transform .3s ease;
                     }
                     &:hover{
+                        background-color: #333333;
                         &:after{
                             transform: rotate(45deg);
                         }
