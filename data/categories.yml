@@ -2,70 +2,70 @@
 categories:
   lakiery:
     kategoria: Lakiery
-    tytul: lakiery
+    tytul: Lakiery
     slug: lakiery
     opis: ""
     opis_pod_listowaniem: ""
     opis_menu: ""
   utwardzacze-do-lakieru:
     kategoria: utwardzacze do lakieru
-    tytul: utwardzacze do lakieru
+    tytul: Utwardzacze do lakieru
     slug: utwardzacze-do-lakieru
     opis: ""
     opis_pod_listowaniem: ""
     opis_menu: ""
   dodatki-do-lakieru:
     kategoria: dodatki do lakieru
-    tytul: dodatki do lakieru
+    tytul: Dodatki do lakieru
     slug: dodatki-do-lakieru
     opis: ""
     opis_pod_listowaniem: ""
     opis_menu: ""
   farby-do-drewna:
     kategoria: farby do drewna
-    tytul: farby do drewna
+    tytul: Farby do drewna
     slug: farby-do-drewna
     opis: ""
     opis_pod_listowaniem: ""
     opis_menu: ""
   oleje-do-drewna:
     kategoria: oleje do drewna
-    tytul: oleje do drewna
+    tytul: Oleje do drewna
     slug: oleje-do-drewna
     opis: ""
     opis_pod_listowaniem: ""
     opis_menu: ""
   koncentraty-do-drewna:
     kategoria: koncentraty do drewna
-    tytul: koncentraty do drewna
+    tytul: Koncentraty do drewna
     slug: koncentraty-do-drewna
     opis: ""
     opis_pod_listowaniem: ""
     opis_menu: ""
   lazury-do-drewna:
     kategoria: lazury do drewna
-    tytul: lazury do drewna
+    tytul: Lazury do drewna
     slug: lazury-do-drewna
     opis: ""
     opis_pod_listowaniem: ""
     opis_menu: ""
   woski-do-drewna:
     kategoria: woski do drewna
-    tytul: woski do drewna
+    tytul: Woski do drewna
     slug: woski-do-drewna
     opis: ""
     opis_pod_listowaniem: ""
     opis_menu: ""
   impregnaty-do-drewna:
     kategoria: impregnaty do drewna
-    tytul: impregnaty do drewna
+    tytul: Impregnaty do drewna
     slug: impregnaty-do-drewna
     opis: ""
     opis_pod_listowaniem: ""
     opis_menu: ""
   dodatki-do-drewna:
     kategoria: dodatki do drewna
-    tytul: dodatki do drewna
+    tytul: Dodatki do drewna
     slug: dodatki-do-drewna
     opis: ""
     opis_pod_listowaniem: ""
@@ -86,28 +86,28 @@ categories:
     opis_menu: ""
   narzedzia:
     kategoria: narzędzia
-    tytul: narzedzia
+    tytul: Narzedzia
     slug: narzedzia
     opis: ""
     opis_pod_listowaniem: ""
     opis_menu: ""
   czyszczenie-powierzchni:
-    kategoria: Czyszczenie powierzchni
-    tytul: czyszczenie powierzchni
+    kategoria: czyszczenie powierzchni
+    tytul: Czyszczenie powierzchni
     slug: czyszczenie-powierzchni
     opis: ""
     opis_pod_listowaniem: ""
     opis_menu: ""
   oleje-do-kompozytu:
     kategoria: oleje do kompozytu
-    tytul: oleje do kompozytu
+    tytul: Oleje do kompozytu
     slug: oleje-do-kompozytu
     opis: ""
     opis_pod_listowaniem: ""
     opis_menu: ""
   zestawy-czyszczenie-powierzchni:
     kategoria: zestawy do czyszczenia powierzchni
-    tytul: zestawy do czyszczenia powierzchni
+    tytul: Zestawy do czyszczenia powierzchni
     slug: zestawy-czyszczenie-powierzchni
     opis: ""
     opis_pod_listowaniem: ""
