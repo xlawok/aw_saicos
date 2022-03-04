@@ -24,6 +24,7 @@ txt_block = "Kontakt"
 txt_block_size = "L"
 [[wojewodztwa]]
 nazwa = "Dolnośląskie"
+wojid = "PL-DS"
 [[wojewodztwa.partnerzy]]
 nazwa = "Kenio"
 [[wojewodztwa.partnerzy.wiersz_adresu]]
@@ -74,6 +75,7 @@ pole_website = "www.parkietysroka.pl"
 template = "partial-pole-website"
 [[wojewodztwa]]
 nazwa = "Kujawsko-Pomorskie"
+wojid = "PL-KP"
 [[wojewodztwa.partnerzy]]
 nazwa = "Salon Parkiet"
 [[wojewodztwa.partnerzy.wiersz_adresu]]
@@ -87,6 +89,7 @@ pole_tel = "509 962 262"
 template = "partial-pole-phone"
 [[wojewodztwa]]
 nazwa = "Lubelskie"
+wojid = "PL-LU"
 [[wojewodztwa.partnerzy]]
 nazwa = "Palisander"
 [[wojewodztwa.partnerzy.wiersz_adresu]]
@@ -99,7 +102,11 @@ template = "partial-pole-phone"
 pole_email = "palisander.pulawy@gmail.com"
 template = "partial-pole-mail"
 [[wojewodztwa]]
+nazwa = "Lubuskie"
+wojid = "PL-LB"
+[[wojewodztwa]]
 nazwa = "Łódzkie"
+wojid = "PL-LD"
 [[wojewodztwa.partnerzy]]
 nazwa = "PARKIETUS"
 [[wojewodztwa.partnerzy.wiersz_adresu]]
@@ -164,6 +171,7 @@ pole_email = "Leszekparkiet@poczta.onet.pl"
 template = "partial-pole-mail"
 [[wojewodztwa]]
 nazwa = "Małopolskie"
+wojid = "PL-MA"
 [[wojewodztwa.partnerzy]]
 nazwa = "EXFLOOR™"
 [[wojewodztwa.partnerzy.wiersz_adresu]]
@@ -237,6 +245,7 @@ pole_website = "janaspodlogi.pl"
 template = "partial-pole-website"
 [[wojewodztwa]]
 nazwa = "Mazowieckie"
+wojid = "PL-MZ"
 [[wojewodztwa.partnerzy]]
 nazwa = "Parkiet Wawa"
 [[wojewodztwa.partnerzy.wiersz_adresu]]
@@ -337,7 +346,11 @@ template = "partial-pole-mail"
 pole_tel = "668 464 104"
 template = "partial-pole-phone"
 [[wojewodztwa]]
+nazwa = "Opolskie"
+wojid = "PL-OP"
+[[wojewodztwa]]
 nazwa = "Podlaskie"
+wojid = "PL-PD"
 [[wojewodztwa.partnerzy]]
 nazwa = "Fornir"
 [[wojewodztwa.partnerzy.wiersz_adresu]]
@@ -384,6 +397,7 @@ pole_tel = "604 993 288"
 template = "partial-pole-phone"
 [[wojewodztwa]]
 nazwa = "Podkarpackie"
+wojid = "PL-PK"
 [[wojewodztwa.partnerzy]]
 nazwa = "SALON PARKIETU"
 [[wojewodztwa.partnerzy.wiersz_adresu]]
@@ -453,6 +467,7 @@ pole_website = "www.saicossklep.pl"
 template = "partial-pole-website"
 [[wojewodztwa]]
 nazwa = "Pomorskie"
+wojid = "PL-PM"
 [[wojewodztwa.partnerzy]]
 nazwa = "Profi Parkiet"
 [[wojewodztwa.partnerzy.wiersz_adresu]]
@@ -499,6 +514,7 @@ pole_email = "biuro@swiatdrewna.com"
 template = "partial-pole-mail"
 [[wojewodztwa]]
 nazwa = "Świętokrzyskie"
+wojid = "PL-SK"
 [[wojewodztwa.partnerzy]]
 nazwa = "Sportex"
 [[wojewodztwa.partnerzy.wiersz_adresu]]
@@ -523,6 +539,7 @@ pole_email = "sklep@abakdom.pl"
 template = "partial-pole-mail"
 [[wojewodztwa]]
 nazwa = "Śląskie"
+wojid = "PL-SL"
 [[wojewodztwa.partnerzy]]
 nazwa = "CENTRUM PARKIETOWE NOWAK"
 [[wojewodztwa.partnerzy.wiersz_adresu]]
@@ -596,6 +613,7 @@ pole_website = "www.parkietpol.pl"
 template = "partial-pole-website"
 [[wojewodztwa]]
 nazwa = "Warmińsko-mazurskie"
+wojid = "PL-WM"
 [[wojewodztwa.partnerzy]]
 nazwa = "M3"
 [[wojewodztwa.partnerzy.wiersz_adresu]]
@@ -622,6 +640,7 @@ pole_tel = "87 621 46 95"
 template = "partial-pole-phone"
 [[wojewodztwa]]
 nazwa = "Wielkopolskie"
+wojid = "PL-WP"
 [[wojewodztwa.partnerzy]]
 nazwa = "MAD PODŁOGI"
 [[wojewodztwa.partnerzy.wiersz_adresu]]
@@ -734,6 +753,7 @@ pole_website = "www.naturwood.pl"
 template = "partial-pole-website"
 [[wojewodztwa]]
 nazwa = "Zachodniopomorskie"
+wojid = "PL-ZP"
 [[wojewodztwa.partnerzy]]
 nazwa = "RoyalWood"
 [[wojewodztwa.partnerzy.wiersz_adresu]]

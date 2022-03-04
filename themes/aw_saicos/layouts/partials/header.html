@@ -33,7 +33,7 @@
                 {{ $currentPage := . }}
                 {{ range site.Menus.main }}
                     {{ if .HasChildren }}
-                        <li class="parent {{ if $currentPage.HasMenuCurrent "main" . }}active{{ end }}">
+                        <li class="parent {{ if $currentPage.HasMenuCurrent "main" . }}active{{ end }} {{if eq .Name "Zastosowanie"}} zast-parent {{end}}">
                             <a href="#">
                                 {{ .Pre }}
                                 <span>{{ .Name }}</span>
@@ -41,8 +41,28 @@
                             
                             <ul class="sub-menu">
                                 {{ range .Children }}
-                                    <li class="{{ if $currentPage.IsMenuCurrent "main" . }}active{{ end }}">
+                                    <li class="{{ if $currentPage.IsMenuCurrent "main" . }}active{{ end }} ">
                                         <a href="{{ .URL }}">{{ .Name }}</a>
+                                        {{if eq .Name "Na zewnątrz"}}
+                                        <ul class='menu-categories sub-zastosowanie'>
+                                            {{ range  (where site.RegularPages.ByDate "Section" "na-zewnatrz" )}}
+                                                <li>
+                                                    <a href="{{ .Permalink }}">{{.Params.name}}
+                                                    </a>
+                                                </li>
+                                            {{end}}
+                                        </ul>
+                                        {{end}}
+                                        {{if eq .Name "Do wnętrz"}}
+                                        <ul class='menu-categories sub-zastosowanie'>
+                                            {{ range  (where site.RegularPages.ByDate "Section" "do-wnetrz" )}}
+                                                <li>
+                                                    <a href="{{ .Permalink }}">{{.Params.name}}
+                                                    </a>
+                                                </li>
+                                            {{end}}
+                                        </ul>
+                                        {{end}}
                                     </li>
                                 {{ end }}
                             </ul>

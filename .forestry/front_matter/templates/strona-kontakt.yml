@@ -22,6 +22,11 @@ fields:
     config:
       required: false
     label: Nazwa
+  - name: wojid
+    type: text
+    config:
+      required: false
+    label: Id
   - name: partnerzy
     type: field_group_list
     fields:
