@@ -38,7 +38,7 @@
                                 {{ .Pre }}
                                 <span>{{ .Name }}</span>
                             </a>
-                            
+                            <button></button>
                             <ul class="sub-menu">
                                 {{ range .Children }}
                                     <li class="{{ if $currentPage.IsMenuCurrent "main" . }}active{{ end }} ">
@@ -72,9 +72,11 @@
                         <li class="{{if eq .Name "Produkty"}} parent    {{ if or (eq $type "categories") (eq $type "produkty")}} active {{end}} {{end}} {{ if $currentPage.IsMenuCurrent "main" . }}active{{ end }}">
                             <a href="{{ .URL }}">
                                 {{ .Pre }}
-                                <span>{{ .Name }}</span></a>
+                                <span>{{ .Name }}</span>
+                            </a>
+                            
                                 {{if eq .Name "Produkty"}}
-
+                                <button></button>
                                 <ul class='menu-categories'>
                                     {{ $categorieslist := site.Data.categories }}
                                     {{ range $key, $value:=  $categorieslist.categories }}
@@ -144,3 +146,13 @@
     </div>
 
 </header>
+<script>
+    var main_nav = document.querySelector('#main-nav');
+    var open_parent = main_nav.querySelectorAll('.parent button');
+    for (var i = 0; i < open_parent.length; i++){
+        open_parent[i].addEventListener('click', function(e){
+            this.parentNode.classList.toggle('mbactive');
+            this.classList.toggle('mbactive');
+        });
+    }
+</script>

@@ -459,13 +459,49 @@ header{
                 #main-nav{
                     transform: translateX(0);
                     flex-direction: column;
+                    align-items: center;
+                    flex-wrap: nowrap;
                     >li{
                        >a{
                             font-weight: 900;
                             font-size: 1.5rem;
+                       }
+                       &.parent{
+                           position: relative;
+                        //    width: max-content;
+                        width: 100%;
+                           button{
+                                display: block;
+                                position: absolute;
+                                width: .75rem;
+                                height: .75rem;
+                                background-color: transparent;
+                                inset: .65rem 20% auto auto;
+                                border-right: 1px solid #fff;
+                                border-bottom: 1px solid #fff;
+                                border-left: 0;
+                                border-top: 0;
+                                transform: rotate(-45deg);
+                                transition: transform .3s ease;
+                                
+                                padding: 0;
+                                &.mbactive {
+                                    transform: rotate(45deg);
+                                }
+                           }
+                            >ul{
+                                display: none;
+                            }
+                            &.mbactive{
+                                >ul{
+                                    display: flex;
+                                }
+                            }
+                            
                        } 
                        &.zast-parent{
                             .sub-menu{
+                                
                                 >li>a{
                                     font-weight: 600;
                                 }
@@ -473,7 +509,7 @@ header{
                        }
                        
                        &.parent:after{
-                           /*display: none;*/
+                           display: none;
                        }
                     }
                     .sub-menu,.menu-categories{
@@ -505,6 +541,11 @@ header{
             padding: 1rem 0;
             .menu-btn-cnt{
                 display: none;
+            }
+            .parent{
+                button{
+                    display: none;
+                }
             }
         }
 
