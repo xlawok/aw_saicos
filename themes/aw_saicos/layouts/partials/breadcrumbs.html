@@ -7,6 +7,6 @@
 {{ if not .IsHome }}
   <div class="breadcrumb">
     {{ template "breadcrumb" . }}
-    {{.Title}}
+    {{ humanize .Title}}
   </div>
 {{ end }}
