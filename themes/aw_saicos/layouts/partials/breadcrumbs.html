@@ -3,8 +3,6 @@
     {{- $.Scratch.Set "url" "" -}}
     {{- range (split .RelPermalink "/") -}}
         {{- if (gt (len .) 0) -}}    
-            {{- $.Scratch.Set "isPage" "false" -}}
-            {{- $.Scratch.Add "url" (print "/" . ) -}}
             {{- if eq ($.Scratch.Get "isPage") "true" -}}
                 {{- with $.Site.GetPage (print . ".md") -}}
                     <li><a href="{{ $.Scratch.Get `url` }}">{{ .Title }}</a></li>
