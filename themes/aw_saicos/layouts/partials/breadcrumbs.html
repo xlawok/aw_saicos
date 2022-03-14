@@ -1,7 +1,7 @@
 {{ define "breadcrumb" }}
   {{ with .Parent }}
     {{ template "breadcrumb" . }}
-    <a href="{{ .URL }}">{{ if .IsHome }}Home{{ end }}</a> >
+    <a href="{{ .URL }}">{{ if .IsHome }}Home{{ else }}{{ humanize .Title}}{{ end }}</a> >
   {{ end }}
 {{ end }}
 {{ if not .IsHome }}
@@ -9,4 +9,4 @@
     {{ template "breadcrumb" . }}
     {{ humanize .Title}}
   </div>
-{{ end }}
+{{ end }
